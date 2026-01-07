@@ -237,3 +237,98 @@ html {
   height: 60px;
   background: linear-gradient(to bottom, var(--beige), transparent);
 }
+
+/* ===== Bottom Navigation ===== */
+.bottom-nav {
+  transform: translateY(100%);
+}
+
+/* ===== Mobile Responsive Styles ===== */
+@media (max-width: 1023px) {
+  /* Fix 1: Force navbar full width on mobile */
+  .navbar {
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+  }
+
+  .navbar-inner {
+    width: 100% !important;
+    border-radius: 0 !important;
+  }
+
+  /* Fix 2: Title centering - hide subtitle/button initially */
+  .intro-below-title {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  /* Mobile intro layout - title takes full viewport height for TRUE centering */
+  .intro-content {
+    padding-top: 0 !important;
+  }
+
+  .intro-content > .container {
+    height: 100%;
+  }
+
+  .intro-content > .container > div {
+    height: 100%;
+  }
+
+  /* Scattered title - TRUE CENTER of viewport during animation */
+  .scattered-title-container {
+    min-height: calc(100vh - 120px); /* Full height minus navbar and bottom nav */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .title-wrapper {
+    text-align: center;
+  }
+
+  .signature {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Fix 3: Mobile polaroid card with text inside */
+  .polaroid-frame-mobile {
+    background: white;
+    padding: 0.75rem;
+    box-shadow:
+      0 4px 6px -1px rgba(0, 0, 0, 0.1),
+      0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transform: rotate(2deg);
+  }
+
+  /* Scroll indicator - position above bottom nav */
+  .scroll-indicator {
+    bottom: 100px;
+  }
+
+  /* Trip scenes - optimize for horizontal slide */
+  .trip-1,
+  .trip-2,
+  .trip-3,
+  .trip-4 {
+    will-change: transform, opacity;
+  }
+
+  /* Hero section - allow overflow for slide animations */
+  .hero-section {
+    overflow-x: hidden;
+  }
+}
+
+/* Desktop - hide bottom nav */
+@media (min-width: 1024px) {
+  .bottom-nav {
+    display: none;
+  }
+}

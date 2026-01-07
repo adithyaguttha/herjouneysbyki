@@ -35,8 +35,10 @@ export default function ScatteredTitle({
       const letterElements = containerRef.current?.querySelectorAll(".scattered-letter");
       if (!letterElements || letterElements.length === 0) return;
 
-      // Set initial states
-      // Letters scattered randomly
+      // Create matchMedia instance for responsive animations
+      const mm = gsap.matchMedia();
+
+      // Common initial states (same for both mobile and desktop)
       letterElements.forEach((el) => {
         gsap.set(el, {
           x: gsap.utils.random(-400, 400),
@@ -47,118 +49,130 @@ export default function ScatteredTitle({
         });
       });
 
-      // Hide other elements initially
       gsap.set(".welcome-text", { opacity: 0, y: 20 });
       gsap.set(".signature", { clipPath: "inset(0 100% 0 0)", opacity: 1 });
       gsap.set(airplaneRef.current, { x: -100, y: 50, opacity: 0, rotation: -10 });
 
-      // Main animation timeline
-      const tl = gsap.timeline({
-        delay: 0.3,
-        onComplete: () => {
-          onAnimationComplete?.();
-        },
-      });
+      // MOBILE ANIMATION (below 1024px)
+      mm.add("(max-width: 1023px)", () => {
+        const tl = gsap.timeline({
+          delay: 0.3,
+          onComplete: () => onAnimationComplete?.(),
+        });
 
-      // 1. Fade in scattered letters with random timing
-      tl.to(letterElements, {
-        opacity: 0.5,
-        duration: 0.6,
-        stagger: {
-          each: 0.02,
-          from: "random",
-        },
-        ease: "power2.out",
-      });
+        // 1. Fade in scattered letters
+        tl.to(letterElements, {
+          opacity: 0.5,
+          duration: 0.6,
+          stagger: { each: 0.02, from: "random" },
+          ease: "power2.out",
+        });
 
-      // 2. Airplane enters
-      tl.to(
-        airplaneRef.current,
-        {
-          x: 50,
-          y: 0,
-          opacity: 1,
-          rotation: 0,
+        // 2. Airplane enters (smaller movement for mobile)
+        tl.to(airplaneRef.current, {
+          x: 30, y: 0, opacity: 1, rotation: 0,
           duration: 0.5,
           ease: "power2.out",
-        },
-        "-=0.3"
-      );
+        }, "-=0.3");
 
-      // 3. Letters gather to center with elastic feel
-      tl.to(
-        letterElements,
-        {
-          x: 0,
-          y: 0,
-          rotation: 0,
-          scale: 1,
-          opacity: 1,
+        // 3. Letters gather to CENTER
+        tl.to(letterElements, {
+          x: 0, y: 0, rotation: 0, scale: 1, opacity: 1,
           duration: 1.2,
-          stagger: {
-            each: 0.03,
-            from: "center",
-          },
+          stagger: { each: 0.03, from: "center" },
           ease: "elastic.out(1, 0.6)",
-        },
-        "gather"
-      );
+        }, "gather");
 
-      // 4. Airplane flies across and exits
-      tl.to(
-        airplaneRef.current,
-        {
-          x: 600,
-          y: -80,
-          rotation: 20,
+        // 4. Airplane flies across (smaller range for mobile)
+        tl.to(airplaneRef.current, {
+          x: 300, y: -50, rotation: 20,
           duration: 1.5,
           ease: "power1.inOut",
-        },
-        "gather"
-      );
+        }, "gather");
 
-      tl.to(
-        airplaneRef.current,
-        {
-          opacity: 0,
-          duration: 0.3,
-        },
-        "-=0.3"
-      );
+        tl.to(airplaneRef.current, { opacity: 0, duration: 0.3 }, "-=0.3");
 
-      // 5. Title container moves to left
-      tl.to(
-        ".title-wrapper",
-        {
-          x: 0,
-          duration: 0.8,
-          ease: "power2.inOut",
-        },
-        "-=0.5"
-      );
+        // 5. MOBILE: Title STAYS in place (no y movement - it's already centered)
+        // The container will collapse after animation is complete via CSS
 
-      // 6. "Welcome to" fades in above
-      tl.to(
-        ".welcome-text",
-        {
-          opacity: 1,
-          y: 0,
+        // 6. "Welcome to" fades in
+        tl.to(".welcome-text", {
+          opacity: 1, y: 0,
           duration: 0.5,
           ease: "power2.out",
-        },
-        "-=0.3"
-      );
+        });
 
-      // 7. "by Ki" signature writes in
-      tl.to(
-        ".signature",
-        {
+        // 7. "by Ki" signature writes in
+        tl.to(".signature", {
           clipPath: "inset(0 0% 0 0)",
           duration: 0.8,
           ease: "power2.out",
-        },
-        "-=0.2"
-      );
+        }, "-=0.2");
+      });
+
+      // DESKTOP ANIMATION (1024px and above)
+      mm.add("(min-width: 1024px)", () => {
+        const tl = gsap.timeline({
+          delay: 0.3,
+          onComplete: () => onAnimationComplete?.(),
+        });
+
+        // 1. Fade in scattered letters
+        tl.to(letterElements, {
+          opacity: 0.5,
+          duration: 0.6,
+          stagger: { each: 0.02, from: "random" },
+          ease: "power2.out",
+        });
+
+        // 2. Airplane enters
+        tl.to(airplaneRef.current, {
+          x: 50, y: 0, opacity: 1, rotation: 0,
+          duration: 0.5,
+          ease: "power2.out",
+        }, "-=0.3");
+
+        // 3. Letters gather to center
+        tl.to(letterElements, {
+          x: 0, y: 0, rotation: 0, scale: 1, opacity: 1,
+          duration: 1.2,
+          stagger: { each: 0.03, from: "center" },
+          ease: "elastic.out(1, 0.6)",
+        }, "gather");
+
+        // 4. Airplane flies across
+        tl.to(airplaneRef.current, {
+          x: 600, y: -80, rotation: 20,
+          duration: 1.5,
+          ease: "power1.inOut",
+        }, "gather");
+
+        tl.to(airplaneRef.current, { opacity: 0, duration: 0.3 }, "-=0.3");
+
+        // 5. DESKTOP: Title stays in position (layout handles left alignment)
+        tl.to(".title-wrapper", {
+          x: 0,
+          duration: 0.8,
+          ease: "power2.inOut",
+        }, "-=0.5");
+
+        // 6. "Welcome to" fades in
+        tl.to(".welcome-text", {
+          opacity: 1, y: 0,
+          duration: 0.5,
+          ease: "power2.out",
+        }, "-=0.3");
+
+        // 7. "by Ki" signature writes in
+        tl.to(".signature", {
+          clipPath: "inset(0 0% 0 0)",
+          duration: 0.8,
+          ease: "power2.out",
+        }, "-=0.2");
+      });
+
+      // Cleanup
+      return () => mm.revert();
     },
     { scope: containerRef, dependencies: [letters] }
   );

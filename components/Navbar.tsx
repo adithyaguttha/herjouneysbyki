@@ -31,8 +31,8 @@ const Navbar = forwardRef<HTMLElement, NavbarProps>(({ className = "", isCompact
               herjourneysbyki
             </a>
 
-            {/* Menu Links */}
-            <div className="hidden md:flex items-center gap-6">
+            {/* Menu Links - hidden on mobile/tablet, shown on desktop */}
+            <div className="hidden lg:flex items-center gap-6">
               <a
                 href="/"
                 className="text-sm text-[var(--charcoal)] hover:text-[var(--terracotta)] transition-colors"

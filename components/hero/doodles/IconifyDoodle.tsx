@@ -36,8 +36,8 @@ export default function IconifyDoodle({
 
 // Pre-defined doodle configurations for each trip
 export const tripDoodles: Record<string, { icon: string; color?: string }[]> = {
-  coorg: [
-    { icon: "game-icons:coffee-cup", color: "var(--warm-brown)" },
+  coonoor: [
+    { icon: "mdi:tea", color: "var(--sage)" },
     { icon: "mdi:leaf", color: "var(--sage)" },
     { icon: "mdi:weather-fog", color: "var(--beige)" },
   ],

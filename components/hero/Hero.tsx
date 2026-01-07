@@ -16,11 +16,11 @@ import IconifyDoodle, { tripDoodles, doodlePositions } from "./doodles/IconifyDo
 const trips = [
   {
     id: 1,
-    name: "Coorg",
-    tagline: "Where coffee meets clouds",
-    description: "Misty hills and aromatic coffee plantations await in the Scotland of India",
+    name: "Coonoor",
+    tagline: "Where tea gardens kiss the clouds",
+    description: "Rolling tea estates and misty hills await in the heart of the Nilgiris",
     image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80",
-    doodleKey: "coorg",
+    doodleKey: "coonoor",
   },
   {
     id: 2,

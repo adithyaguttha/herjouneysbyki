@@ -1,26 +1,239 @@
 @import "tailwindcss";
 
+/* ===== Color Palette - Warm & Earthy ===== */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Primary Colors */
+  --cream: #FDF8F3;
+  --cream-dark: #F5EDE4;
+  --beige: #E8DED1;
+
+  /* Accent Colors */
+  --terracotta: #C17A5E;
+  --terracotta-dark: #A65F45;
+  --sage: #9CAF88;
+
+  /* Text Colors */
+  --warm-brown: #6B4D3A;
+  --charcoal: #2D2926;
+
+  /* Font Families */
+  --font-playfair: "Playfair Display", serif;
+  --font-inter: "Inter", sans-serif;
+  --font-caveat: "Caveat", cursive;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* ===== Base Styles ===== */
+body {
+  background: var(--cream);
+  color: var(--charcoal);
+  font-family: var(--font-inter);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* ===== Typography Utilities ===== */
+.font-heading {
+  font-family: var(--font-playfair);
+}
+
+.font-body {
+  font-family: var(--font-inter);
+}
+
+.font-accent {
+  font-family: var(--font-caveat);
+}
+
+/* ===== Initial Animation States (Prevent FOUC) ===== */
+/* These elements are hidden by CSS before JS loads */
+/* ScatteredTitle elements - GSAP animates these */
+.scattered-letter,
+.welcome-text,
+.signature,
+.airplane-doodle {
+  opacity: 0;
+}
+
+/* Navbar starts off-screen */
+.navbar {
+  transform: translateY(calc(-100% - 3rem));
+}
+
+/* Trip scenes start hidden */
+.trip-1,
+.trip-2,
+.trip-3,
+.trip-4 {
+  opacity: 0;
+}
+
+/* Intro elements - use visibility to prevent flash, GSAP controls opacity */
+.intro-subtitle,
+.intro-image,
+.intro-doodle,
+.intro-button,
+.scroll-indicator,
+.doodle-dot {
+  visibility: hidden;
+}
+
+/* ===== Hero Section Styles ===== */
+.hero-container {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Polaroid-style image frame */
+.polaroid-frame {
+  background: white;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transform: rotate(3deg);
+  transition: transform 0.3s ease;
+}
+
+.polaroid-frame:hover {
+  transform: rotate(1deg) scale(1.02);
+}
+
+/* SVG Doodle Base Styles */
+.doodle-line {
+  fill: none;
+  stroke: var(--beige);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.doodle-accent {
+  fill: none;
+  stroke: var(--terracotta);
+  stroke-width: 1.5;
+  stroke-linecap: round;
+}
+
+/* Text animation wrappers */
+.word-wrapper {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.word-inner {
+  display: inline-block;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Scroll indicator animation */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.scroll-indicator-arrow {
+  animation: bounce 2s ease-in-out infinite;
+}
+
+/* ===== Scattered Title Styles ===== */
+.scattered-title-container {
+  position: relative;
+  min-height: 180px;
+  padding: 2rem 0;
+}
+
+.scattered-letter {
+  will-change: transform, opacity;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+}
+
+/* Title wrapper positioning */
+.title-wrapper {
+  position: relative;
+}
+
+/* Welcome text above title */
+.welcome-text {
+  letter-spacing: 0.05em;
+}
+
+/* Signature "by Ki" handwriting effect */
+.signature {
+  position: relative;
+  letter-spacing: 0.02em;
+  text-align: right;
+}
+
+/* Doodle floating animation */
+.iconify-doodle {
+  will-change: transform;
+  transition: filter 0.3s ease;
+}
+
+.iconify-doodle:hover {
+  filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
+}
+
+/* Trip scene transitions */
+.trip-title {
+  will-change: transform, opacity;
+}
+
+.trip-tagline {
+  letter-spacing: 0.03em;
+}
+
+/* Hero scene positioning */
+.hero-section {
+  overflow: hidden;
+}
+
+/* ===== Navbar Styles ===== */
+.navbar-inner {
+  box-shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.1),
+    0 10px 15px -3px rgba(0, 0, 0, 0.05);
+}
+
+/* ===== Destination Cards ===== */
+.destination-card {
+  will-change: transform, opacity;
+}
+
+.destination-card .polaroid-frame {
+  transform-origin: center center;
+}
+
+/* ===== Animation Delays ===== */
+.delay-100 {
+  animation-delay: 100ms;
+}
+
+.delay-200 {
+  animation-delay: 200ms;
+}
+
+/* ===== Next Section ===== */
+.next-section {
+  position: relative;
+}
+
+.next-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1px;
+  height: 60px;
+  background: linear-gradient(to bottom, var(--beige), transparent);
 }

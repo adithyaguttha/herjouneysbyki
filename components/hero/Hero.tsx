@@ -68,30 +68,15 @@ export default function Hero() {
       gsap.set(".scroll-indicator", { autoAlpha: 0, y: 20 });
       gsap.set(".doodle-dot", { autoAlpha: 0, scale: 0 });
 
-      // Background lines animation
-      const bgTl = gsap.timeline({ delay: 0.1 });
-      bgTl.fromTo(
-        ".bg-line path",
-        { strokeDashoffset: 1500 },
-        {
-          strokeDashoffset: 0,
-          duration: 2,
-          stagger: 0.2,
-          ease: "power2.inOut",
-        }
-      );
-
-      bgTl.to(
-        ".doodle-dot",
-        {
-          autoAlpha: 1,
-          scale: 1,
-          duration: 0.4,
-          stagger: 0.08,
-          ease: "back.out(1.7)",
-        },
-        "-=1"
-      );
+      // Background dots animation
+      const bgTl = gsap.timeline({ delay: 0.3 });
+      bgTl.to(".doodle-dot", {
+        autoAlpha: 1,
+        scale: 1,
+        duration: 0.4,
+        stagger: 0.08,
+        ease: "back.out(1.7)",
+      });
     },
     { scope: containerRef }
   );
@@ -429,7 +414,7 @@ export default function Hero() {
 
   return (
     <>
-      <Navbar ref={navbarRef} isCompact={isHeroActive} />
+      <Navbar ref={navbarRef} animated />
       <BottomNav ref={bottomNavRef} />
 
       <section

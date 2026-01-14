@@ -4,24 +4,20 @@ import { forwardRef } from "react";
 
 interface NavbarProps {
   className?: string;
-  isCompact?: boolean;
+  animated?: boolean;
 }
 
-const Navbar = forwardRef<HTMLElement, NavbarProps>(({ className = "", isCompact = true }, ref) => {
+const Navbar = forwardRef<HTMLElement, NavbarProps>(({ className = "", animated = false }, ref) => {
   return (
     <nav
       ref={ref}
-      className={`navbar fixed z-50 transition-all duration-300 ${
-        isCompact ? "top-4 left-4" : "top-0 left-0 right-0 w-full"
-      } ${className}`}
-      style={{ transform: "translateY(calc(-100% - 3rem))" }}
+      className={`navbar fixed z-50 top-0 left-0 right-0 w-full ${className}`}
+      style={animated ? { transform: "translateY(-100%)" } : undefined}
     >
-      {/* Navbar inner container - starts as hanging sign, expands to full width */}
-      <div className={`navbar-inner bg-[var(--cream)] shadow-lg overflow-hidden transition-all duration-300 ${
-        isCompact ? "rounded-2xl w-fit" : "rounded-none w-full"
-      }`}>
-        <div className={`px-5 py-3 ${!isCompact ? "max-w-7xl mx-auto" : ""}`}>
-          <div className={`flex items-center gap-4 ${!isCompact ? "justify-between w-full" : ""}`}>
+      {/* Navbar inner container - full width */}
+      <div className="navbar-inner bg-[var(--cream)] shadow-lg overflow-hidden w-full">
+        <div className="px-5 py-3 max-w-7xl mx-auto">
+          <div className="flex items-center justify-between w-full">
             {/* Logo - Handwriting style */}
             <a
               href="/"
@@ -58,7 +54,9 @@ const Navbar = forwardRef<HTMLElement, NavbarProps>(({ className = "", isCompact
 
             {/* Instagram Icon */}
             <a
-              href="#"
+              href="https://www.instagram.com/herjourneysbyki/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-[var(--warm-brown)] hover:text-[var(--terracotta)] transition-colors"
               aria-label="Instagram"
             >

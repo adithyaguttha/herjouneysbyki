@@ -52,9 +52,9 @@ body {
   opacity: 0;
 }
 
-/* Navbar starts off-screen */
-.navbar {
-  transform: translateY(calc(-100% - 3rem));
+/* Navbar starts off-screen (for animated entrance) */
+.navbar.animated {
+  transform: translateY(-100%);
 }
 
 /* Trip scenes start hidden */
@@ -245,20 +245,7 @@ html {
 
 /* ===== Mobile Responsive Styles ===== */
 @media (max-width: 1023px) {
-  /* Fix 1: Force navbar full width on mobile */
-  .navbar {
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    width: 100% !important;
-  }
-
-  .navbar-inner {
-    width: 100% !important;
-    border-radius: 0 !important;
-  }
-
-  /* Fix 2: Title centering - hide subtitle/button initially */
+  /* Title centering - hide subtitle/button initially */
   .intro-below-title {
     visibility: hidden;
     opacity: 0;
@@ -331,4 +318,399 @@ html {
   .bottom-nav {
     display: none;
   }
+}
+
+/* ===== Blog Card Styles ===== */
+.blog-card {
+  transform: rotate(-1deg);
+  transform-origin: center center;
+}
+
+.blog-card:nth-child(2n) {
+  transform: rotate(1deg);
+}
+
+.blog-card:nth-child(3n) {
+  transform: rotate(-0.5deg);
+}
+
+.blog-card:hover {
+  transform: rotate(0deg) translateY(-4px);
+}
+
+/* Line clamp utility */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ===== Featured Card Styles ===== */
+.featured-card {
+  transform: rotate(0.5deg);
+  transform-origin: center center;
+}
+
+.featured-card:hover {
+  transform: rotate(0deg);
+}
+
+/* Tape effect */
+.tape {
+  position: absolute;
+  width: 80px;
+  height: 28px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 235, 205, 0.9) 0%,
+    rgba(245, 222, 179, 0.85) 50%,
+    rgba(255, 235, 205, 0.9) 100%
+  );
+  box-shadow:
+    0 1px 3px rgba(0, 0, 0, 0.1),
+    inset 0 0 10px rgba(255, 255, 255, 0.3);
+  z-index: 10;
+}
+
+.tape::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    90deg,
+    transparent,
+    transparent 2px,
+    rgba(255, 255, 255, 0.1) 2px,
+    rgba(255, 255, 255, 0.1) 4px
+  );
+}
+
+.tape-left {
+  top: -10px;
+  left: 15%;
+  transform: rotate(-8deg);
+}
+
+.tape-right {
+  top: -10px;
+  right: 15%;
+  transform: rotate(12deg);
+}
+
+/* Mobile tape adjustments */
+@media (max-width: 640px) {
+  .tape {
+    width: 60px;
+    height: 22px;
+  }
+
+  .tape-left {
+    left: 10%;
+  }
+
+  .tape-right {
+    right: 10%;
+  }
+}
+
+/* Center tape for author card */
+.tape-center {
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%) rotate(2deg);
+}
+
+/* ===== Post Hero Styles ===== */
+.post-hero-frame {
+  transform: rotate(-0.5deg);
+}
+
+/* ===== Author Card Styles ===== */
+.author-card {
+  transform: rotate(1deg);
+}
+
+.author-card:hover {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+/* ===== Blog Post Content Styles ===== */
+.blog-content {
+  font-family: var(--font-inter);
+  color: var(--charcoal);
+  line-height: 1.8;
+}
+
+.blog-content h2 {
+  font-family: var(--font-playfair);
+  font-size: 1.75rem;
+  color: var(--charcoal);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.blog-content h3 {
+  font-family: var(--font-playfair);
+  font-size: 1.35rem;
+  color: var(--charcoal);
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-content p {
+  margin-bottom: 1.5rem;
+}
+
+.blog-content a {
+  color: var(--terracotta);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.blog-content a:hover {
+  color: var(--terracotta-dark);
+}
+
+.blog-content blockquote {
+  font-family: var(--font-caveat);
+  font-size: 1.5rem;
+  color: var(--warm-brown);
+  border-left: 3px solid var(--terracotta);
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-style: italic;
+}
+
+.blog-content ul,
+.blog-content ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.blog-content li {
+  margin-bottom: 0.5rem;
+}
+
+.blog-content img {
+  border-radius: 4px;
+  margin: 2rem auto;
+}
+
+/* ===== Blog Post Image Gallery ===== */
+.post-image-frame {
+  background: white;
+  padding: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transform: rotate(-1deg);
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.post-image-frame:nth-child(even) {
+  transform: rotate(1deg);
+}
+
+/* ===== Post Navigation ===== */
+.post-back-button {
+  transition: all 0.2s ease;
+}
+
+.post-back-button:hover {
+  transform: translateX(-4px);
+}
+
+/* ===== Floating Doodles for Blog Post ===== */
+.blog-doodle {
+  position: fixed;
+  opacity: 0.15;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.blog-doodle-left {
+  left: 2rem;
+  top: 30%;
+}
+
+.blog-doodle-right {
+  right: 2rem;
+  top: 50%;
+}
+
+/* Hide doodles on mobile */
+@media (max-width: 1024px) {
+  .blog-doodle {
+    display: none;
+  }
+}
+
+/* ===== Landing Page Section Styles ===== */
+
+/* Hide scrollbar for horizontal scroll */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Float animation for doodles */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) rotate(45deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(45deg);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Destination card hover effects */
+.destination-card {
+  transition: all 0.3s ease;
+}
+
+.destination-card:hover {
+  transform: rotate(0deg) translateY(-4px) !important;
+}
+
+/* Trip type card */
+.trip-type-card {
+  transform-origin: center;
+}
+
+.trip-type-card:hover {
+  transform: translateY(-4px);
+}
+
+/* ===== Blog Post Image Styles ===== */
+
+/* Hero image - full width edge-to-edge */
+.blog-content .blog-hero-image {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.blog-content .blog-hero-image img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  margin: 0;
+  border-radius: 0;
+}
+
+.blog-content .blog-hero-image figcaption {
+  text-align: center;
+  font-family: var(--font-caveat);
+  font-size: 1.1rem;
+  color: var(--warm-brown);
+  margin-top: 0.75rem;
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .blog-content .blog-hero-image img {
+    height: 500px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .blog-content .blog-hero-image img {
+    height: 550px;
+  }
+}
+
+/* Full-width image within container */
+.blog-content .image-full {
+  margin: 2.5rem 0;
+}
+
+.blog-content .image-full img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.blog-content .image-full figcaption {
+  text-align: center;
+  font-family: var(--font-caveat);
+  font-size: 1.1rem;
+  color: var(--warm-brown);
+  margin-top: 0.75rem;
+}
+
+/* Centered medium-width image */
+.blog-content .image-center {
+  max-width: 500px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.blog-content .image-center img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.blog-content .image-center figcaption {
+  font-family: var(--font-caveat);
+  font-size: 1.1rem;
+  color: var(--warm-brown);
+  margin-top: 0.75rem;
+}
+
+/* ===== Blog FAQ Section Styles ===== */
+.blog-content .faq-section {
+  margin-top: 2rem;
+  border-top: 1px solid var(--beige);
+  padding-top: 1.5rem;
+}
+
+.blog-content .faq-item {
+  background: var(--cream-dark);
+  border-radius: 12px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1rem;
+  border-left: 3px solid var(--terracotta);
+}
+
+.blog-content .faq-item:last-child {
+  margin-bottom: 0;
+}
+
+.blog-content .faq-question {
+  font-family: var(--font-playfair);
+  font-size: 1.1rem;
+  color: var(--charcoal);
+  margin: 0 0 0.5rem 0;
+}
+
+.blog-content .faq-answer {
+  font-family: var(--font-inter);
+  font-size: 0.95rem;
+  color: var(--warm-brown);
+  margin: 0;
+  line-height: 1.6;
 }

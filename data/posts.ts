@@ -67,6 +67,11 @@ export const posts: BlogPost[] = [
 
       <p>December in the Nilgiris is magical. The weather was cool, pleasant, and perfectly balanced. Not freezing cold, but just enough to make you want to layer up. Colourful flowers were in full bloom everywhere making the landscape a visual treat.</p>
 
+      <figure class="image-full">
+        <img src="/images/coonoor/cottage14.jpg" alt="Chloe Cottage garden with flowers in bloom" />
+        <figcaption>Chloe Cottage - our cozy home in the Nilgiris</figcaption>
+      </figure>
+
       <p>Chloe Cottage, tucked away in the Nilgiris mountains near Coonoor town, was our home for the trip. The property is charming, calm, and ideal for a family of three. The interiors carry vintage English vibes with tasteful décor, while the lush, well-maintained garden is perfect for slow outdoor moments. The compact kitchen is fully equipped, making it convenient to prepare quick meals—especially for a baby.</p>
 
       <p>We were welcomed warmly by the staff with local Varkey biscuits, a flaky Coonoor delicacy resembling puff pastries with a mildly sweet flavour.</p>

@@ -49,7 +49,7 @@ export const posts: BlogPost[] = [
       </div>
 
       <figure class="image-full">
-        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80" alt="Misty Nilgiri mountains at dawn" />
+        <img src="/images/coonoor/mystic_morning.jpg" alt="Misty Nilgiri mountains at dawn" />
         <figcaption>The magical misty mornings of the Nilgiris</figcaption>
       </figure>
 

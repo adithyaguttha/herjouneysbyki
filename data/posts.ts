@@ -10,6 +10,7 @@ export interface BlogPost {
   tripTypes: string[];
   content: string;
   images?: string[];
+  highlightWord?: string; // Word to circle/highlight in title
 }
 
 export const tripTypes = [
@@ -27,12 +28,13 @@ export const posts: BlogPost[] = [
     title: "December in the Nilgiris: A 4-Day Coonoor Itinerary with a Toddler",
     excerpt:
       "Misty mornings, soulful food, charming cafes, and unhurried family moments. Our calm, cozy escape into the Nilgiris was exactly what we needed.",
-    coverImage: "/images/coonoor/coonoor1.jpg",
+    coverImage: "/images/coonoor/cottage10.jpg",
     date: "2025-12-15",
     readingTime: "8 min read",
     destination: "Coonoor",
     country: "india",
     tripTypes: ["Nature", "Relaxation", "Food"],
+    highlightWord: "Toddler",
     content: `
       <p>Some trips are about ticking places off a list, and some are about slowing down and truly being present. Our 4-day Coonoor trip with our toddler was exactly that—a calm, cozy escape into the Nilgiris, filled with misty mornings, soulful food, charming cafes, and unhurried family moments. Here's our relaxed Coonoor itinerary, perfect for families traveling with young kids.</p>
 

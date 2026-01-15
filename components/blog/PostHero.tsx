@@ -8,6 +8,7 @@ interface PostHeroProps {
   destination: string;
   date: string;
   readingTime: string;
+  highlightWord?: string;
 }
 
 export default function PostHero({
@@ -16,7 +17,29 @@ export default function PostHero({
   destination,
   date,
   readingTime,
+  highlightWord,
 }: PostHeroProps) {
+  // Function to render title with highlighted word
+  const renderTitle = () => {
+    if (!highlightWord) {
+      return title;
+    }
+
+    const regex = new RegExp(`(${highlightWord})`, "gi");
+    const parts = title.split(regex);
+
+    return parts.map((part, index) => {
+      if (part.toLowerCase() === highlightWord.toLowerCase()) {
+        return (
+          <span key={index} className="pencil-circle">
+            {part}
+          </span>
+        );
+      }
+      return part;
+    });
+  };
+
   return (
     <header className="relative">
       {/* Full-screen Hero Image */}
@@ -49,7 +72,7 @@ export default function PostHero({
             className="text-3xl md:text-4xl lg:text-5xl text-white font-medium tracking-tight max-w-4xl leading-tight"
             style={{ fontFamily: "var(--font-playfair)" }}
           >
-            {title}
+            {renderTitle()}
           </h1>
 
           {/* Decorative line */}
@@ -72,6 +95,37 @@ export default function PostHero({
           </div>
         </div>
       </section>
+
+      {/* Pencil circle SVG style */}
+      <style jsx>{`
+        .pencil-circle {
+          position: relative;
+          display: inline-block;
+          padding: 0 0.1em;
+        }
+        .pencil-circle::before {
+          content: "";
+          position: absolute;
+          top: -0.15em;
+          left: -0.2em;
+          right: -0.2em;
+          bottom: -0.15em;
+          border: 2px solid rgba(255, 255, 255, 0.8);
+          border-radius: 50% 45% 55% 50% / 55% 50% 45% 50%;
+          transform: rotate(-2deg);
+        }
+        .pencil-circle::after {
+          content: "";
+          position: absolute;
+          top: -0.1em;
+          left: -0.15em;
+          right: -0.15em;
+          bottom: -0.1em;
+          border: 1px solid rgba(255, 255, 255, 0.4);
+          border-radius: 45% 55% 50% 45% / 50% 45% 55% 50%;
+          transform: rotate(1deg);
+        }
+      `}</style>
     </header>
   );
 }

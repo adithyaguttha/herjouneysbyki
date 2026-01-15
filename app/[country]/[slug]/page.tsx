@@ -81,6 +81,7 @@ export default function CountryBlogPostPage() {
         destination={post.destination}
         date={post.date}
         readingTime={post.readingTime}
+        highlightWord={post.highlightWord}
       />
 
       {/* Trip Types */}

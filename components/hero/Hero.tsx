@@ -117,7 +117,7 @@ export default function Hero() {
         <div className="carousel-wrapper absolute inset-0 z-0">
           <ImageCarousel
             slides={carouselSlides}
-            autoPlayInterval={5000}
+            autoPlayInterval={3000}
             isPlaying={introComplete}
           />
         </div>

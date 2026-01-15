@@ -19,8 +19,8 @@ export default function PostHero({
 }: PostHeroProps) {
   return (
     <header className="relative">
-      {/* Full-width Hero Image */}
-      <section className="relative h-[70vh] min-h-[500px] max-h-[750px] w-full overflow-hidden">
+      {/* Full-screen Hero Image */}
+      <section className="relative h-screen w-full overflow-hidden">
         {/* Background Image */}
         <Image
           src={image}

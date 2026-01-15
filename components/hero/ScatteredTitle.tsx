@@ -8,11 +8,13 @@ import { Icon } from "@iconify/react";
 interface ScatteredTitleProps {
   onAnimationComplete?: () => void;
   className?: string;
+  lightMode?: boolean;
 }
 
 export default function ScatteredTitle({
   onAnimationComplete,
   className = "",
+  lightMode = false,
 }: ScatteredTitleProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const airplaneRef = useRef<HTMLDivElement>(null);
@@ -188,7 +190,7 @@ export default function ScatteredTitle({
           icon="tabler:plane-departure"
           width={50}
           height={50}
-          color="var(--terracotta)"
+          color={lightMode ? "white" : "var(--terracotta)"}
         />
       </div>
 
@@ -196,7 +198,9 @@ export default function ScatteredTitle({
       <div className="title-wrapper relative">
         {/* "Welcome to" - appears above title */}
         <span
-          className="welcome-text block text-lg md:text-xl text-[var(--warm-brown)] mb-2"
+          className={`welcome-text block text-lg md:text-xl mb-2 ${
+            lightMode ? "text-white/80" : "text-[var(--warm-brown)]"
+          }`}
           style={{ fontFamily: "var(--font-caveat)" }}
         >
           Welcome to
@@ -204,7 +208,9 @@ export default function ScatteredTitle({
 
         {/* Main title - "Her Journeys" */}
         <h1
-          className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl text-[var(--charcoal)] whitespace-nowrap leading-tight"
+          className={`text-4xl md:text-5xl lg:text-6xl xl:text-7xl whitespace-nowrap leading-tight ${
+            lightMode ? "text-white" : "text-[var(--charcoal)]"
+          }`}
           style={{ fontFamily: "var(--font-playfair)" }}
         >
           {letters.map((letter) => (
@@ -221,7 +227,9 @@ export default function ScatteredTitle({
 
         {/* "by Ki" signature - handwriting style */}
         <span
-          className="signature block text-2xl md:text-3xl text-[var(--terracotta)] mt-2 ml-auto w-fit"
+          className={`signature inline-block text-2xl md:text-3xl mt-1 ${
+            lightMode ? "text-white/90" : "text-[var(--terracotta)]"
+          }`}
           style={{ fontFamily: "var(--font-caveat)" }}
         >
           by Ki

@@ -145,8 +145,6 @@ html {
 /* ===== Scattered Title Styles ===== */
 .scattered-title-container {
   position: relative;
-  min-height: 180px;
-  padding: 2rem 0;
 }
 
 .scattered-letter {
@@ -264,9 +262,9 @@ html {
     height: 100%;
   }
 
-  /* Scattered title - TRUE CENTER of viewport during animation */
+  /* Scattered title - compact for carousel hero */
   .scattered-title-container {
-    min-height: calc(100vh - 120px); /* Full height minus navbar and bottom nav */
+    min-height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;

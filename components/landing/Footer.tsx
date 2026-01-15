@@ -20,19 +20,13 @@ export default function Footer() {
     <footer className="bg-[var(--charcoal)] text-[var(--cream)] py-12 md:py-16">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center">
-          {/* Logo/Brand */}
+          {/* Signature */}
           <div className="text-center mb-8">
-            <h3
-              className="text-2xl md:text-3xl mb-2"
-              style={{ fontFamily: "var(--font-playfair)" }}
-            >
-              Her Journeys
-            </h3>
             <p
-              className="text-lg text-[var(--cream)]/70"
+              className="text-3xl md:text-4xl text-[var(--cream)]"
               style={{ fontFamily: "var(--font-caveat)" }}
             >
-              by Ki
+              Her Journeys by Ki
             </p>
           </div>
 
@@ -69,26 +63,29 @@ export default function Footer() {
           {/* Divider */}
           <div className="w-24 h-px bg-[var(--cream)]/20 mb-8" />
 
-          {/* Tagline */}
-          <p
-            className="text-[var(--cream)]/60 text-center mb-4"
-            style={{ fontFamily: "var(--font-caveat)" }}
-          >
-            Made with{" "}
-            <Icon
-              icon="mdi:heart"
-              className="w-4 h-4 inline-block text-[var(--terracotta)]"
-            />{" "}
-            and wanderlust
-          </p>
-
-          {/* Copyright */}
-          <p
-            className="text-sm text-[var(--cream)]/40"
-            style={{ fontFamily: "var(--font-inter)" }}
-          >
-            © {currentYear} Her Journeys by Ki. All rights reserved.
-          </p>
+          {/* Copyright & MadMVP */}
+          <div className="text-center space-y-2">
+            <p
+              className="text-sm text-[var(--cream)]/40"
+              style={{ fontFamily: "var(--font-inter)" }}
+            >
+              © {currentYear} Her Journeys by Kavya Immaneni
+            </p>
+            <p
+              className="text-sm text-[var(--cream)]/40"
+              style={{ fontFamily: "var(--font-inter)" }}
+            >
+              Made with{" "}
+              <a
+                href="https://madmvp.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[var(--terracotta)] hover:text-[var(--terracotta-light)] transition-colors"
+              >
+                MadMVP
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </footer>

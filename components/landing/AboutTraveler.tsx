@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { Icon } from "@iconify/react";
 
 export default function AboutTraveler() {
@@ -82,27 +81,14 @@ export default function AboutTraveler() {
             </div>
 
             {/* Signature */}
-            <div className="mb-6">
+            <div>
               <p
                 className="text-3xl text-[var(--charcoal)]"
                 style={{ fontFamily: "var(--font-caveat)" }}
               >
-                ~ Ki
+                ~ Kavya Immaneni
               </p>
             </div>
-
-            {/* CTA */}
-            <Link
-              href="/about"
-              className="inline-flex items-center gap-2 text-[var(--terracotta)] hover:text-[var(--terracotta-dark)] transition-colors group"
-              style={{ fontFamily: "var(--font-inter)" }}
-            >
-              <span>Read my full story</span>
-              <Icon
-                icon="mdi:arrow-right"
-                className="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1"
-              />
-            </Link>
           </div>
         </div>
       </div>

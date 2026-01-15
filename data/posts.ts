@@ -28,7 +28,7 @@ export const posts: BlogPost[] = [
     excerpt:
       "Misty mornings, soulful food, charming cafes, and unhurried family moments. Our calm, cozy escape into the Nilgiris was exactly what we needed.",
     coverImage: "/images/coonoor/coonoor1.jpg",
-    date: "2025-01-08",
+    date: "2025-12-15",
     readingTime: "8 min read",
     destination: "Coonoor",
     country: "india",

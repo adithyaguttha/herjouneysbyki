@@ -10,6 +10,7 @@ import Navbar from "@/components/Navbar";
 import ReadingProgress from "@/components/blog/ReadingProgress";
 import PostHero from "@/components/blog/PostHero";
 import PostDoodles from "@/components/blog/PostDoodles";
+import TableOfContents from "@/components/blog/TableOfContents";
 import AuthorCard from "@/components/blog/AuthorCard";
 import RelatedPosts from "@/components/blog/RelatedPosts";
 
@@ -100,6 +101,9 @@ export default function CountryBlogPostPage() {
       {/* Content */}
       <article className="container mx-auto px-4 pb-12">
         <div className="max-w-2xl mx-auto">
+          {/* Table of Contents */}
+          <TableOfContents content={post.content} />
+
           {/* Main content */}
           <div
             className="blog-content"

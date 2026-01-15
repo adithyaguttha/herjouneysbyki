@@ -121,6 +121,11 @@ export const posts: BlogPost[] = [
       <h2>Day 3 – Farm-to-Table Food & Golden Sunsets</h2>
       <p>The morning was slow and relaxed. We spent quality time at the cottage, soaking in the views while spending unhurried family time with our little one in the open garden.</p>
 
+      <figure class="image-center">
+        <img src="/images/coonoor/arjun2.jpg" alt="Family time in the cottage garden" />
+        <figcaption>Unhurried family moments</figcaption>
+      </figure>
+
       <p>For lunch, we visited Cherrie Berry, and every dish we ordered impressed us. My personal favourites were the avocado fries (yes, avocado in that form!), beetroot edamame salad, and the Cherrie Berry special Sicilian lasagne. We ended the meal with their incredible Kahwah tea, made from a secret blend.</p>
 
       <p>What makes this place special is that all ingredients are sourced directly from their own farm. They also have a lovely play area, which kept our toddler engaged while we enjoyed our meal. After lunch, we took a short stroll through their avocado farm. Since the afternoon was quite sunny, we chose not to stay outdoors for long.</p>

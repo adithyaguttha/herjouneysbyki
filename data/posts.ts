@@ -88,6 +88,11 @@ export const posts: BlogPost[] = [
       <h2>Day 2 – Foggy Mornings, Local Finds & Cozy Evenings</h2>
       <p>We woke up to misty valley views and spent our morning sipping hot drinks on the balcony. Foggy December mornings in the Nilgiris are truly unmatched.</p>
 
+      <figure class="image-full">
+        <img src="/images/coonoor/cottage10.jpg" alt="Misty morning view from Chloe Cottage balcony" />
+        <figcaption>Foggy mornings at Chloe Cottage</figcaption>
+      </figure>
+
       <p>Being away from crowded areas, we enjoyed spotting bits of wildlife in the nearby woods. After a hearty breakfast prepared by the chef, we headed into Coonoor town to visit Sri Raghavendra Iyangar Bakery, famous for its chicken leg piece puff. It may sound unusual to visit a bakery early in the morning, but this item sells out by 10 AM—so getting there early is essential.</p>
 
       <p>Next, we visited a strawberry farm for strawberry picking, which our little one absolutely loved.</p>

@@ -58,6 +58,11 @@ export const posts: BlogPost[] = [
 
       <p>Our first stop was Ooty, where we paused for lunch at the popular Chinese restaurant Shinkows. We ordered familiar dishes like starters, fried rice, and noodles. While the food didn't quite suit our palate, the stir-fried vegetables stood out as the best of the lot.</p>
 
+      <figure class="image-center">
+        <img src="/images/coonoor/shinkows.jpg" alt="Shinkows Chinese Restaurant in Ooty" />
+        <figcaption>Lunch stop at Shinkows, Ooty</figcaption>
+      </figure>
+
       <p>Post lunch, we continued towards Coonoor and reached our stay, Chloe Cottage, around 3 PM.</p>
 
       <p>December in the Nilgiris is magical. The weather was cool, pleasant, and perfectly balanced. Not freezing cold, but just enough to make you want to layer up. Colourful flowers were in full bloom everywhere making the landscape a visual treat.</p>

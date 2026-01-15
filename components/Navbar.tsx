@@ -43,13 +43,6 @@ const Navbar = forwardRef<HTMLElement, NavbarProps>(({ className = "", animated 
               >
                 Blog
               </a>
-              <a
-                href="/about"
-                className="text-sm text-[var(--charcoal)] hover:text-[var(--terracotta)] transition-colors"
-                style={{ fontFamily: "var(--font-inter)" }}
-              >
-                About
-              </a>
             </div>
 
             {/* Instagram Icon */}

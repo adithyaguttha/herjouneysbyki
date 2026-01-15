@@ -15,7 +15,6 @@ const BottomNav = forwardRef<HTMLElement, BottomNavProps>(
     const navItems = [
       { label: "Home", href: "/", icon: "mdi:home-outline", activeIcon: "mdi:home" },
       { label: "Blog", href: "/blog", icon: "mdi:book-open-outline", activeIcon: "mdi:book-open" },
-      { label: "About", href: "/about", icon: "mdi:account-outline", activeIcon: "mdi:account" },
     ];
 
     const isActive = (href: string) => {

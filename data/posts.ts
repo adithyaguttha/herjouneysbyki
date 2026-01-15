@@ -101,15 +101,11 @@ export const posts: BlogPost[] = [
 
       <div class="polaroid-collage">
         <div class="polaroid-collage-grid">
-          <div class="collage-item">
+          <div class="collage-item-full">
             <img src="/images/coonoor/arjun.jpg" alt="Family moments at Chloe Cottage" />
           </div>
-          <div class="collage-item">
-            <img src="/images/coonoor/cottage12.jpg" alt="Beautiful cottage interiors" />
-          </div>
-          <div class="collage-item">
-            <img src="/images/coonoor/cottage13.jpg" alt="Cottage garden views" />
-          </div>
+          <img src="/images/coonoor/cottage12.jpg" alt="Beautiful cottage interiors" />
+          <img src="/images/coonoor/cottage13.jpg" alt="Cottage garden views" />
         </div>
         <p class="polaroid-collage-caption">Moments at Chloe Cottage</p>
       </div>

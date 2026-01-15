@@ -74,6 +74,8 @@ export const posts: BlogPost[] = [
 
       <p>Chloe Cottage, tucked away in the Nilgiris mountains near Coonoor town, was our home for the trip. The property is charming, calm, and ideal for a family of three. The interiors carry vintage English vibes with tasteful décor, while the lush, well-maintained garden is perfect for slow outdoor moments. The compact kitchen is fully equipped, making it convenient to prepare quick meals—especially for a baby.</p>
 
+      <p><em>Book Chloe Cottage on <a href="https://luxunlock.com/chloe-cottage" target="_blank" rel="noopener noreferrer">Luxunlock</a> – the only platform where this property is available.</em></p>
+
       <p>We were welcomed warmly by the staff with local Varkey biscuits, a flaky Coonoor delicacy resembling puff pastries with a mildly sweet flavour.</p>
 
       <p>The property also offers an in-house chef and helper. Since we were tired from travel, we rested for the evening. Dinner was simple South Indian food prepared by the chef—homely, comforting, and absolutely delicious. It instantly made the stay feel warm and familiar, just like home.</p>

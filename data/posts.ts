@@ -97,7 +97,21 @@ export const posts: BlogPost[] = [
 
       <p>Next, we visited a strawberry farm for strawberry picking, which our little one absolutely loved.</p>
 
-      <p>We returned to the cottage for lunch and spent some time clicking pictures around the beautiful property. In the evening, we headed back to Coonoor to shop for groceries—the cottage kitchen was too charming to ignore, and we planned to bake a cake that night.</p>
+      <p>We returned to the cottage for lunch and spent some time clicking pictures around the beautiful property.</p>
+
+      <div class="image-collage image-collage-3">
+        <div class="collage-item">
+          <img src="/images/coonoor/arjun.jpg" alt="Family moments at Chloe Cottage" />
+        </div>
+        <div class="collage-item">
+          <img src="/images/coonoor/cottage12.jpg" alt="Beautiful cottage interiors" />
+        </div>
+        <div class="collage-item">
+          <img src="/images/coonoor/cottage13.jpg" alt="Cottage garden views" />
+        </div>
+      </div>
+
+      <p>In the evening, we headed back to Coonoor to shop for groceries—the cottage kitchen was too charming to ignore, and we planned to bake a cake that night.</p>
 
       <p>On the way, we made an impromptu stop at an Italian restaurant called Euphoria. With no expectations, we were pleasantly surprised—the calzones were really good.</p>
 

@@ -712,3 +712,118 @@ html {
   margin: 0;
   line-height: 1.6;
 }
+
+/* ===== Pencil Circle Effect ===== */
+/* Light version for dark backgrounds (hero) */
+.pencil-circle {
+  position: relative;
+  display: inline-block;
+  padding: 0 0.1em;
+}
+
+.pencil-circle::before {
+  content: "";
+  position: absolute;
+  top: -0.15em;
+  left: -0.2em;
+  right: -0.2em;
+  bottom: -0.15em;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 50% 45% 55% 50% / 55% 50% 45% 50%;
+  transform: rotate(-2deg);
+}
+
+.pencil-circle::after {
+  content: "";
+  position: absolute;
+  top: -0.1em;
+  left: -0.15em;
+  right: -0.15em;
+  bottom: -0.1em;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 45% 55% 50% 45% / 50% 45% 55% 50%;
+  transform: rotate(1deg);
+}
+
+/* Dark version for light backgrounds (blog content) */
+.pencil-circle-dark {
+  position: relative;
+  display: inline-block;
+  padding: 0 0.15em;
+}
+
+.pencil-circle-dark::before {
+  content: "";
+  position: absolute;
+  top: -0.1em;
+  left: -0.15em;
+  right: -0.15em;
+  bottom: -0.1em;
+  border: 2px solid var(--terracotta);
+  border-radius: 50% 45% 55% 50% / 55% 50% 45% 50%;
+  transform: rotate(-2deg);
+}
+
+.pencil-circle-dark::after {
+  content: "";
+  position: absolute;
+  top: -0.05em;
+  left: -0.1em;
+  right: -0.1em;
+  bottom: -0.05em;
+  border: 1px solid rgba(193, 122, 94, 0.4);
+  border-radius: 45% 55% 50% 45% / 50% 45% 55% 50%;
+  transform: rotate(1deg);
+}
+
+/* ===== Blog Instagram CTA ===== */
+.blog-instagram-cta {
+  background: var(--cream-dark);
+  border-radius: 16px;
+  padding: 2rem;
+  margin: 2.5rem 0;
+  text-align: center;
+}
+
+.blog-instagram-cta p {
+  margin-bottom: 0.5rem !important;
+}
+
+.blog-instagram-cta .cta-tagline {
+  font-family: var(--font-caveat);
+  font-size: 1.25rem;
+  color: var(--terracotta);
+}
+
+.blog-instagram-cta .cta-title {
+  font-family: var(--font-playfair);
+  font-size: 1.5rem;
+  color: var(--charcoal);
+  margin-bottom: 0.75rem !important;
+}
+
+.blog-instagram-cta .cta-description {
+  font-family: var(--font-inter);
+  font-size: 0.95rem;
+  color: var(--warm-brown);
+  margin-bottom: 1.25rem !important;
+}
+
+.blog-instagram-cta a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background: var(--terracotta);
+  color: white !important;
+  border-radius: 9999px;
+  text-decoration: none !important;
+  font-family: var(--font-inter);
+  font-size: 0.95rem;
+  transition: background 0.2s ease;
+}
+
+.blog-instagram-cta a:hover {
+  background: var(--terracotta-dark);
+  color: white !important;
+}

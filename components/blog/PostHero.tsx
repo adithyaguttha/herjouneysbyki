@@ -96,36 +96,6 @@ export default function PostHero({
         </div>
       </section>
 
-      {/* Pencil circle SVG style */}
-      <style jsx>{`
-        .pencil-circle {
-          position: relative;
-          display: inline-block;
-          padding: 0 0.1em;
-        }
-        .pencil-circle::before {
-          content: "";
-          position: absolute;
-          top: -0.15em;
-          left: -0.2em;
-          right: -0.2em;
-          bottom: -0.15em;
-          border: 2px solid rgba(255, 255, 255, 0.8);
-          border-radius: 50% 45% 55% 50% / 55% 50% 45% 50%;
-          transform: rotate(-2deg);
-        }
-        .pencil-circle::after {
-          content: "";
-          position: absolute;
-          top: -0.1em;
-          left: -0.15em;
-          right: -0.15em;
-          bottom: -0.1em;
-          border: 1px solid rgba(255, 255, 255, 0.4);
-          border-radius: 45% 55% 50% 45% / 50% 45% 55% 50%;
-          transform: rotate(1deg);
-        }
-      `}</style>
     </header>
   );
 }

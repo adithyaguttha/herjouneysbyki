@@ -76,6 +76,11 @@ export const posts: BlogPost[] = [
 
       <p><em>Book Chloe Cottage on <a href="https://luxunlock.com/chloe-cottage" target="_blank" rel="noopener noreferrer">Luxunlock</a> – the only platform where this property is available.</em></p>
 
+      <figure class="image-center">
+        <img src="/images/coonoor/food1.jpg" alt="Homely South Indian dinner at Chloe Cottage" />
+        <figcaption>Homely comfort food at the cottage</figcaption>
+      </figure>
+
       <p>We were welcomed warmly by the staff with local Varkey biscuits, a flaky Coonoor delicacy resembling puff pastries with a mildly sweet flavour.</p>
 
       <p>The property also offers an in-house chef and helper. Since we were tired from travel, we rested for the evening. Dinner was simple South Indian food prepared by the chef—homely, comforting, and absolutely delicious. It instantly made the stay feel warm and familiar, just like home.</p>

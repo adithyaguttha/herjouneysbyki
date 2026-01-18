@@ -185,7 +185,7 @@ export const posts: BlogPost[] = [
     title: "Our 6-Day Chiang Mai Itinerary with a One-Year-Old (Slow Travel Guide)",
     excerpt:
       "Our first international trip with a baby — covering cafés, markets, temples, elephant sanctuary, and a mountain stay. A detailed slow travel guide for families.",
-    coverImage: "/images/chiangmai/cover.jpg",
+    coverImage: "https://images.unsplash.com/photo-1528181304800-259b08848526?w=1200&q=80",
     date: "2026-01-15",
     readingTime: "12 min read",
     destination: "Chiang Mai",
@@ -212,7 +212,7 @@ export const posts: BlogPost[] = [
       <p>We planned a 6-day trip, keeping things slow since it was our first time travelling internationally with a baby.</p>
 
       <figure class="image-full">
-        <img src="/images/chiangmai/arrival.jpg" alt="Chiang Mai city views" />
+        <img src="https://images.unsplash.com/photo-1512553483149-d0c0a9b2c5eb?w=1200&q=80" alt="Chiang Mai city views" />
         <figcaption>The calm, welcoming streets of Chiang Mai</figcaption>
       </figure>
 
@@ -229,7 +229,7 @@ export const posts: BlogPost[] = [
       <p>Lunch was at Ginger Farm Kitchen in One Nimman. The presentation was beautiful, though the flavours weren't entirely to my taste. They kindly prepared steamed pumpkin for our baby. We rested in the afternoon.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/day1-onenimman.jpg" alt="One Nimman complex in Chiang Mai" />
+        <img src="https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=1200&q=80" alt="One Nimman complex in Chiang Mai" />
         <figcaption>One Nimman — a hub for food and shopping</figcaption>
       </figure>
 
@@ -241,7 +241,7 @@ export const posts: BlogPost[] = [
       <p>Breakfast was at Sun Rays Café — great vibe and presentation. We then spent most of the day at Jing Jai Market, a weekend market focused on sustainable, handmade local products. We ate Phat Kaphrao at Tops Green and continued shopping.</p>
 
       <figure class="image-full">
-        <img src="/images/chiangmai/day2-jingjaimarket.jpg" alt="Jing Jai Market Chiang Mai" />
+        <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=1200&q=80" alt="Jing Jai Market Chiang Mai" />
         <figcaption>Jing Jai Market — sustainable shopping at its best</figcaption>
       </figure>
 
@@ -253,7 +253,7 @@ export const posts: BlogPost[] = [
       <p>We visited Chai Lai Orchid Elephant Sanctuary early in the morning to celebrate our baby's first birthday. We fed, walked with, and learned about rescued elephants. Lunch was at their café, followed by a relaxed afternoon.</p>
 
       <figure class="image-full">
-        <img src="/images/chiangmai/day3-elephant.jpg" alt="Chai Lai Orchid Elephant Sanctuary" />
+        <img src="https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=80" alt="Chai Lai Orchid Elephant Sanctuary" />
         <figcaption>A meaningful morning at Chai Lai Orchid Elephant Sanctuary</figcaption>
       </figure>
 
@@ -263,7 +263,7 @@ export const posts: BlogPost[] = [
       <p>We moved to Mae Rim for a mountain stay at Onsen @ Moncham, a Japanese-inspired luxury hotel. After stopping at Roon Café, we checked into our Grand Terrace Suite with a private outdoor onsen. The drizzle, cool weather, and hot springs made the experience unforgettable.</p>
 
       <figure class="image-full">
-        <img src="/images/chiangmai/day4-onsen.jpg" alt="Onsen @ Moncham Mae Rim" />
+        <img src="https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200&q=80" alt="Onsen @ Moncham Mae Rim" />
         <figcaption>Our mountain retreat at Onsen @ Moncham</figcaption>
       </figure>
 
@@ -273,7 +273,7 @@ export const posts: BlogPost[] = [
       <p>After a beautifully prepared breakfast, we explored Mae Khee Sheep Farm, Jin Ju Orange Farm, and nearby flower gardens. We returned to the hotel in the evening and later went back to Chiang Mai city for our final night.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/day5-farm.jpg" alt="Mae Khee Sheep Farm" />
+        <img src="https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=1200&q=80" alt="Mae Khee Sheep Farm" />
         <figcaption>Exploring the farms around Mae Rim</figcaption>
       </figure>
 
@@ -320,7 +320,7 @@ export const posts: BlogPost[] = [
     title: "Best Cafés & Food to Try in Chiang Mai (From Local Markets to Michelin Spots)",
     excerpt:
       "A simple food guide to Chiang Mai — cafés, bakeries, local markets, Michelin-listed restaurants, and kid-friendly food spots we personally tried.",
-    coverImage: "/images/chiangmai/cafes-cover.jpg",
+    coverImage: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=1200&q=80",
     date: "2026-01-14",
     readingTime: "6 min read",
     destination: "Chiang Mai",
@@ -342,7 +342,7 @@ export const posts: BlogPost[] = [
       </div>
 
       <figure class="image-full">
-        <img src="/images/chiangmai/cafe-sunrays.jpg" alt="Sun Rays Café Chiang Mai" />
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=1200&q=80" alt="Sun Rays Café Chiang Mai" />
         <figcaption>Beautiful breakfast at Sun Rays Café</figcaption>
       </figure>
 
@@ -361,7 +361,7 @@ export const posts: BlogPost[] = [
       <p><strong>Early Owls Café</strong> is a lovely spot for a family picnic. They provide a nice seating setup where you can choose a spot on the lawn and create your own picnic-style arrangement. In the evening, we visited just for coffee and to relax, while our kid enjoyed the large green space to walk and crawl around.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/cafe-earlyowls.jpg" alt="Early Owls Café outdoor seating" />
+        <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=1200&q=80" alt="Early Owls Café outdoor seating" />
         <figcaption>Early Owls Café — perfect for families</figcaption>
       </figure>
 
@@ -377,7 +377,7 @@ export const posts: BlogPost[] = [
       <p>For Northern Thai specialties, <strong>Khao Soi Nimman</strong> is a popular stop, though flavours are subjective. Khao Soi is the must-try dish of Chiang Mai — a rich, coconut-based curry noodle soup.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/food-khaosoi.jpg" alt="Khao Soi noodle soup" />
+        <img src="https://images.unsplash.com/photo-1569562211093-4ed0d0758f12?w=1200&q=80" alt="Khao Soi noodle soup" />
         <figcaption>Khao Soi — the iconic dish of Northern Thailand</figcaption>
       </figure>
 
@@ -422,7 +422,7 @@ export const posts: BlogPost[] = [
     title: "Best Shopping Places in Chiang Mai: Markets, Malls & Hidden Finds",
     excerpt:
       "From weekend markets to malls, here's where to shop in Chiang Mai for handmade goods, souvenirs, clothing, and gourmet groceries.",
-    coverImage: "/images/chiangmai/shopping-cover.jpg",
+    coverImage: "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?w=1200&q=80",
     date: "2026-01-13",
     readingTime: "4 min read",
     destination: "Chiang Mai",
@@ -444,7 +444,7 @@ export const posts: BlogPost[] = [
       </div>
 
       <figure class="image-full">
-        <img src="/images/chiangmai/market-jingjaiwide.jpg" alt="Jing Jai Market overview" />
+        <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?w=1200&q=80" alt="Jing Jai Market overview" />
         <figcaption>Jing Jai Market — sustainable shopping in Chiang Mai</figcaption>
       </figure>
 
@@ -455,7 +455,7 @@ export const posts: BlogPost[] = [
       <p><strong>White Market</strong> at One Nimman (weekends only) is smaller but beautifully curated with handmade and aesthetic items. It's perfect for an evening stroll after dinner.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/market-whitemarket.jpg" alt="White Market at One Nimman" />
+        <img src="https://images.unsplash.com/photo-1519566335946-e6f65f0f4fdf?w=1200&q=80" alt="White Market at One Nimman" />
         <figcaption>Weekend White Market at One Nimman</figcaption>
       </figure>
 
@@ -503,7 +503,7 @@ export const posts: BlogPost[] = [
     title: "Things I Bought in Thailand: Chiang Mai Souvenirs Worth Bringing Home",
     excerpt:
       "A list of thoughtful, handmade items I bought in Chiang Mai — from jewellery and beeswax wraps to bags and small souvenirs.",
-    coverImage: "/images/chiangmai/souvenirs-cover.jpg",
+    coverImage: "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?w=1200&q=80",
     date: "2026-01-12",
     readingTime: "3 min read",
     destination: "Chiang Mai",
@@ -525,7 +525,7 @@ export const posts: BlogPost[] = [
       </div>
 
       <figure class="image-full">
-        <img src="/images/chiangmai/souvenirs-haul.jpg" alt="Chiang Mai shopping haul" />
+        <img src="https://images.unsplash.com/photo-1607082350899-7e105aa886ae?w=1200&q=80" alt="Chiang Mai shopping haul" />
         <figcaption>My Chiang Mai shopping haul</figcaption>
       </figure>
 
@@ -540,7 +540,7 @@ export const posts: BlogPost[] = [
       </ul>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/souvenirs-jewellery.jpg" alt="Handmade flower jewellery" />
+        <img src="https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=1200&q=80" alt="Handmade flower jewellery" />
         <figcaption>Handmade jewellery with real flowers</figcaption>
       </figure>
 
@@ -580,7 +580,7 @@ export const posts: BlogPost[] = [
     title: "Chiang Mai with a Baby: Travel Tips & Products That Helped Us",
     excerpt:
       "Travelling to Chiang Mai with a baby? These are the practical tips and products that made our trip easier and stress-free.",
-    coverImage: "/images/chiangmai/baby-travel-cover.jpg",
+    coverImage: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=80",
     date: "2026-01-11",
     readingTime: "4 min read",
     destination: "Chiang Mai",
@@ -602,7 +602,7 @@ export const posts: BlogPost[] = [
       </div>
 
       <figure class="image-full">
-        <img src="/images/chiangmai/baby-travel-family.jpg" alt="Family travel in Chiang Mai" />
+        <img src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=1200&q=80" alt="Family travel in Chiang Mai" />
         <figcaption>Exploring Chiang Mai with our little one</figcaption>
       </figure>
 
@@ -618,7 +618,7 @@ export const posts: BlogPost[] = [
       <p>We carried a <strong>portable kettle</strong> to cook simple meals like rice and porridge, which made feeding easy throughout the trip. This was especially useful at the hotel and even at the mountain stay.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/baby-travel-products.jpg" alt="Travel products for baby" />
+        <img src="https://images.unsplash.com/photo-1596178060671-7a80dc8059ea?w=1200&q=80" alt="Travel products for baby" />
         <figcaption>Essential travel products for our trip</figcaption>
       </figure>
 
@@ -643,7 +643,7 @@ export const posts: BlogPost[] = [
     title: "Flights, Visa & Transport Tips for Indians Visiting Chiang Mai",
     excerpt:
       "Everything Indian travellers need to know before visiting Chiang Mai — flights, visa basics, airport transfers, and local transport tips.",
-    coverImage: "/images/chiangmai/flights-cover.jpg",
+    coverImage: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1200&q=80",
     date: "2026-01-10",
     readingTime: "4 min read",
     destination: "Chiang Mai",
@@ -665,7 +665,7 @@ export const posts: BlogPost[] = [
       </div>
 
       <figure class="image-full">
-        <img src="/images/chiangmai/flights-airport.jpg" alt="Chiang Mai International Airport" />
+        <img src="https://images.unsplash.com/photo-1529074963764-98f45c47344b?w=1200&q=80" alt="Chiang Mai International Airport" />
         <figcaption>Arriving at Chiang Mai International Airport</figcaption>
       </figure>
 
@@ -686,7 +686,7 @@ export const posts: BlogPost[] = [
       <p>For longer trips like Mae Rim, we hired a local driver through Google, which was convenient and flexible. This worked well for the elephant sanctuary visit and the mountain hotel transfer.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/transport-grab.jpg" alt="Grab taxi in Chiang Mai" />
+        <img src="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=1200&q=80" alt="Grab taxi in Chiang Mai" />
         <figcaption>Grab is reliable for getting around Chiang Mai</figcaption>
       </figure>
 
@@ -728,7 +728,7 @@ export const posts: BlogPost[] = [
     title: "Luxury Stays in Chiang Mai: A Slow Mountain Retreat at Onsen @ Moncham",
     excerpt:
       "Looking for a luxury stay in Chiang Mai? Our experience at Onsen @ Moncham in Mae Rim — a Japanese-inspired mountain retreat with private onsens and exceptional service.",
-    coverImage: "/images/chiangmai/onsen-cover.jpg",
+    coverImage: "https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=1200&q=80",
     date: "2026-01-09",
     readingTime: "8 min read",
     destination: "Chiang Mai",
@@ -750,7 +750,7 @@ export const posts: BlogPost[] = [
       </div>
 
       <figure class="image-full">
-        <img src="/images/chiangmai/onsen-exterior.jpg" alt="Onsen @ Moncham exterior" />
+        <img src="https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1200&q=80" alt="Onsen @ Moncham exterior" />
         <figcaption>The stunning Japanese-inspired architecture of Onsen @ Moncham</figcaption>
       </figure>
 
@@ -765,7 +765,7 @@ export const posts: BlogPost[] = [
       <p>We stayed in the <strong>Grand Terrace Suite with Outdoor Onsen</strong>, which was the best decision we made on this trip. The room was spacious, extremely comfortable, and very kid-friendly. The private terrace opened to uninterrupted mountain views, and the outdoor onsen overlooked the hills — perfect for slow mornings and quiet evenings.</p>
 
       <figure class="image-full">
-        <img src="/images/chiangmai/onsen-room.jpg" alt="Grand Terrace Suite at Onsen @ Moncham" />
+        <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&q=80" alt="Grand Terrace Suite at Onsen @ Moncham" />
         <figcaption>Our Grand Terrace Suite with private outdoor onsen</figcaption>
       </figure>
 
@@ -779,7 +779,7 @@ export const posts: BlogPost[] = [
       <p>The hotel has separate public onsens for men and women, along with a <strong>private couple onsen</strong>, which we opted for in the evening. It was cold and drizzling that day, and soaking in hot mineral water while mist rose around us felt unreal.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/onsen-bath.jpg" alt="Private onsen experience" />
+        <img src="https://images.unsplash.com/photo-1554629947-334ff61d85dc?w=1200&q=80" alt="Private onsen experience" />
         <figcaption>The private onsen experience was unforgettable</figcaption>
       </figure>
 
@@ -801,7 +801,7 @@ export const posts: BlogPost[] = [
       <p>We ended the day with full hearts, full stomachs, and one of the best night's sleep of the trip.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/onsen-food.jpg" alt="Dinner at Onsen @ Moncham" />
+        <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=1200&q=80" alt="Dinner at Onsen @ Moncham" />
         <figcaption>Thoughtfully prepared dinner at the in-house restaurant</figcaption>
       </figure>
 
@@ -811,7 +811,7 @@ export const posts: BlogPost[] = [
       <p>The congee was surprisingly elegant for such a simple dish — it became my personal favorite. Even the fruit plates were beautifully cut and arranged. The attention to detail here is consistent and intentional, and it shows in every experience.</p>
 
       <figure class="image-full">
-        <img src="/images/chiangmai/onsen-breakfast.jpg" alt="Breakfast at Onsen @ Moncham" />
+        <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=1200&q=80" alt="Breakfast at Onsen @ Moncham" />
         <figcaption>Fresh, beautifully prepared breakfast</figcaption>
       </figure>
 

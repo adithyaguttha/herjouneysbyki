@@ -503,7 +503,7 @@ export const posts: BlogPost[] = [
     title: "Things I Bought in Thailand: Chiang Mai Souvenirs Worth Bringing Home",
     excerpt:
       "A list of thoughtful, handmade items I bought in Chiang Mai — from jewellery and beeswax wraps to bags and small souvenirs.",
-    coverImage: "https://images.unsplash.com/photo-1513519245088-0e12902e35a6?w=1200&q=80",
+    coverImage: "https://images.unsplash.com/photo-1528181304800-259b08848526?w=1200&q=80",
     date: "2026-01-12",
     readingTime: "3 min read",
     destination: "Chiang Mai",

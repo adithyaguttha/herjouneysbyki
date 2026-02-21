@@ -55,7 +55,6 @@ export default function Hero() {
       // Set initial states
       gsap.set(".intro-subtitle", { autoAlpha: 0, y: 30 });
       gsap.set(".intro-button", { autoAlpha: 0, y: 20 });
-      gsap.set(".carousel-wrapper", { autoAlpha: 0 });
     },
     { scope: containerRef }
   );
@@ -66,20 +65,13 @@ export default function Hero() {
       onComplete: () => setIntroComplete(true),
     });
 
-    // Fade in carousel background
-    tl.to(".carousel-wrapper", {
-      autoAlpha: 1,
-      duration: 1,
-      ease: "power2.out",
-    });
-
     // Fade in subtitle
     tl.to(".intro-subtitle", {
       autoAlpha: 1,
       y: 0,
       duration: 0.6,
       ease: "power2.out",
-    }, "-=0.5");
+    });
 
     // Fade in button
     tl.to(".intro-button", {

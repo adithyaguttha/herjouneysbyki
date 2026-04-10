@@ -24,24 +24,18 @@ export default function AboutTraveler() {
 
               {/* Polaroid frame */}
               <div
-                className="bg-white p-3 md:p-4 shadow-lg max-w-xs md:max-w-sm"
+                className="bg-white p-3 md:p-4 shadow-lg w-80 md:w-96"
                 style={{ transform: "rotate(-2deg)" }}
               >
                 <div className="relative aspect-[4/5] overflow-hidden">
                   <Image
-                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80"
-                    alt="Ki - Travel Blogger"
+                    src="/images/about/kavya.jpeg"
+                    alt="Kavya Immaneni - Travel Blogger"
                     fill
                     className="object-cover"
-                    sizes="(max-width: 768px) 280px, 350px"
+                    sizes="(max-width: 768px) 320px, 384px"
                   />
                 </div>
-                <p
-                  className="text-center text-lg mt-3 text-[var(--warm-brown)]"
-                  style={{ fontFamily: "var(--font-caveat)" }}
-                >
-                  That's me in Santorini!
-                </p>
               </div>
             </div>
           </div>

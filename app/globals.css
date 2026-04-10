@@ -646,6 +646,8 @@ html {
 .blog-content .image-full img {
   width: 100%;
   height: auto;
+  max-height: 500px;
+  object-fit: cover;
   border-radius: 8px;
   margin: 0;
 }
@@ -668,6 +670,8 @@ html {
 .blog-content .image-center img {
   width: 100%;
   height: auto;
+  max-height: 500px;
+  object-fit: cover;
   border-radius: 8px;
   margin: 0;
 }
@@ -778,6 +782,7 @@ html {
 
 /* ===== Blog Instagram CTA ===== */
 .blog-instagram-cta {
+  display: none;
   background: var(--cream-dark);
   border-radius: 16px;
   padding: 2rem;

@@ -4,7 +4,6 @@ import { useRef, useState } from "react";
 import { useGSAP } from "@gsap/react";
 import { gsap } from "@/lib/gsap";
 import ScatteredTitle from "./ScatteredTitle";
-import HeroSubtitle from "./HeroSubtitle";
 import ImageCarousel from "./ImageCarousel";
 import Navbar from "../Navbar";
 import BottomNav from "../BottomNav";
@@ -53,7 +52,6 @@ export default function Hero() {
   const { contextSafe } = useGSAP(
     () => {
       // Set initial states
-      gsap.set(".intro-subtitle", { autoAlpha: 0, y: 30 });
       gsap.set(".intro-button", { autoAlpha: 0, y: 20 });
     },
     { scope: containerRef }
@@ -65,21 +63,13 @@ export default function Hero() {
       onComplete: () => setIntroComplete(true),
     });
 
-    // Fade in subtitle
-    tl.to(".intro-subtitle", {
-      autoAlpha: 1,
-      y: 0,
-      duration: 0.6,
-      ease: "power2.out",
-    });
-
     // Fade in button
     tl.to(".intro-button", {
       autoAlpha: 1,
       y: 0,
       duration: 0.5,
       ease: "power2.out",
-    }, "-=0.3");
+    });
 
     // Navbar slides down
     tl.to(navbarRef.current, {
@@ -127,11 +117,6 @@ export default function Hero() {
                 className="mb-4 lg:mb-6"
                 lightMode
               />
-
-              {/* Subtitle */}
-              <HeroSubtitle className="intro-subtitle text-white/90 mb-4 lg:mb-8 mx-auto lg:mx-0">
-                Stories from around the world, one journey at a time
-              </HeroSubtitle>
 
               {/* CTA Button */}
               <button

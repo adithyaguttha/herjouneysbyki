@@ -211,17 +211,10 @@ export const posts: BlogPost[] = [
 
       <p>We planned a 6-day trip, keeping things slow since it was our first time travelling internationally with a baby.</p>
 
-      <figure class="image-full">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/7-one_nimman.jpg" alt="One Nimman walkway in Chiang Mai" />
-        <figcaption>The vibrant One Nimman area in Chiang Mai</figcaption>
-      </figure>
-
       <h2>Getting There</h2>
       <p>There is no direct flight from Bangalore to Chiang Mai, so we flew via Bangkok. The total journey wasn't too long — five and a half hours. Since it was a midnight flight, our baby slept through most of it. We used an airplane footrest for kids, which worked really well and didn't require airline approval.</p>
 
       <p>We reached Bangkok, transferred quickly, and landed in Chiang Mai by 8:45 AM.</p>
-
-      <p><em>For more details on flights and transport, read our <a href="/thailand/chiang-mai-flights-visa-transport-india">flights, visa & transport guide for Indians</a>.</em></p>
 
       <h2>Day 1: Arrival, One Nimman & White Market</h2>
       <p>From the airport we arrived at our hotel by 10:30 AM. We stayed at Novotel, which is budget-friendly, comfortable, and located close to One Nimman and Maya Mall. While my husband handled check-in, I fed our baby breakfast.</p>
@@ -229,25 +222,23 @@ export const posts: BlogPost[] = [
       <p>Lunch was at Ginger Farm Kitchen in One Nimman. The presentation was beautiful, though the flavours weren't entirely to my taste. They kindly prepared steamed pumpkin for our baby. We rested in the afternoon.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/1-food_ginger_farm _kitchen.jpg" alt="Food at Ginger Farm Kitchen, One Nimman" />
-        <figcaption>Lunch at Ginger Farm Kitchen, One Nimman</figcaption>
+        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/15-ginger_farm_kitchen(1).jpg" alt="Interior of Ginger Farm Kitchen in Chiang Mai" />
+        <figcaption>Ginger Farm Kitchen</figcaption>
       </figure>
 
       <p>In the evening, we explored Rimping Supermarket at Maya Mall, grabbed bakery items from Saint Etoile, and later walked around One Nimman and the weekend White Market. Dinner was from the food stalls, and Kanom Krok was a highlight. We ended the night watching a live band.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/11-food_one_nimman(Kanom_krok).jpg" alt="Kanom Krok at One Nimman night market" />
-        <figcaption>Kanom Krok — a must-try street food at the White Market</figcaption>
+        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/7-one_nimman_cropped.jpg" alt="One Nimman walkway in Chiang Mai" />
+        <figcaption>One Nimman, Chiang Mai</figcaption>
       </figure>
-
-      <p><em>Explore more about <a href="/thailand/chiang-mai-shopping-markets-malls">the best shopping places in Chiang Mai</a>.</em></p>
 
       <h2>Day 2: Jing Jai Market & Doi Suthep Sunset</h2>
       <p>Breakfast was at Sun Rays Café — great vibe and presentation. We then spent most of the day at Jing Jai Market, a weekend market focused on sustainable, handmade local products. We ate Phat Kaphrao at Tops Green and continued shopping.</p>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/3-food_sun_rays(French Toast).jpg" alt="French Toast with tropical fruits at Sun Rays Café" />
-        <figcaption>Breakfast at Sun Rays Café — beautiful presentation with tropical fruits</figcaption>
+        <figcaption>French toast at Sun Rays Café</figcaption>
       </figure>
 
       <figure class="image-full">
@@ -272,7 +263,7 @@ export const posts: BlogPost[] = [
         <figcaption>Celebrating our baby's first birthday in Chiang Mai</figcaption>
       </figure>
 
-      <figure class="image-full">
+      <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/33-DSC06173.jpg" alt="Family with elephants at Chai Lai Orchid Sanctuary" />
         <figcaption>A meaningful morning at Chai Lai Orchid Elephant Sanctuary</figcaption>
       </figure>
@@ -282,7 +273,7 @@ export const posts: BlogPost[] = [
       <h2>Day 4: Mountain Retreat at Onsen @ Moncham</h2>
       <p>We moved to Mae Rim for a mountain stay at Onsen @ Moncham, a Japanese-inspired luxury hotel. After stopping at Roon Café, we checked into our Grand Terrace Suite with a private outdoor onsen. The drizzle, cool weather, and hot springs made the experience unforgettable.</p>
 
-      <figure class="image-full">
+      <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/9-onsen.jpg" alt="Onsen @ Moncham at night" />
         <figcaption>Our mountain retreat at Onsen @ Moncham</figcaption>
       </figure>
@@ -300,15 +291,12 @@ export const posts: BlogPost[] = [
       <h2>Day 6: Final Shopping & Departure</h2>
       <p>We spent our last few hours shopping at Maya Mall before heading to the airport.</p>
 
-      <p><em>Curious what I brought home? Check out <a href="/thailand/thailand-souvenirs-chiang-mai-haul">things I bought in Thailand</a>.</em></p>
-
       <h2>Final Thoughts</h2>
       <p>Chiang Mai turned out to be an ideal destination for our first international trip with a baby — slow-paced, welcoming, and easy to navigate. With thoughtful planning and a flexible itinerary, travelling with a toddler felt manageable and enjoyable.</p>
 
       <p>If you're planning your own Chiang Mai trip, you may also find these helpful:</p>
       <ul>
         <li><a href="/thailand/chiang-mai-best-cafes-food-guide">Cafés and food we loved in Chiang Mai</a></li>
-        <li><a href="/thailand/chiang-mai-shopping-markets-malls">Best shopping places and markets</a></li>
         <li><a href="/thailand/chiang-mai-baby-travel-tips">Travel tips for visiting Chiang Mai with a baby</a></li>
       </ul>
 
@@ -358,7 +346,7 @@ export const posts: BlogPost[] = [
 
       <p>We reached Bangkok, transferred quickly, and landed in Chiang Mai by 8:45 AM.</p>
 
-      <figure class="image-full">
+      <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/elephant.jpg" alt="Feeding a baby elephant at Chai Lai Orchid Sanctuary" />
         <figcaption>One of the highlights of our Chiang Mai trip — Chai Lai Orchid Elephant Sanctuary</figcaption>
       </figure>
@@ -381,7 +369,7 @@ export const posts: BlogPost[] = [
       <h2>Day 4</h2>
       <p>We moved to Mae Rim for a mountain stay at Onsen@Moncham, a Japanese-inspired luxury hotel. After stopping at Roon Café, we checked into our Grand Terrace Suite with a private outdoor onsen. The drizzle, cool weather, and hot springs made the experience unforgettable.</p>
 
-      <figure class="image-full">
+      <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/9-onsen.jpg" alt="Onsen @ Moncham at night" />
         <figcaption>The magical Onsen @ Moncham on a rainy evening</figcaption>
       </figure>
@@ -421,7 +409,7 @@ export const posts: BlogPost[] = [
         </a>
       </div>
 
-      <figure class="image-full">
+      <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/53-sun_rays_cafe.jpg" alt="Sun Rays Café outdoor seating with baby in stroller" />
         <figcaption>Sun Rays Café — a charming breakfast spot in Chiang Mai</figcaption>
       </figure>
@@ -478,8 +466,6 @@ export const posts: BlogPost[] = [
       <p>If you're planning a food-focused Chiang Mai trip, you may also want to read:</p>
       <ul>
         <li><a href="/thailand/chiang-mai-6-day-itinerary-with-baby">Our complete 6-day Chiang Mai itinerary</a></li>
-        <li><a href="/thailand/chiang-mai-shopping-markets-malls">Best shopping markets in Chiang Mai</a></li>
-        <li><a href="/thailand/thailand-souvenirs-chiang-mai-haul">Things we bought in Thailand</a></li>
       </ul>
 
       <h2>FAQs – Cafes & Food in Chiang Mai</h2>
@@ -504,176 +490,13 @@ export const posts: BlogPost[] = [
     `,
   },
 
-  // Blog 3: Shopping Guide
-  {
-    slug: "chiang-mai-shopping-markets-malls",
-    title: "Best Shopping Places in Chiang Mai: Markets, Malls & Hidden Finds",
-    excerpt:
-      "From weekend markets to malls, here's where to shop in Chiang Mai for handmade goods, souvenirs, clothing, and gourmet groceries.",
-    coverImage: "/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/26-jianjai.jpg",
-    date: "2026-01-13",
-    readingTime: "4 min read",
-    destination: "Chiang Mai",
-    country: "thailand",
-    tripTypes: ["Culture"],
-    content: `
-      <p>Shopping in Chiang Mai is less about malls and more about discovering thoughtfully made, locally crafted products. From weekend markets to curated lifestyle spaces, the city offers a refreshing alternative to mass-produced souvenirs.</p>
-
-      <p>This guide covers the best shopping places in Chiang Mai, including markets, malls, and specialty stores we explored during our trip.</p>
-
-      <div class="blog-instagram-cta">
-        <p class="cta-tagline">Follow along on</p>
-        <p class="cta-title">Instagram</p>
-        <p class="cta-description">For more travel moments, behind-the-scenes, and daily wanderlust</p>
-        <a href="https://www.instagram.com/herjourneysbyki/" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          @herjourneysbyki
-        </a>
-      </div>
-
-      <figure class="image-full">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/26-jianjai.jpg" alt="Jing Jai Market entrance in Chiang Mai" />
-        <figcaption>Jing Jai Market — sustainable shopping in Chiang Mai</figcaption>
-      </figure>
-
-      <h2>Jing Jai Market</h2>
-      <p>Chiang Mai is perfect for slow, thoughtful shopping. <strong>Jing Jai Market</strong> stands out for its focus on sustainable, handmade products by local artisans. You'll find organic goods, handmade jewellery, beeswax wraps, and eco-friendly items.</p>
-
-      <h2>White Market at One Nimman</h2>
-      <p><strong>White Market</strong> at One Nimman (weekends only) is smaller but beautifully curated with handmade and aesthetic items. It's perfect for an evening stroll after dinner.</p>
-
-      <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/7-one_nimman.jpg" alt="One Nimman shopping area in Chiang Mai" />
-        <figcaption>One Nimman — home to the weekend White Market</figcaption>
-      </figure>
-
-      <h2>Maya Mall</h2>
-      <p><strong>Maya Mall</strong> is ideal for larger shopping runs, souvenirs, and essentials. It's air-conditioned and comfortable for families with kids.</p>
-
-      <h2>Rimping Supermarket</h2>
-      <p><strong>Rimping Supermarket</strong> is great for gourmet groceries and snacks. It's also home to Saint Etoile bakery — their sweet potato bread is worth trying.</p>
-
-      <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/29-maya_mall.jpg" alt="Saint Etoile bakery display at Maya Mall" />
-        <figcaption>Saint Etoile bakery inside Rimping at Maya Mall</figcaption>
-      </figure>
-
-      <h2>Final Thoughts</h2>
-      <p>Each place offers something different, and you could easily spend a full day shopping in Chiang Mai. Whether you enjoy browsing handmade markets or prefer air-conditioned malls, Chiang Mai offers a balanced shopping experience. Taking time to explore these spaces is part of the slow travel charm of the city.</p>
-
-      <p>You may also enjoy reading:</p>
-      <ul>
-        <li><a href="/thailand/thailand-souvenirs-chiang-mai-haul">Things I bought in Thailand (Chiang Mai edition)</a></li>
-        <li><a href="/thailand/chiang-mai-6-day-itinerary-with-baby">Our Chiang Mai itinerary with a baby</a></li>
-        <li><a href="/thailand/chiang-mai-best-cafes-food-guide">Cafés and food spots near popular shopping areas</a></li>
-      </ul>
-
-      <h2>FAQs – Shopping in Chiang Mai</h2>
-      <div class="faq-section">
-        <div class="faq-item">
-          <h3 class="faq-question">What are the best places to shop in Chiang Mai?</h3>
-          <p class="faq-answer">Some of the best shopping places in Chiang Mai are Jing Jai Market, One Nimman, Maya Mall, and weekend markets featuring handmade and local products.</p>
-        </div>
-        <div class="faq-item">
-          <h3 class="faq-question">What is Jing Jai Market famous for?</h3>
-          <p class="faq-answer">Jing Jai Market is known for sustainable, handmade products made by local artisans. You'll find organic goods, handmade jewellery, beeswax wraps, and eco-friendly items.</p>
-        </div>
-        <div class="faq-item">
-          <h3 class="faq-question">Is shopping in Chiang Mai expensive?</h3>
-          <p class="faq-answer">Shopping in Chiang Mai is generally affordable. Handmade and artisanal products may cost slightly more, but the quality, craftsmanship, and uniqueness make them worth it.</p>
-        </div>
-        <div class="faq-item">
-          <h3 class="faq-question">Are Chiang Mai markets open every day?</h3>
-          <p class="faq-answer">Some markets like Jing Jai Market and White Market operate mainly on weekends. Malls like Maya Mall and One Nimman are open daily.</p>
-        </div>
-      </div>
-    `,
-  },
-
-  // Blog 4: Thailand Souvenirs
-  {
-    slug: "thailand-souvenirs-chiang-mai-haul",
-    title: "Things I Bought in Thailand: Chiang Mai Souvenirs Worth Bringing Home",
-    excerpt:
-      "A list of thoughtful, handmade items I bought in Chiang Mai — from jewellery and beeswax wraps to bags and small souvenirs.",
-    coverImage: "/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/29-maya_mall.jpg",
-    date: "2026-01-12",
-    readingTime: "3 min read",
-    destination: "Chiang Mai",
-    country: "thailand",
-    tripTypes: ["Culture"],
-    content: `
-      <p>Instead of buying generic souvenirs, I wanted items that felt thoughtful, locally made, and useful. Chiang Mai is perfect for this kind of shopping, especially if you enjoy handmade and sustainable products.</p>
-
-      <p>This post shares exactly what I bought in Chiang Mai — from jewellery to small everyday items — and why they made meaningful souvenirs.</p>
-
-      <div class="blog-instagram-cta">
-        <p class="cta-tagline">Follow along on</p>
-        <p class="cta-title">Instagram</p>
-        <p class="cta-description">For more travel moments, behind-the-scenes, and daily wanderlust</p>
-        <a href="https://www.instagram.com/herjourneysbyki/" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          @herjourneysbyki
-        </a>
-      </div>
-
-      <figure class="image-full">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/27-jing_jai_market.jpg" alt="Jing Jai Market food and shopping stalls" />
-        <figcaption>Shopping at Jing Jai Market</figcaption>
-      </figure>
-
-      <h2>What I Bought</h2>
-      <p>Most of my shopping happened at Jing Jai Market and White Market. I bought:</p>
-      <ul>
-        <li><strong>Handmade jewellery</strong> made with real flowers</li>
-        <li><strong>Colourful beeswax wraps</strong> — eco-friendly and practical</li>
-        <li><strong>Charm bracelets</strong></li>
-        <li><strong>Bags and pouches</strong></li>
-        <li><strong>Rubber bands and small accessories</strong></li>
-      </ul>
-
-      <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/26-jianjai.jpg" alt="Jing Jai Market entrance" />
-        <figcaption>Jing Jai Market — where most of our shopping happened</figcaption>
-      </figure>
-
-      <p>These items felt more meaningful than mass-produced souvenirs and were easy to pack and gift.</p>
-
-      <h2>Final Thoughts</h2>
-      <p>The best souvenirs from Chiang Mai are often small, handmade, and full of character. These purchases felt more personal and reminded me of the slow, creative energy of the city.</p>
-
-      <p>If you're planning your own shopping list, check out:</p>
-      <ul>
-        <li><a href="/thailand/chiang-mai-shopping-markets-malls">Best shopping places in Chiang Mai</a></li>
-        <li><a href="/thailand/chiang-mai-6-day-itinerary-with-baby">Our Chiang Mai itinerary</a></li>
-        <li><a href="/thailand/chiang-mai-baby-travel-tips">Budget travel tips and useful products</a></li>
-      </ul>
-
-      <h2>FAQs – Thailand Souvenirs</h2>
-      <div class="faq-section">
-        <div class="faq-item">
-          <h3 class="faq-question">What are the best souvenirs to buy in Thailand?</h3>
-          <p class="faq-answer">Some of the best souvenirs from Thailand include handmade jewellery, beeswax wraps, local handicrafts, fabric accessories, ceramic mugs, and eco-friendly products.</p>
-        </div>
-        <div class="faq-item">
-          <h3 class="faq-question">Are handmade products in Chiang Mai authentic?</h3>
-          <p class="faq-answer">Yes, many handmade products in Chiang Mai are locally made by artisans using traditional techniques, especially in markets like Jing Jai and One Nimman.</p>
-        </div>
-        <div class="faq-item">
-          <h3 class="faq-question">Is Chiang Mai good for sustainable shopping?</h3>
-          <p class="faq-answer">Chiang Mai is one of the best places in Thailand for sustainable shopping. Many markets focus on organic, recycled, and locally sourced products.</p>
-        </div>
-      </div>
-    `,
-  },
-
   // Blog 5: Baby Travel Tips
   {
     slug: "chiang-mai-baby-travel-tips",
     title: "Chiang Mai with a Baby: Travel Tips & Products That Helped Us",
     excerpt:
       "Travelling to Chiang Mai with a baby? These are the practical tips and products that made our trip easier and stress-free.",
-    coverImage: "/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/67-20251001_111937.jpg",
+    coverImage: "/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/67-baby-sheep garden cropped.jpg",
     date: "2026-01-11",
     readingTime: "10 min read",
     destination: "Chiang Mai",
@@ -694,9 +517,8 @@ export const posts: BlogPost[] = [
         </a>
       </div>
 
-      <figure class="image-full">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/73-onsen-toddler.jpg" alt="Toddler looking out at mountain views from Onsen @ Moncham" />
-        <figcaption>Travelling with a baby in Chiang Mai — easier than you'd think</figcaption>
+      <figure class="image-center">
+        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/73-onsen-toddler_cropped.jpg" alt="Toddler looking out at mountain views from Onsen @ Moncham" />
       </figure>
 
       <p>Travelling with a baby requires thoughtful planning, but Chiang Mai is one of the most family-friendly destinations in Thailand. From smooth pavements in Nimman to spacious malls and baby-friendly cafés, travelling to Chiang Mai with a baby felt surprisingly easy.</p>
@@ -720,13 +542,25 @@ export const posts: BlogPost[] = [
 
       <h4>Travel Kettle (Must-Have)</h4>
       <ul>
-        <li><strong>Portable travel kettle</strong> — The one I bought from Insta Cuppa was compact and had a cute design. You can heat water as well as cook rice in it. Rice is a staple for my baby, so this was truly my holy grail travel product. <a href="https://www.amazon.in/InstaCuppa-Temperature-Control-Automatic-Black/dp/B0D375QJ27" target="_blank" rel="noopener noreferrer">Shop here</a></li>
-        <li><strong>Multifunctional kettle</strong> — From the same brand, this kettle can steam vegetables, prepare porridge, and do much more — ideal for longer international trips. <a href="https://www.amazon.in/InstaCuppa-Kettle-Adjustable-Temperature-Settings/dp/B0C26NH1C7" target="_blank" rel="noopener noreferrer">Shop here</a></li>
+        <li>
+          <strong>Portable travel kettle</strong>
+          <p>The one I bought from Insta Cuppa was compact and had a cute design. You can heat water as well as cook rice in it. Rice is a staple for my baby, so this was truly my holy grail travel product.</p>
+          <p>👉 <a href="https://www.amazon.in/InstaCuppa-Temperature-Control-Automatic-Black/dp/B0D375QJ27" target="_blank" rel="noopener noreferrer">Portable Travel Kettle</a></p>
+        </li>
+        <li>
+          <strong>Multifunctional kettle</strong>
+          <p>From the same brand, this kettle can steam vegetables, prepare porridge, and do much more — ideal for longer international trips.</p>
+          <p>👉 <a href="https://www.amazon.in/InstaCuppa-Kettle-Adjustable-Temperature-Settings/dp/B0C26NH1C7" target="_blank" rel="noopener noreferrer">Multifunction Travel Kettle</a></p>
+        </li>
       </ul>
 
       <h4>Cutlery & Food Storage</h4>
       <ul>
-        <li><strong>2-in-1 knife and peeler</strong> — This is the best one I found on Amazon and extremely useful while travelling. <a href="https://www.amazon.in/DHULI-Functional-Stainless-Kitchen-Peeler/dp/B0F7B12DWQ" target="_blank" rel="noopener noreferrer">Shop here</a></li>
+        <li>
+          <strong>2-in-1 knife and peeler</strong>
+          <p>This is the best one I found on Amazon and extremely useful while travelling.</p>
+          <p>👉 <a href="https://www.amazon.in/DHULI-Functional-Stainless-Kitchen-Peeler/dp/B0F7B12DWQ" target="_blank" rel="noopener noreferrer">Knife & Peeler</a></p>
+        </li>
         <li>Baby spoons</li>
         <li>Storage boxes / tiffin boxes for carrying food during day trips</li>
         <li>Water sipper</li>
@@ -734,12 +568,21 @@ export const posts: BlogPost[] = [
       </ul>
 
       <h4>Paper Bags (Highly Recommended)</h4>
-      <p>You can never imagine how much mess a baby can make during mealtimes — and when travelling, meals can happen anywhere. Paper bags are lightweight, easy to pack, and perfect for disposing of food mess quickly. You stay clean, stress-free, and avoid complaints from people around you. <a href="https://www.amazon.in/RANUR-Butter-Parchment-Sandwich-Glassine/dp/B0831JNKYG" target="_blank" rel="noopener noreferrer">Shop here</a></p>
+      <p>You can never imagine how much mess a baby can make during mealtimes — and when travelling, meals can happen anywhere. Paper bags are lightweight, easy to pack, and perfect for disposing of food mess quickly. You stay clean, stress-free, and avoid complaints from people around you.</p>
+      <p>👉 <a href="https://www.amazon.in/RANUR-Butter-Parchment-Sandwich-Glassine/dp/B0831JNKYG" target="_blank" rel="noopener noreferrer">Paper Bags</a></p>
 
       <h3>Hygiene & Mealtime Helpers (Travel Lifesavers)</h3>
       <ul>
-        <li><strong>Disposable diaper disposal covers</strong> — These are excellent for locking in smell. You can store dirty diapers in your diaper bag for hours without worrying about odour or hygiene. <a href="https://www.amazon.in/Sirona-Sanitary-Napkin-Intimate-Disposable/dp/B07SNHQFH8" target="_blank" rel="noopener noreferrer">Shop here</a></li>
-        <li><strong>Disposable bibs</strong> — Absolute saviours while travelling. No washing, no cleaning, and no need to carry used bibs around. Just pack around 40–50 — they are lightweight and take very little space. <a href="https://www.amazon.in/LITTLE-LOOKERS%C2%AE-Disposable-Feeding-Eco-Friendly/dp/B08521FQ2V" target="_blank" rel="noopener noreferrer">Shop here</a></li>
+        <li>
+          <strong>Disposable diaper disposal covers</strong>
+          <p>These are excellent for locking in smell. You can store dirty diapers in your diaper bag for hours without worrying about odour or hygiene.</p>
+          <p>👉 <a href="https://www.amazon.in/Sirona-Sanitary-Napkin-Intimate-Disposable/dp/B07SNHQFH8" target="_blank" rel="noopener noreferrer">Disposable Diaper Covers</a></p>
+        </li>
+        <li>
+          <strong>Disposable bibs</strong>
+          <p>Absolute saviours while travelling. No washing, no cleaning, and no need to carry used bibs around. Just pack around 40–50 — they are lightweight and take very little space.</p>
+          <p>👉 <a href="https://www.amazon.in/LITTLE-LOOKERS%C2%AE-Disposable-Feeding-Eco-Friendly/dp/B08521FQ2V" target="_blank" rel="noopener noreferrer">Disposable Bibs</a></p>
+        </li>
       </ul>
 
       <h3>Baby Food We Carried While Travelling to Thailand</h3>
@@ -754,24 +597,38 @@ export const posts: BlogPost[] = [
 
       <h4>Ready-to-Eat Baby Food</h4>
       <ul>
-        <li><strong>Ella's Kitchen food pouches</strong> — These were perfect for flights, airports, and situations where cooking wasn't possible. Very handy and mess-free.</li>
+        <li>
+          <strong>Ella's Kitchen food pouches</strong>
+          <p>These were perfect for flights, airports, and situations where cooking wasn't possible. Very handy and mess-free.</p>
+        </li>
       </ul>
       <p>Fresh yogurt, fruits, and vegetables were easily available everywhere in Chiang Mai. I've also shared more food recommendations in my blog <a href="/thailand/chiang-mai-best-cafes-food-guide">"Best Cafés & Food to Try in Chiang Mai."</a></p>
 
       <h3>Travel Bottles & Cleaning Essentials</h3>
       <ul>
-        <li><strong>Travel-friendly squeeze bottles</strong> — I bought these from Amazon and used them to pack body wash and dishwashing liquid. Extremely useful and leak-proof. <a href="https://www.amazon.in/SKYWORK-Toiletries-Containers-Leak-Proof-Conditioner/dp/B0DTDTGB9H" target="_blank" rel="noopener noreferrer">Shop here</a></li>
-        <li><strong>Handwash</strong> — Very essential while travelling with a baby. <a href="https://mothersparsh.com/products/crayon-hand-wash" target="_blank" rel="noopener noreferrer">Shop here</a></li>
+        <li>
+          <strong>Travel-friendly squeeze bottles</strong>
+          <p>I bought these from Amazon and used them to pack body wash and dishwashing liquid. Extremely useful and leak-proof.</p>
+          <p>👉 <a href="https://www.amazon.in/SKYWORK-Toiletries-Containers-Leak-Proof-Conditioner/dp/B0DTDTGB9H" target="_blank" rel="noopener noreferrer">Travel Squeeze Bottles</a></p>
+        </li>
+        <li>
+          <strong>Handwash</strong>
+          <p>Very essential while travelling with a baby.</p>
+          <p>👉 <a href="https://mothersparsh.com/products/crayon-hand-wash" target="_blank" rel="noopener noreferrer">Handwash</a></p>
+        </li>
       </ul>
 
       <h3>Medicines: Don't Skip This</h3>
       <p>Carry all prescription-based medicines — including for fever, cold, tummy pain, vomiting, and motion sickness. Medicine compositions vary from country to country, so it's best to be prepared when travelling internationally with a baby.</p>
       <ul>
-        <li><strong>Kids medicine storage kit</strong> — <a href="https://www.firstcry.com/fancy-fluff/fancy-fluff-organic-medicine-kit-cuddle-bear/19403184/product-detail" target="_blank" rel="noopener noreferrer">Shop here</a></li>
+        <li>
+          <strong>Kids medicine storage kit</strong>
+          <p>👉 <a href="https://www.firstcry.com/fancy-fluff/fancy-fluff-organic-medicine-kit-cuddle-bear/19403184/product-detail" target="_blank" rel="noopener noreferrer">Medicine Storage Kit</a></p>
+        </li>
       </ul>
 
       <h3>Toys: A Must for Baby Travel</h3>
-      <p>Make sure to pack a few toys. They help keep your baby engaged during short road trips, flights, and even hotel downtime. If you're a mother, you already know how important this is.</p>
+      <p>Make sure to pack a few toys. They help keep your baby engaged during short road trips, flights, and even hotel downtime. If you're a mother, you already know how important this is 😊</p>
 
       <h3>Clothing Essentials for Baby in Chiang Mai</h3>
       <ul>
@@ -794,7 +651,7 @@ export const posts: BlogPost[] = [
       <h3>A Note on Milk & Feeding</h3>
       <p>You might notice I haven't mentioned milk or milk bottles. I'm a breastfeeding mom, and I found direct breastfeeding much more convenient and peaceful while travelling compared to pumping. It saved luggage space and a lot of time during travel.</p>
 
-      <figure class="image-full">
+      <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/37-DSC06281.jpg" alt="Mother holding baby with elephant at Chai Lai Sanctuary" />
         <figcaption>Even elephant sanctuaries in Chiang Mai are baby-friendly</figcaption>
       </figure>
@@ -806,95 +663,9 @@ export const posts: BlogPost[] = [
 
       <p>You may also find these useful:</p>
       <ul>
-        <li><a href="/thailand/chiang-mai-flights-visa-transport-india">Flights and visa tips for Indians visiting Chiang Mai</a></li>
         <li><a href="/thailand/chiang-mai-6-day-itinerary-with-baby">Our complete Chiang Mai itinerary</a></li>
         <li><a href="/thailand/chiang-mai-best-cafes-food-guide">Cafés and food options suitable for families</a></li>
       </ul>
-    `,
-  },
-
-  // Blog 6: Flights, Visa & Transport
-  {
-    slug: "chiang-mai-flights-visa-transport-india",
-    title: "Flights, Visa & Transport Tips for Indians Visiting Chiang Mai",
-    excerpt:
-      "Everything Indian travellers need to know before visiting Chiang Mai — flights, visa basics, airport transfers, and local transport tips.",
-    coverImage: "/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/76-airport_food_avacado_salad(garden-quinoa-avacado-salad).jpg",
-    date: "2026-01-10",
-    readingTime: "4 min read",
-    destination: "Chiang Mai",
-    country: "thailand",
-    tripTypes: ["Culture"],
-    content: `
-      <p>Before planning a trip to Chiang Mai from India, it helps to understand flight routes, visa basics, and local transport options. With no direct flights, a little planning goes a long way.</p>
-
-      <p>This guide shares practical information on flights, visas, airport transfers, and getting around Chiang Mai based on our personal experience.</p>
-
-      <div class="blog-instagram-cta">
-        <p class="cta-tagline">Follow along on</p>
-        <p class="cta-title">Instagram</p>
-        <p class="cta-description">For more travel moments, behind-the-scenes, and daily wanderlust</p>
-        <a href="https://www.instagram.com/herjourneysbyki/" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          @herjourneysbyki
-        </a>
-      </div>
-
-      <figure class="image-full">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/76-airport_food_avacado_salad(garden-quinoa-avacado-salad).jpg" alt="Airport food — avocado quinoa salad at PAUL" />
-        <figcaption>A quick bite at the airport before our flight</figcaption>
-      </figure>
-
-      <h2>Flights from India</h2>
-      <p>There are no direct flights from India to Chiang Mai. Most routes go via Bangkok. We flew with <strong>Thai Airways</strong>, which was comfortable and reliable.</p>
-
-      <p>The total journey from Bangalore was about five and a half hours including the layover. Since we took a midnight flight, our baby slept through most of it.</p>
-
-      <h2>Visa for Indians</h2>
-      <p>Indian passport holders require a visa for Thailand. Depending on current rules, this can be visa-free entry, visa on arrival, or e-visa. <strong>Always check the latest official guidelines before travelling.</strong></p>
-
-      <h2>Getting Around Chiang Mai</h2>
-
-      <h3>Within the City</h3>
-      <p>Within the city, <strong>Grab</strong> worked well for short distances. It's reliable, affordable, and convenient with a baby.</p>
-
-      <h3>Longer Trips</h3>
-      <p>For longer trips like Mae Rim, we hired a local driver through Google, which was convenient and flexible. This worked well for the elephant sanctuary visit and the mountain hotel transfer.</p>
-
-      <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/47-Wat Phra That Doi Suthep.jpg" alt="Wat Phra That Doi Suthep golden temple" />
-        <figcaption>Wat Phra That Doi Suthep — one of the must-visit landmarks in Chiang Mai</figcaption>
-      </figure>
-
-      <h2>Final Thoughts</h2>
-      <p>Once the logistics are sorted, travelling to Chiang Mai from India is fairly straightforward. With reliable flights, easy transport, and a relaxed city layout, it's a comfortable destination even for first-time international travellers.</p>
-
-      <p>You may also want to read:</p>
-      <ul>
-        <li><a href="/thailand/chiang-mai-6-day-itinerary-with-baby">Chiang Mai itinerary for first-time visitors</a></li>
-        <li><a href="/thailand/chiang-mai-baby-travel-tips">Travel tips for visiting Chiang Mai with a baby</a></li>
-        <li><a href="/thailand/chiang-mai-shopping-markets-malls">Best places to shop and eat in Chiang Mai</a></li>
-      </ul>
-
-      <h2>FAQs – Flights & Visa</h2>
-      <div class="faq-section">
-        <div class="faq-item">
-          <h3 class="faq-question">Do Indians need a visa to travel to Thailand?</h3>
-          <p class="faq-answer">Indian passport holders require a visa for Thailand. Depending on current rules, this can be visa-free entry, visa on arrival, or e-visa. Always check the latest official guidelines before travelling.</p>
-        </div>
-        <div class="faq-item">
-          <h3 class="faq-question">Are there direct flights from India to Chiang Mai?</h3>
-          <p class="faq-answer">Currently, there are no direct flights from India to Chiang Mai. Most flights connect via Bangkok.</p>
-        </div>
-        <div class="faq-item">
-          <h3 class="faq-question">Which airlines are best for travelling to Thailand with a baby?</h3>
-          <p class="faq-answer">Full-service airlines like Thai Airways are comfortable for travelling with a baby, offering better seating comfort and smoother transit experiences.</p>
-        </div>
-        <div class="faq-item">
-          <h3 class="faq-question">Is Chiang Mai a budget-friendly destination?</h3>
-          <p class="faq-answer">Yes, Chiang Mai is budget-friendly. Accommodation, food, transport, and shopping are reasonably priced, making it ideal for both budget and luxury slow travellers.</p>
-        </div>
-      </div>
     `,
   },
 
@@ -935,7 +706,7 @@ export const posts: BlogPost[] = [
 
       <p>By the time we reached Onsen @ Moncham, it had started drizzling. The light rain made the property look even more beautiful and added to the calm, mountain atmosphere.</p>
 
-      <figure class="image-full">
+      <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/9-onsen.jpg" alt="Walking through Onsen @ Moncham property at night in the rain" />
         <figcaption>Arriving at Onsen @ Moncham on a drizzly evening — pure magic</figcaption>
       </figure>
@@ -1011,7 +782,7 @@ export const posts: BlogPost[] = [
         <figcaption>Pancakes with fresh berries — even simple dishes felt special here</figcaption>
       </figure>
 
-      <figure class="image-full">
+      <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/10-onsen(2).jpg" alt="Japanese breakfast set at Onsen @ Moncham" />
         <figcaption>Grilled mackerel breakfast set — fresh and beautifully arranged</figcaption>
       </figure>

@@ -12,8 +12,8 @@ export default function AuthorCard() {
         {/* Author image */}
         <div className="relative w-16 h-16 md:w-20 md:h-20 rounded-full overflow-hidden border-3 border-[var(--cream)] shadow-sm flex-shrink-0">
           <Image
-            src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&q=80"
-            alt="Ki"
+            src="/images/about/kavya.jpeg"
+            alt="Kavya Immaneni"
             fill
             className="object-cover"
             sizes="80px"

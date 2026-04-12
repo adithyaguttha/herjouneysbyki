@@ -494,8 +494,32 @@ html {
   padding-left: 1.5rem;
 }
 
+.blog-content ul {
+  list-style: disc outside;
+}
+
+.blog-content ol {
+  list-style: decimal outside;
+}
+
 .blog-content li {
   margin-bottom: 0.5rem;
+}
+
+.blog-content li > p {
+  margin: 0.25rem 0 0 0;
+}
+
+.blog-content li > strong:first-child + p {
+  margin-top: 0.25rem;
+}
+
+.blog-content li > p:last-child {
+  margin-bottom: 0;
+}
+
+.blog-content li:has(> p) {
+  margin-bottom: 1.25rem;
 }
 
 .blog-content img {

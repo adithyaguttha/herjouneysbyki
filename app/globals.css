@@ -891,6 +891,12 @@ html {
   height: 220px;
 }
 
+.polaroid-collage-grid.polaroid-collage-grid--natural img {
+  height: auto !important;
+  object-fit: contain !important;
+  align-self: center;
+}
+
 .polaroid-collage-caption {
   text-align: center;
   font-family: var(--font-caveat);

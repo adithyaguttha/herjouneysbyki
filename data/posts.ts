@@ -258,14 +258,16 @@ export const posts: BlogPost[] = [
       <h2>Day 3: Elephant Sanctuary & Baby's First Birthday</h2>
       <p>We visited Chai Lai Orchid Elephant Sanctuary early in the morning to celebrate our baby's first birthday. We fed, walked with, and learned about rescued elephants. Lunch was at their café, followed by a relaxed afternoon.</p>
 
-      <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/54-IMG_4670.jpg" alt="Arjun turns one birthday cake" />
-        <figcaption>Celebrating our baby's first birthday in Chiang Mai</figcaption>
-      </figure>
+      <div class="polaroid-collage">
+        <div class="polaroid-collage-grid polaroid-collage-grid--natural" style="align-items: stretch;">
+          <img src="/images/elephant images/DSC06232.jpg" alt="Baby meeting an elephant at Chai Lai Orchid Sanctuary" style="width: 100%; height: 100%; object-fit: cover;" />
+          <img src="/images/elephant images/DSC06569.jpg" alt="Feeding an elephant at Chai Lai Orchid Sanctuary" style="width: 100%; height: auto; object-fit: contain;" />
+        </div>
+      </div>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/33-DSC06173.jpg" alt="Family with elephants at Chai Lai Orchid Sanctuary" />
-        <figcaption>A meaningful morning at Chai Lai Orchid Elephant Sanctuary</figcaption>
+        <figcaption>Moments at the Elephant Sanctuary</figcaption>
       </figure>
 
       <p>Dinner back in the city was Khao Soi at Khao Soi Nimman — the must-try dish of Northern Thailand.</p>

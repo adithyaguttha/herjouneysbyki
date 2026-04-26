@@ -49,8 +49,8 @@ export const posts: BlogPost[] = [
       </div>
 
       <figure class="image-full">
-        <img src="/images/coonoor/mystic_morning.jpg" alt="Misty Nilgiri mountains at dawn" />
-        <figcaption>The magical misty mornings of the Nilgiris</figcaption>
+        <img src="/images/coonoor/IMG_6187.jpeg" alt="Misty Nilgiri mountains at dawn" />
+        <figcaption>Mornings of the Nilgiris</figcaption>
       </figure>
 
       <h2>Day 1 – The Drive, Ooty Lunch & Settling into Chloe Cottage</h2>
@@ -69,7 +69,7 @@ export const posts: BlogPost[] = [
 
       <figure class="image-full">
         <img src="/images/coonoor/cottage14.jpg" alt="Chloe Cottage garden with flowers in bloom" />
-        <figcaption>Chloe Cottage - our cozy home in the Nilgiris</figcaption>
+        <figcaption>Chloe Cottage - our home in Nilgiris</figcaption>
       </figure>
 
       <p>Chloe Cottage, tucked away in the Nilgiris mountains near Coonoor town, was our home for the trip. The property is charming, calm, and ideal for a family of three. The interiors carry vintage English vibes with tasteful décor, while the lush, well-maintained garden is perfect for slow outdoor moments. The compact kitchen is fully equipped, making it convenient to prepare quick meals—especially for a baby.</p>
@@ -82,7 +82,7 @@ export const posts: BlogPost[] = [
 
       <figure class="image-center">
         <img src="/images/coonoor/food1.jpg" alt="Homely South Indian dinner at Chloe Cottage" />
-        <figcaption>Homely comfort food at the cottage</figcaption>
+        <figcaption>Home-style comfort food at the cottage</figcaption>
       </figure>
 
       <h2>Day 2 – Foggy Mornings, Local Finds & Cozy Evenings</h2>
@@ -90,7 +90,7 @@ export const posts: BlogPost[] = [
 
       <figure class="image-full">
         <img src="/images/coonoor/cottage10.jpg" alt="Misty morning view from Chloe Cottage balcony" />
-        <figcaption>Foggy mornings at Chloe Cottage</figcaption>
+        <figcaption>Waking up to this view</figcaption>
       </figure>
 
       <p>Being away from crowded areas, we enjoyed spotting bits of wildlife in the nearby woods. After a hearty breakfast prepared by the chef, we headed into Coonoor town to visit Sri Raghavendra Iyangar Bakery, famous for its chicken leg piece puff. It may sound unusual to visit a bakery early in the morning, but this item sells out by 10 AM—so getting there early is essential.</p>
@@ -123,7 +123,7 @@ export const posts: BlogPost[] = [
 
       <figure class="image-center">
         <img src="/images/coonoor/arjun2.jpg" alt="Family time in the cottage garden" />
-        <figcaption>Unhurried family moments</figcaption>
+        <figcaption>Mornings...</figcaption>
       </figure>
 
       <p>For lunch, we visited Cherrie Berry, and every dish we ordered impressed us. My personal favourites were the avocado fries (yes, avocado in that form!), beetroot edamame salad, and the Cherrie Berry special Sicilian lasagne. We ended the meal with their incredible Kahwah tea, made from a secret blend.</p>
@@ -133,7 +133,7 @@ export const posts: BlogPost[] = [
       <p>In the evening, we visited La Belle Vie @ 180 McIver, made famous by the movie Kapoor & Sons. It's a stunning property and a must-visit spot for sunset. We enjoyed hot chocolate while watching the sky turn golden—a truly serene experience.</p>
 
       <figure class="image-full">
-        <img src="https://images.unsplash.com/photo-1495616811223-4d98c6e9c869?w=1200&q=80" alt="Golden sunset at La Belle Vie" />
+        <img src="/images/coonoor/IMG_6188.jpeg" alt="Golden sunset at La Belle Vie" />
         <figcaption>Golden hour at La Belle Vie @ 180 McIver</figcaption>
       </figure>
 
@@ -150,11 +150,6 @@ export const posts: BlogPost[] = [
       <p>This Coonoor trip was exactly what we needed—slow, peaceful, and deeply comforting. From misty mornings and soulful food to cozy evenings and unhurried moments, everything felt just right. It reminded us that the best trips aren't about ticking places off a list, but about slowing down, soaking in the present, and making memories—especially with family.</p>
 
       <p>Until next time, Nilgiris. You were gentle, warm, and unforgettable.</p>
-
-      <figure class="image-full">
-        <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=1200&q=80" alt="Nilgiri hills landscape" />
-        <figcaption>Until we meet again, Nilgiris</figcaption>
-      </figure>
 
       <p>Planning a Coonoor trip with a toddler? I hope this 4-day Coonoor itinerary helps you plan a relaxed and family-friendly Nilgiris getaway. Feel free to leave a comment or reach out if you have questions—I'd be happy to help you plan your mountain escape.</p>
 
@@ -182,7 +177,7 @@ export const posts: BlogPost[] = [
   // Blog 1: Main Hub - 6-Day Itinerary
   {
     slug: "chiang-mai-6-day-itinerary-with-baby",
-    title: "Our 6-Day Chiang Mai Itinerary with a One-Year-Old (Slow Travel Guide)",
+    title: "6 Days in Chiang Mai with a Toddler: Culture, Markets & Mountain Calm",
     excerpt:
       "Our first international trip with a baby — covering cafés, markets, temples, elephant sanctuary, and a mountain stay. A detailed slow travel guide for families.",
     coverImage: "/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/39-DSC06386.jpg",
@@ -193,9 +188,9 @@ export const posts: BlogPost[] = [
     tripTypes: ["Nature", "Culture", "Food", "Relaxation"],
     highlightWord: "Chiang Mai",
     content: `
-      <p>Travelling internationally with a baby can feel overwhelming, especially for the first time. For our first overseas trip with our one-year-old, we chose <span class="pencil-circle-dark">Chiang Mai</span> — a quieter, culturally rich part of Thailand that felt perfect for slow travel.</p>
+      <p>This was our very first international trip with our little one, and we consciously kept it short and slow. <span class="pencil-circle-dark">Chiang Mai</span> felt like the right choice—quiet, cultural, scenic, and far less chaotic than Thailand's southern tourist hubs.</p>
 
-      <p>This was our first international trip with our one-year-old, and we wanted it to be calm, manageable, and meaningful.</p>
+      <p>Since there are no direct flights from Bangalore to Chiang Mai, we flew via Bangkok on a midnight flight. The journey felt surprisingly easy, largely because our little one slept through most of it. By the time we landed in Chiang Mai, it still felt unreal how smooth everything had been.</p>
 
       <div class="blog-instagram-cta">
         <p class="cta-tagline">Follow along on</p>
@@ -207,56 +202,63 @@ export const posts: BlogPost[] = [
         </a>
       </div>
 
-      <p>While most travellers visiting Thailand head to the southern destinations like Bangkok, Phuket, Krabi or Koh Samui, we chose Chiang Mai — the quieter, untouched part of Thailand known for its serene landscapes, Northern Thai culture, and incredible food.</p>
+      <h2>Day 1: First Day in Chiang Mai — Nimman Vibes, Food Finds & Slow Travel Begins</h2>
+      <p>We reached our hotel in Nimman by late morning. The neighborhood immediately stood out—lively yet relaxed, with everything within walking distance.</p>
 
-      <p>We planned a 6-day trip, keeping things slow since it was our first time travelling internationally with a baby.</p>
-
-      <h2>Getting There</h2>
-      <p>There is no direct flight from Bangalore to Chiang Mai, so we flew via Bangkok. The total journey wasn't too long — five and a half hours. Since it was a midnight flight, our baby slept through most of it. We used an airplane footrest for kids, which worked really well and didn't require airline approval.</p>
-
-      <p>We reached Bangkok, transferred quickly, and landed in Chiang Mai by 8:45 AM.</p>
-
-      <h2>Day 1: Arrival, One Nimman & White Market</h2>
-      <p>From the airport we arrived at our hotel by 10:30 AM. We stayed at Novotel, which is budget-friendly, comfortable, and located close to One Nimman and Maya Mall. While my husband handled check-in, I fed our baby breakfast.</p>
-
-      <p>Lunch was at Ginger Farm Kitchen in One Nimman. The presentation was beautiful, though the flavours weren't entirely to my taste. They kindly prepared steamed pumpkin for our baby. We rested in the afternoon.</p>
+      <p>After a slow start to the day, we headed to One Nimman for lunch at Ginger Farm Kitchen, a Michelin-recognized restaurant known for its traditional Northern Thai recipes made with organic, farm-grown ingredients. While the presentation was beautiful, the flavors didn't entirely align with our palate.</p>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/15-ginger_farm_kitchen(1).jpg" alt="Interior of Ginger Farm Kitchen in Chiang Mai" />
         <figcaption>Ginger Farm Kitchen</figcaption>
       </figure>
 
-      <p>In the evening, we explored Rimping Supermarket at Maya Mall, grabbed bakery items from Saint Etoile, and later walked around One Nimman and the weekend White Market. Dinner was from the food stalls, and Kanom Krok was a highlight. We ended the night watching a live band.</p>
+      <p>The afternoon was intentionally unhurried, allowing us time to rest and settle in.</p>
+
+      <p>By evening, we stepped out to explore Maya Mall and the surrounding area. The space felt vibrant, especially the ground floor, which was packed with food options. Later, we wandered back into One Nimman and discovered the White Market—a Japanese-inspired weekend market filled with handmade, thoughtfully designed products. These markets run only on weekends, and we had planned our itinerary specifically to experience them.</p>
+
+      <p>Dinner was from the food stalls within the complex, offering everything from local desserts to international dishes. Kanom Krok was unforgettable.</p>
+
+      <p>The evening unfolded slowly, with street food, music, and a relaxed crowd setting the tone for the days ahead.</p>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/7-one_nimman_cropped.jpg" alt="One Nimman walkway in Chiang Mai" />
         <figcaption>One Nimman, Chiang Mai</figcaption>
       </figure>
 
-      <h2>Day 2: Jing Jai Market & Doi Suthep Sunset</h2>
-      <p>Breakfast was at Sun Rays Café — great vibe and presentation. We then spent most of the day at Jing Jai Market, a weekend market focused on sustainable, handmade local products. We ate Phat Kaphrao at Tops Green and continued shopping.</p>
+      <h2>Day 2: Sustainable Finds & Sunset Views — Jing Jai Market to Doi Suthep</h2>
+      <p>The day started with breakfast at Sun Rays Café, a quaint and charming spot with beautiful table settings.</p>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/3-food_sun_rays(French Toast).jpg" alt="French Toast with tropical fruits at Sun Rays Café" />
         <figcaption>French toast at Sun Rays Café</figcaption>
       </figure>
 
+      <p>We eased into the morning before heading to Jing Jai Weekend Market. Like the White Market, this too is held only on weekends, and planning around it turned out to be one of the best decisions of the trip.</p>
+
+      <p>The market went far beyond expectations. Rooted in sustainability, it brings together local artisans, organic produce, handmade goods, and thoughtfully created products—without the usual tourist clutter. Everything felt intentional, minimal, and deeply connected to local culture.</p>
+
       <figure class="image-full">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/26-jianjai.jpg" alt="Jing Jai Market entrance in Chiang Mai" />
         <figcaption>Jing Jai Market — sustainable shopping at its best</figcaption>
       </figure>
 
-      <p>In the evening, we visited Wat Phra That Doi Suthep by cable car for sunset. The temple was calm, and the city views were beautiful. We managed our baby's meals using a portable kettle.</p>
+      <p>We spent hours simply walking through it, taking in the textures, colors, and craftsmanship. It didn't feel like a market to rush through, but one to experience slowly.</p>
+
+      <p>By evening, we made our way up to Wat Phra That Doi Suthep. Set high above the city, the temple overlooks Chiang Mai in a way that instantly shifts the pace. The climb, the breeze, and the golden structures catching the last light of the day all felt calm and grounding.</p>
 
       <figure class="image-full">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/47-Wat Phra That Doi Suthep.jpg" alt="Wat Phra That Doi Suthep golden temple at night" />
         <figcaption>The golden Wat Phra That Doi Suthep at sunset</figcaption>
       </figure>
 
+      <p>As the sun set, the city below slowly transitioned into evening, while the temple remained quiet and still.</p>
+
       <p><em>Read more about <a href="/thailand/chiang-mai-best-cafes-food-guide">cafés and food spots we loved in Chiang Mai</a>.</em></p>
 
-      <h2>Day 3: Elephant Sanctuary & Baby's First Birthday</h2>
-      <p>We visited Chai Lai Orchid Elephant Sanctuary early in the morning to celebrate our baby's first birthday. We fed, walked with, and learned about rescued elephants. Lunch was at their café, followed by a relaxed afternoon.</p>
+      <h2>Day 3: A Birthday to Remember — Ethical Elephant Sanctuary Experience</h2>
+      <p>This day marked our little one's first birthday, and we chose to spend it at an ethical elephant sanctuary—Chai Lai Orchid, located away from the city.</p>
+
+      <p>The experience was simple, raw, and deeply moving. We spent time with the elephants—feeding them, walking alongside them, and watching them interact within their natural environment.</p>
 
       <div class="polaroid-collage">
         <div class="polaroid-collage-grid polaroid-collage-grid--natural" style="align-items: stretch;">
@@ -270,28 +272,58 @@ export const posts: BlogPost[] = [
         <figcaption>Moments at the Elephant Sanctuary</figcaption>
       </figure>
 
-      <p>Dinner back in the city was Khao Soi at Khao Soi Nimman — the must-try dish of Northern Thailand.</p>
+      <p>The sanctuary focuses on rescue and rehabilitation while also supporting local communities, which made the visit even more meaningful.</p>
 
-      <h2>Day 4: Mountain Retreat at Onsen @ Moncham</h2>
-      <p>We moved to Mae Rim for a mountain stay at Onsen @ Moncham, a Japanese-inspired luxury hotel. After stopping at Roon Café, we checked into our Grand Terrace Suite with a private outdoor onsen. The drizzle, cool weather, and hot springs made the experience unforgettable.</p>
+      <p>After feeding, we walked alongside the elephants through their habitat and visited the river where they bathe. We met locals who have protected these animals and lands for generations.</p>
+
+      <p>After the tour, we had lunch at the Chai Lai café, which was decent. While my husband went for an ATV ride, our little one and I rested in the shade and played with friendly dogs on the property.</p>
+
+      <p>By evening, we returned to the city and went to Khao Soi Nimman for dinner. While it's Michelin-recognized, I personally preferred the Khao Soi I had earlier at the airport food court. We walked back to the hotel, enjoying the pleasant Nimman neighborhood.</p>
+
+      <h2>Day 4: Into the Mountains — Luxury Onsen Stay in Mae Rim</h2>
+      <p>This day marked a shift—from the city into the mountains.</p>
+
+      <p>We drove out to Mae Rim, where the landscape slowly changed—denser greens, cooler air, and a noticeable stillness. A short stop along the way offered expansive mountain views, setting the tone for what was to come.</p>
+
+      <p>Our stay at Onsen@Moncham, a Japanese-inspired resort, felt like stepping into a different world. By the time we arrived, a light drizzle had settled over the property, making everything feel softer and more atmospheric.</p>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/9-onsen.jpg" alt="Onsen @ Moncham at night" />
         <figcaption>Our mountain retreat at Onsen @ Moncham</figcaption>
       </figure>
 
+      <p>The highlight was the private onsen—set against the mountains, with mist rising and rain gently falling. Time seemed to slow down completely here.</p>
+
+      <p>The rest of the evening carried that same sense of quiet luxury, allowing us to fully settle into the stillness of the mountains.</p>
+
       <p><em>This stay deserves its own post — read our detailed <a href="/thailand/chiang-mai-onsen-moncham-luxury-stay">Onsen @ Moncham review</a>.</em></p>
 
-      <h2>Day 5: Farms, Gardens & Return to City</h2>
-      <p>After a beautifully prepared breakfast, we explored Mae Khee Sheep Farm, Jin Ju Orange Farm, and nearby flower gardens. We returned to the hotel in the evening and later went back to Chiang Mai city for our final night.</p>
+      <h2>Day 5: Slow Mountain Day — Farms, Flowers & Hidden Gems of Mae Rim</h2>
+      <p>The morning began unhurried, matching the pace of the mountains.</p>
+
+      <p>We explored the surrounding areas of Mae Rim—open spaces, small farms, and stretches of landscape that felt untouched and calm.</p>
+
+      <p>One of our stops was Mae Khee Sheep Farm, originally planned for our little one, but it turned out to be enjoyable for all of us.</p>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/68-mae_kee_sheep_house.jpg" alt="Mae Khee Sheep Farm in Mae Rim" />
         <figcaption>Exploring the farms around Mae Rim</figcaption>
       </figure>
 
-      <h2>Day 6: Final Shopping & Departure</h2>
-      <p>We spent our last few hours shopping at Maya Mall before heading to the airport.</p>
+      <p>From there, we visited Jin Ju Orange Farm. While it looked beautiful in pictures, it felt underwhelming in reality—especially since it was off-season, with no oranges to pick. The costumes available for rent were worn out, and while the drinks were decent, there wasn't much to do. Hiring their in-house photographer requires prior booking, which we couldn't arrange on the spot.</p>
+
+      <p>Along the way, we also stopped at nearby flower gardens, including the Yin Yang Flower Garden. These added bursts of color against the greens, making the entire region feel scenic and layered.</p>
+
+      <p>By evening, we were back at the resort, walking through its quiet corners. A small lake, animals moving freely, and the stillness of the surroundings made the entire setting feel quietly surreal. Rabbits hopped around an island at the center, while black swans moved slowly across the water, adding to the calm atmosphere.</p>
+
+      <p>Later that night, we returned to Chiang Mai city and checked back in for our final stay.</p>
+
+      <h2>Day 6: Last Moments in Chiang Mai — Shopping, Souvenirs & Goodbye</h2>
+      <p>The final day felt shorter than it should have.</p>
+
+      <p>Before heading to the airport, we spent some time at Maya Mall—trying to take in just a little more of the city before leaving. It felt like the kind of place you could return to and still discover something new.</p>
+
+      <p>As we left Chiang Mai, the trip felt exactly how we had hoped it would—slow, grounding, and quietly memorable. A first international journey with our little one that felt less about ticking places off a list, and more about experiencing them at our own pace.</p>
 
       <h2>Final Thoughts</h2>
       <p>Chiang Mai turned out to be an ideal destination for our first international trip with a baby — slow-paced, welcoming, and easy to navigate. With thoughtful planning and a flexible itinerary, travelling with a toddler felt manageable and enjoyable.</p>
@@ -324,66 +356,6 @@ export const posts: BlogPost[] = [
     `,
   },
 
-  // Mini Blog: Condensed 6-Day Chiang Mai Itinerary
-  {
-    slug: "chiang-mai-6-day-slow-travel-guide",
-    title: "Our 6-Day Chiang Mai Itinerary with a One-Year-Old (Slow Travel Guide)",
-    excerpt:
-      "Planning Chiang Mai with a baby? Here's our detailed 6-day itinerary covering cafés, markets, temples, elephant sanctuary, mountain stays, and travel tips for first-time parents.",
-    coverImage: "/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/66-sheepfarm.jpg",
-    date: "2026-02-19",
-    readingTime: "5 min read",
-    destination: "Chiang Mai",
-    country: "thailand",
-    tripTypes: ["Nature", "Culture", "Food", "Relaxation"],
-    highlightWord: "Slow Travel",
-    content: `
-      <p>This was our first international trip with our one-year-old, and we wanted it to be calm, manageable, and meaningful.</p>
-
-      <p>While most travellers visiting Thailand head to the southern destinations like Bangkok, Phuket, Krabi, or Koh Samui, we chose Chiang Mai — the quieter, untouched part of Thailand known for its serene landscapes, Northern Thai culture, and incredible food.</p>
-
-      <p>We planned a 6-day trip, keeping things slow since it was our first time travelling internationally with a baby.</p>
-
-      <p>There is no direct flight from Bangalore to Chiang Mai, so we flew via Bangkok. The total journey wasn't too long — five and a half hours. Since it was a midnight flight, our baby slept through most of it. We used an airplane footrest for kids, which worked really well and didn't require airline approval.</p>
-
-      <p>We reached Bangkok, transferred quickly, and landed in Chiang Mai by 8:45 AM.</p>
-
-      <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/elephant.jpg" alt="Feeding a baby elephant at Chai Lai Orchid Sanctuary" />
-        <figcaption>One of the highlights of our Chiang Mai trip — Chai Lai Orchid Elephant Sanctuary</figcaption>
-      </figure>
-
-      <h2>Day 1</h2>
-      <p>From the airport, we arrived at our hotel by 10:30 AM. We stayed at Novotel, which is budget-friendly, comfortable, and located close to One Nimman and Maya Mall. While my husband handled check-in, I fed our baby breakfast.</p>
-
-      <p>Lunch was at Ginger Farm Kitchen in One Nimman. The presentation was beautiful, though the flavours weren't entirely to my taste. They kindly prepared steamed pumpkin for our baby. We rested in the afternoon.</p>
-
-      <p>In the evening, we explored Rimping Supermarket at Maya Mall, grabbed bakery items from Saint Etoile, and later walked around One Nimman and the weekend White Market. Dinner was from the food stalls, and Kanom Krok was a highlight. We ended the night watching a live band.</p>
-
-      <h2>Day 2</h2>
-      <p>Breakfast was at Sun Rays Café — great vibe and presentation. We then spent most of the day at Jing Jai Market, a weekend market focused on sustainable, handmade local products. We ate Phat Kaphrao at Tops Green and continued shopping.</p>
-
-      <p>In the evening, we visited Wat Phra That Doi Suthep by cable car for sunset. The temple was calm, and the city views were beautiful. We managed our baby's meals using a portable kettle.</p>
-
-      <h2>Day 3</h2>
-      <p>We visited Chai Lai Orchid Elephant Sanctuary early in the morning to celebrate our baby's first birthday. We fed, walked with, and learned about rescued elephants. Lunch was at their café, followed by a relaxed afternoon. Dinner back in the city was Khao Soi at Khao Soi Nimman.</p>
-
-      <h2>Day 4</h2>
-      <p>We moved to Mae Rim for a mountain stay at Onsen@Moncham, a Japanese-inspired luxury hotel. After stopping at Roon Café, we checked into our Grand Terrace Suite with a private outdoor onsen. The drizzle, cool weather, and hot springs made the experience unforgettable.</p>
-
-      <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/9-onsen.jpg" alt="Onsen @ Moncham at night" />
-        <figcaption>The magical Onsen @ Moncham on a rainy evening</figcaption>
-      </figure>
-
-      <h2>Day 5</h2>
-      <p>After a beautifully prepared breakfast, we explored Mae Khee Sheep Farm, Jin Ju Orange Farm, and nearby flower gardens. We returned to the hotel in the evening and later went back to Chiang Mai city for our final night.</p>
-
-      <h2>Day 6</h2>
-      <p>We spent our last few hours shopping at Maya Mall before heading to the airport.</p>
-    `,
-  },
-
   // Blog 2: Cafés & Food Guide
   {
     slug: "chiang-mai-best-cafes-food-guide",
@@ -399,7 +371,7 @@ export const posts: BlogPost[] = [
     content: `
       <p>Chiang Mai has one of the most relaxed and enjoyable food scenes in Thailand. From thoughtfully designed cafés to vibrant local markets and Michelin-listed restaurants, the city offers something for every kind of traveller.</p>
 
-      <p>This guide shares the cafés, bakeries, food markets, and restaurants we personally tried during our stay in Chiang Mai, including baby-friendly and casual dining options.</p>
+      <p>This blog shares the cafés, bakeries, food markets, and restaurants we personally tried during our stay, including baby-friendly and casual dining options.</p>
 
       <div class="blog-instagram-cta">
         <p class="cta-tagline">Follow along on</p>
@@ -416,50 +388,53 @@ export const posts: BlogPost[] = [
         <figcaption>Sun Rays Café — a charming breakfast spot in Chiang Mai</figcaption>
       </figure>
 
-      <p>Chiang Mai has one of the most relaxed café cultures in Thailand. From quiet breakfast cafés to buzzing food markets, eating here feels unhurried and enjoyable.</p>
-
-      <p>Sun Rays Café was our breakfast stop — a small, charming café with beautiful food presentation. While the French toast looked great but felt slightly dry, the overall vibe made it worth visiting.</p>
+      <p>Sun Rays Café was our breakfast stop—a small, charming café with beautiful food presentation. While the French toast looked great, it felt slightly dry. However, the overall vibe made it worth visiting.</p>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/3-food_sun_rays(French Toast).jpg" alt="French Toast with tropical fruits at Sun Rays Café" />
-        <figcaption>The stunning French toast platter at Sun Rays</figcaption>
+        <figcaption>French toast</figcaption>
       </figure>
 
-      <p>Ginger Farm Kitchen at One Nimman is Michelin-listed and focuses on Northern Thai food made without MSG or artificial ingredients.</p>
+      <p>Ginger Farm Kitchen at One Nimman is Michelin-listed and focuses on Northern Thai food made without MSG or artificial ingredients. The ingredients are farm-fresh and carefully selected.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/5-ginger_farm_kitchen.jpg" alt="Pad Thai at Ginger Farm Kitchen" />
-        <figcaption>Beautifully presented Pad Thai at Ginger Farm Kitchen</figcaption>
+        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/5-ginger_farm_kitchen_landscape.jpg" alt="Pad Thai at Ginger Farm Kitchen" />
+        <figcaption>Pad Thai</figcaption>
       </figure>
 
-      <p>Chom Café is one of the most Instagrammable cafés in Chiang Mai, and the food here is decent as well.</p>
+      <p>Chom Café is one of the most Instagrammable cafés in Chiang Mai, and the food here is decent as well. The place feels like something out of a mystery land, with mist all around—giving you a main-character moment while clicking pictures.</p>
 
-      <p>Early Owls Café is a lovely spot for a family picnic. They provide a nice seating setup where you can choose a spot on the lawn and create your own picnic-style arrangement. In the evening, we visited just for coffee and to relax, while our kid enjoyed the large green space to walk and crawl around.</p>
+      <p>Early Owls Café is a lovely spot for a family picnic. They provide a nice seating setup where you can choose a spot on the lawn and create your own picnic-style arrangement. We visited in the evening just for coffee and to relax, while our child enjoyed the large green space to walk and crawl around.</p>
+
+      <p>Rimping Supermarket is where you can find a wide variety of Thailand snacks and fresh groceries—even the cut fruit here looks too cute to eat. The ground floor of Maya Lifestyle Shopping Center is a food destination by itself—it truly feels like you can taste all of Thailand in one place. The Saint Etoile Bakery inside is a must-visit, especially for their sweet potato bread.</p>
+
+      <div class="polaroid-collage">
+        <div class="polaroid-collage-grid polaroid-collage-grid--natural" style="align-items: stretch;">
+          <figure style="margin: 0; text-align: center;">
+            <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/30-food(Sweet_potato_bread).jpg" alt="Sweet potato bread at Saint Etoile bakery" style="width: 100%; height: 100%; object-fit: cover;" />
+            <figcaption style="font-family: var(--font-caveat); font-size: 1.1rem; color: var(--warm-brown); margin-top: 0.75rem;">Yummy Sweet potato</figcaption>
+          </figure>
+          <figure style="margin: 0; text-align: center;">
+            <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/IMG_4602.jpeg" alt="Beautifully cut fruit platter at Rimping Supermarket" style="width: 100%; height: 100%; object-fit: cover;" />
+            <figcaption style="font-family: var(--font-caveat); font-size: 1.1rem; color: var(--warm-brown); margin-top: 0.75rem;">Cut fruit too cute to eat</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <p>Jing Jai Market is excellent for local food, especially phat kaphrao at Tops Green. On special request, the chef prepared a vegan version with tofu for us, and it was delicious.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/6-ginger_fRm_kitchen_toddler_food.jpg" alt="Baby-friendly food setup at Ginger Farm Kitchen" />
-        <figcaption>Baby-friendly dining — steamed pumpkin and kid cutlery at Ginger Farm Kitchen</figcaption>
+        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/27-jing_jai_market.jpg" alt="Coconut dessert at a Jing Jai Market food stall" />
+        <figcaption>At Jing Jai Market</figcaption>
       </figure>
 
-      <p>Rimping Supermarket at Maya Mall is a food destination by itself — it truly feels like you can taste all of Thailand in one place. The Saint Etoile bakery inside is a must-visit, especially for their sweet potato bread.</p>
+      <p>Khao Soi Nimman is a popular stop for Northern Thai specialties, especially khao soi (curry noodle soup). Honestly, I found the khao soi I had at the airport more enjoyable—but that's just my personal opinion, as many people recommend this place for its popularity and Michelin recognition.</p>
 
-      <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/30-food(Sweet_potato_bread).jpg" alt="Sweet potato bread at Saint Etoile bakery" />
-        <figcaption>The famous sweet potato bread from Saint Etoile</figcaption>
-      </figure>
-
-      <p>Jing Jai Market is excellent for local food, especially Phat Kaphrao at Tops Green. For Northern Thai specialties, Khao Soi Nimman is a popular stop, though flavours are subjective.</p>
-
-      <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/55-thailand_sticky_rice_mango_desert.jpg" alt="Mango sticky rice dessert" />
-        <figcaption>Mango sticky rice — a must-try Thai dessert</figcaption>
-      </figure>
-
-      <p>The food courts at One Nimman and Maya Mall are great for families, with plenty of dessert and kid-friendly options like crepes, dim sums, local desserts, continental food, and fresh fruit.</p>
+      <p>The food courts at One Nimman and Maya Lifestyle Shopping Center are great for families, with plenty of dessert and kid-friendly options like crepes, dim sum, local desserts, continental food, and fresh fruit.</p>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/11-food_one_nimman(Kanom_krok).jpg" alt="Kanom Krok at One Nimman" />
-        <figcaption>Kanom Krok — a popular street food snack</figcaption>
+        <figcaption>Kanom Krok</figcaption>
       </figure>
 
       <h2>Final Thoughts</h2>
@@ -495,7 +470,7 @@ export const posts: BlogPost[] = [
   // Blog 5: Baby Travel Tips
   {
     slug: "chiang-mai-baby-travel-tips",
-    title: "Chiang Mai with a Baby: Travel Tips & Products That Helped Us",
+    title: "Travelling to Chiang Mai with a Baby: Tips, Essentials & What Made It Easy",
     excerpt:
       "Travelling to Chiang Mai with a baby? These are the practical tips and products that made our trip easier and stress-free.",
     coverImage: "/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/67-baby-sheep garden cropped.jpg",
@@ -505,9 +480,11 @@ export const posts: BlogPost[] = [
     country: "thailand",
     tripTypes: ["Nature"],
     content: `
-      <p>Travelling with a baby requires extra planning, but the right destination makes all the difference. Chiang Mai felt surprisingly easy to navigate with a toddler, thanks to its relaxed pace and family-friendly spaces.</p>
+      <p>Travelling with a baby requires thoughtful planning—but the right destination makes all the difference. Chiang Mai turned out to be one of the most family-friendly places we've visited in Thailand.</p>
 
-      <p>This post shares practical tips and travel products that helped us manage flights, food, and daily outings while travelling with our one-year-old.</p>
+      <p>From smooth pavements in Nimman to spacious malls and baby-friendly cafés, getting around with a toddler felt surprisingly easy.</p>
+
+      <p>This post shares practical tips, travel essentials, and real experiences that helped us manage flights, food, and daily outings with our one-year-old.</p>
 
       <div class="blog-instagram-cta">
         <p class="cta-tagline">Follow along on</p>
@@ -523,125 +500,116 @@ export const posts: BlogPost[] = [
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/73-onsen-toddler_cropped.jpg" alt="Toddler looking out at mountain views from Onsen @ Moncham" />
       </figure>
 
-      <p>Travelling with a baby requires thoughtful planning, but Chiang Mai is one of the most family-friendly destinations in Thailand. From smooth pavements in Nimman to spacious malls and baby-friendly cafés, travelling to Chiang Mai with a baby felt surprisingly easy.</p>
-
       <h2>What Made This Trip Easier with a Baby</h2>
-      <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/6-ginger_fRm_kitchen_toddler_food.jpg" alt="Baby-friendly dining setup at Ginger Farm Kitchen" />
-        <figcaption>Baby-friendly dining — restaurants in Chiang Mai are very accommodating</figcaption>
-      </figure>
+      <p>A few simple, thoughtful choices made a huge difference:</p>
+      <ul>
+        <li>A <strong>stroller worked perfectly</strong> in Nimman and inside malls</li>
+        <li>Plenty of <strong>kid-friendly food options</strong> were easily available across cafés, markets, and shopping centres</li>
+      </ul>
 
-      <p>A few thoughtful choices made a huge difference during our trip. A stroller worked perfectly in Nimman and inside malls. We also found plenty of kid-friendly food options across markets, cafés, and shopping centres.</p>
+      <h3>Flight Hack That Changed Everything</h3>
+      <p>On long flights, an <strong><a href="https://www.amazon.in/HASTHIP%C2%AE-Airplane-Footrest-Anti-Slip-Accessories/dp/B0CFWYKSDM?th=1" target="_blank" rel="noopener noreferrer">airplane hammock</a></strong> was a complete game-changer for us. It helped our baby sleep comfortably, making the journey smoother for everyone.</p>
 
-      <p>On long flights, an <a href="https://www.amazon.in/HASTHIP%C2%AE-Airplane-Footrest-Anti-Slip-Accessories/dp/B0CFWYKSDM?th=1" target="_blank" rel="noopener noreferrer">airplane hammock</a> was a total game-changer for us. It helped our baby sleep comfortably, making the journey much smoother for everyone. Unlike inflatable footrests, this one doesn't require airline clearance, so you can travel worry-free. Plus, it fits perfectly in a diaper bag.</p>
+      <p>Unlike inflatable footrests, this doesn't require airline approval—so you can travel stress-free. It's compact and fits easily into a diaper bag.</p>
 
-      <p><em>Insider tip: once boarding is complete, look for an empty row. My husband and I did this and placed the footrest in the middle seat, with each of us sitting on either side. It was like our little one had a bed of his own — and we actually slept through the journey without stress or body pain.</em></p>
+      <p><strong>Insider tip:</strong><br/>Once boarding is complete, check for an empty row. We placed the hammock in the middle seat and sat on either side—our baby had a bed-like setup, and we actually managed to sleep without discomfort.</p>
 
       <h2>International Travel Checklist for a 1-Year-Old</h2>
-      <p>This checklist includes baby travel essentials that actually helped us while travelling to Thailand with a toddler.</p>
+      <p>These are the baby travel essentials that genuinely helped us during our trip to Thailand.</p>
 
-      <h3>Feeding & Cooking Essentials for Baby Travel</h3>
+      <h3>Feeding & Cooking Essentials</h3>
 
       <h4>Travel Kettle (Must-Have)</h4>
+      <p>The portable kettle we used was compact and very useful—you can heat water and even cook rice. Since rice is a staple for my baby, this became my holy grail travel item.</p>
       <ul>
-        <li>
-          <strong>Portable travel kettle</strong>
-          <p>The one I bought from Insta Cuppa was compact and had a cute design. You can heat water as well as cook rice in it. Rice is a staple for my baby, so this was truly my holy grail travel product.</p>
-          <p>👉 <a href="https://www.amazon.in/InstaCuppa-Temperature-Control-Automatic-Black/dp/B0D375QJ27" target="_blank" rel="noopener noreferrer">Portable Travel Kettle</a></p>
-        </li>
-        <li>
-          <strong>Multifunctional kettle</strong>
-          <p>From the same brand, this kettle can steam vegetables, prepare porridge, and do much more — ideal for longer international trips.</p>
-          <p>👉 <a href="https://www.amazon.in/InstaCuppa-Kettle-Adjustable-Temperature-Settings/dp/B0C26NH1C7" target="_blank" rel="noopener noreferrer">Multifunction Travel Kettle</a></p>
-        </li>
+        <li><a href="https://www.amazon.in/InstaCuppa-Temperature-Control-Automatic-Black/dp/B0D375QJ27" target="_blank" rel="noopener noreferrer">Portable travel kettle</a></li>
+        <li><a href="https://www.amazon.in/InstaCuppa-Kettle-Adjustable-Temperature-Settings/dp/B0C26NH1C7" target="_blank" rel="noopener noreferrer">Multifunctional kettle</a> (can steam vegetables and make porridge)</li>
       </ul>
 
       <h4>Cutlery & Food Storage</h4>
       <ul>
-        <li>
-          <strong>2-in-1 knife and peeler</strong>
-          <p>This is the best one I found on Amazon and extremely useful while travelling.</p>
-          <p>👉 <a href="https://www.amazon.in/DHULI-Functional-Stainless-Kitchen-Peeler/dp/B0F7B12DWQ" target="_blank" rel="noopener noreferrer">Knife & Peeler</a></p>
-        </li>
+        <li><a href="https://www.amazon.in/DHULI-Functional-Stainless-Kitchen-Peeler/dp/B0F7B12DWQ" target="_blank" rel="noopener noreferrer">2-in-1 knife and peeler</a> (extremely useful while travelling)</li>
         <li>Baby spoons</li>
-        <li>Storage boxes / tiffin boxes for carrying food during day trips</li>
+        <li>Storage/tiffin boxes for day trips</li>
         <li>Water sipper</li>
-        <li>Extra water bottle (to store boiled water and avoid reheating frequently)</li>
+        <li>Extra water bottle (to store boiled water and avoid reheating)</li>
       </ul>
 
-      <h4>Paper Bags (Highly Recommended)</h4>
-      <p>You can never imagine how much mess a baby can make during mealtimes — and when travelling, meals can happen anywhere. Paper bags are lightweight, easy to pack, and perfect for disposing of food mess quickly. You stay clean, stress-free, and avoid complaints from people around you.</p>
-      <p>👉 <a href="https://www.amazon.in/RANUR-Butter-Parchment-Sandwich-Glassine/dp/B0831JNKYG" target="_blank" rel="noopener noreferrer">Paper Bags</a></p>
+      <h4><a href="https://www.amazon.in/RANUR-Butter-Parchment-Sandwich-Glassine/dp/B0831JNKYG" target="_blank" rel="noopener noreferrer">Paper Bags</a> (Highly Recommended)</h4>
+      <p>You can't imagine how much mess a baby can create during meals—especially while travelling. Paper bags are lightweight, easy to pack, and perfect for quick clean-ups anywhere.</p>
 
-      <h3>Hygiene & Mealtime Helpers (Travel Lifesavers)</h3>
+      <h3>Hygiene & Mealtime Helpers (Lifesavers)</h3>
       <ul>
         <li>
-          <strong>Disposable diaper disposal covers</strong>
-          <p>These are excellent for locking in smell. You can store dirty diapers in your diaper bag for hours without worrying about odour or hygiene.</p>
-          <p>👉 <a href="https://www.amazon.in/Sirona-Sanitary-Napkin-Intimate-Disposable/dp/B07SNHQFH8" target="_blank" rel="noopener noreferrer">Disposable Diaper Covers</a></p>
+          <strong><a href="https://www.amazon.in/Sirona-Sanitary-Napkin-Intimate-Disposable/dp/B07SNHQFH8" target="_blank" rel="noopener noreferrer">Disposable diaper disposal covers</a></strong>
+          <p>Great for locking in smell—you can carry used diapers for hours without worrying</p>
         </li>
         <li>
-          <strong>Disposable bibs</strong>
-          <p>Absolute saviours while travelling. No washing, no cleaning, and no need to carry used bibs around. Just pack around 40–50 — they are lightweight and take very little space.</p>
-          <p>👉 <a href="https://www.amazon.in/LITTLE-LOOKERS%C2%AE-Disposable-Feeding-Eco-Friendly/dp/B08521FQ2V" target="_blank" rel="noopener noreferrer">Disposable Bibs</a></p>
+          <strong><a href="https://www.amazon.in/LITTLE-LOOKERS%C2%AE-Disposable-Feeding-Eco-Friendly/dp/B08521FQ2V" target="_blank" rel="noopener noreferrer">Disposable bibs</a></strong>
+          <p>Absolute saviours. No washing, no carrying used bibs—just use and throw</p>
+          <p>(Tip: carry 40–50, they're very lightweight)</p>
         </li>
       </ul>
 
-      <h3>Baby Food We Carried While Travelling to Thailand</h3>
+      <h3>Baby Food We Carried</h3>
 
-      <h4>Porridge Mixes (India-Friendly Options)</h4>
-      <p>If you're travelling from India, these were my go-to baby food options:</p>
+      <h4>Porridge Mixes (India-Friendly)</h4>
+      <p>These worked really well for us:</p>
       <ul>
         <li>Sprouted ragi from Slurrp Farm</li>
-        <li>Toor dal and moong dal khichdi from Little Moppet</li>
+        <li>Toor dal & moong dal khichdi from Little Moppet</li>
       </ul>
-      <p>These are made with pure ingredients, contain no added preservatives, and are easy to prepare. They removed the constant worry of feeding my baby right while travelling.</p>
+      <p>They're made with clean ingredients, easy to prepare, and removed the constant stress of feeding.</p>
 
-      <h4>Ready-to-Eat Baby Food</h4>
+      <h4>Ready-to-Eat Options</h4>
       <ul>
-        <li>
-          <strong>Ella's Kitchen food pouches</strong>
-          <p>These were perfect for flights, airports, and situations where cooking wasn't possible. Very handy and mess-free.</p>
-        </li>
+        <li>Ella's Kitchen food pouches</li>
       </ul>
-      <p>Fresh yogurt, fruits, and vegetables were easily available everywhere in Chiang Mai. I've also shared more food recommendations in my blog <a href="/thailand/chiang-mai-best-cafes-food-guide">"Best Cafés & Food to Try in Chiang Mai."</a></p>
+      <p>Perfect for flights, airports, and situations where cooking isn't possible—very convenient and mess-free.</p>
+
+      <h4>Fresh Food Availability</h4>
+      <p>Fresh yogurt, fruits, and vegetables were easily available across Chiang Mai.</p>
+      <p>For more food options, I've shared detailed recommendations in my blog: <a href="/thailand/chiang-mai-best-cafes-food-guide"><strong>"Best Cafés & Food to Try in Chiang Mai."</strong></a></p>
 
       <h3>Travel Bottles & Cleaning Essentials</h3>
       <ul>
-        <li>
-          <strong>Travel-friendly squeeze bottles</strong>
-          <p>I bought these from Amazon and used them to pack body wash and dishwashing liquid. Extremely useful and leak-proof.</p>
-          <p>👉 <a href="https://www.amazon.in/SKYWORK-Toiletries-Containers-Leak-Proof-Conditioner/dp/B0DTDTGB9H" target="_blank" rel="noopener noreferrer">Travel Squeeze Bottles</a></p>
-        </li>
-        <li>
-          <strong>Handwash</strong>
-          <p>Very essential while travelling with a baby.</p>
-          <p>👉 <a href="https://mothersparsh.com/products/crayon-hand-wash" target="_blank" rel="noopener noreferrer">Handwash</a></p>
-        </li>
+        <li><a href="https://www.amazon.in/SKYWORK-Toiletries-Containers-Leak-Proof-Conditioner/dp/B0DTDTGB9H" target="_blank" rel="noopener noreferrer">Travel-friendly squeeze bottles</a> (for body wash & dishwashing liquid)</li>
+        <li><a href="https://mothersparsh.com/products/crayon-hand-wash" target="_blank" rel="noopener noreferrer">Handwash</a> (a must when travelling with a baby)</li>
       </ul>
 
       <h3>Medicines: Don't Skip This</h3>
-      <p>Carry all prescription-based medicines — including for fever, cold, tummy pain, vomiting, and motion sickness. Medicine compositions vary from country to country, so it's best to be prepared when travelling internationally with a baby.</p>
+      <p>Always carry all essential medicines, including:</p>
       <ul>
-        <li>
-          <strong>Kids medicine storage kit</strong>
-          <p>👉 <a href="https://www.firstcry.com/fancy-fluff/fancy-fluff-organic-medicine-kit-cuddle-bear/19403184/product-detail" target="_blank" rel="noopener noreferrer">Medicine Storage Kit</a></p>
-        </li>
+        <li>Fever</li>
+        <li>Cold</li>
+        <li>Tummy issues</li>
+        <li>Vomiting</li>
+        <li>Motion sickness</li>
+      </ul>
+      <p>Medicine compositions vary across countries, so it's best to be fully prepared.</p>
+      <ul>
+        <li><a href="https://www.firstcry.com/fancy-fluff/fancy-fluff-organic-medicine-kit-cuddle-bear/19403184/product-detail" target="_blank" rel="noopener noreferrer">Kids medicine storage kit</a></li>
       </ul>
 
-      <h3>Toys: A Must for Baby Travel</h3>
-      <p>Make sure to pack a few toys. They help keep your baby engaged during short road trips, flights, and even hotel downtime. If you're a mother, you already know how important this is 😊</p>
-
-      <h3>Clothing Essentials for Baby in Chiang Mai</h3>
+      <h3>Toys: A Must for Travel</h3>
+      <p>Carry a few toys to keep your baby engaged during:</p>
       <ul>
-        <li>Sweater (hardly used due to Chiang Mai weather in September)</li>
+        <li>Flights</li>
+        <li>Road trips</li>
+        <li>Hotel downtime</li>
+      </ul>
+      <p>If you're a parent, you already know how important this is 😊</p>
+
+      <h3>Clothing Essentials for Chiang Mai</h3>
+      <ul>
+        <li>Sweater (barely used in September)</li>
         <li>Socks</li>
-        <li>Caps and beanies</li>
-        <li>Shorts, pants, and shirts</li>
+        <li>Caps & beanies</li>
+        <li>Shorts, pants, shirts</li>
         <li>Extra pairs of clothes (always!)</li>
         <li>Washcloths</li>
       </ul>
-      <p>You can never overpack clothes for a toddler — trust me.</p>
+      <p>You can never overpack clothes for a toddler—trust me.</p>
 
       <h3>Diapering Essentials</h3>
       <ul>
@@ -650,24 +618,15 @@ export const posts: BlogPost[] = [
         <li>Fully packed diaper bag</li>
       </ul>
 
-      <h3>A Note on Milk & Feeding</h3>
-      <p>You might notice I haven't mentioned milk or milk bottles. I'm a breastfeeding mom, and I found direct breastfeeding much more convenient and peaceful while travelling compared to pumping. It saved luggage space and a lot of time during travel.</p>
-
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/37-DSC06281.jpg" alt="Mother holding baby with elephant at Chai Lai Sanctuary" />
         <figcaption>Even elephant sanctuaries in Chiang Mai are baby-friendly</figcaption>
       </figure>
 
-      <h2>Final Thoughts: Is Chiang Mai Good for Babies?</h2>
-      <p>Absolutely yes. Chiang Mai with a baby is not only doable but enjoyable with the right preparation. The city is calm, affordable, and welcoming to families, making it one of the best places in Thailand to travel with a toddler.</p>
+      <h2>A Note on Milk & Feeding</h2>
+      <p>You might notice I haven't mentioned milk or bottles. I'm a breastfeeding mom, and I found direct breastfeeding much more convenient while travelling compared to pumping.</p>
 
-      <p>With simple preparation and realistic expectations, travelling with a baby doesn't have to be stressful. Chiang Mai proved to be a destination where slow travel and family travel fit naturally together.</p>
-
-      <p>You may also find these useful:</p>
-      <ul>
-        <li><a href="/thailand/chiang-mai-6-day-itinerary-with-baby">Our complete Chiang Mai itinerary</a></li>
-        <li><a href="/thailand/chiang-mai-best-cafes-food-guide">Cafés and food options suitable for families</a></li>
-      </ul>
+      <p>It saved luggage space, reduced effort, and made feeding much more peaceful during the trip.</p>
     `,
   },
 
@@ -700,7 +659,6 @@ export const posts: BlogPost[] = [
 
       <figure class="image-full">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/75-onsen@moncham.jpg" alt="Onsen @ Moncham staff welcoming with baby" />
-        <figcaption>The warm welcome at Onsen @ Moncham — staff in traditional Japanese attire</figcaption>
       </figure>
 
       <h2>The Journey to Mae Rim</h2>
@@ -710,7 +668,6 @@ export const posts: BlogPost[] = [
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/9-onsen.jpg" alt="Walking through Onsen @ Moncham property at night in the rain" />
-        <figcaption>Arriving at Onsen @ Moncham on a drizzly evening — pure magic</figcaption>
       </figure>
 
       <h2>First Impressions & Room Experience</h2>
@@ -719,33 +676,25 @@ export const posts: BlogPost[] = [
       <p>We stayed in the <strong>Grand Terrace Suite with Outdoor Onsen</strong>, which was the best decision we made on this trip. The room was spacious, extremely comfortable, and very kid-friendly. The private terrace opened to uninterrupted mountain views, and the outdoor onsen overlooked the hills—perfect for slow mornings and quiet evenings.</p>
 
       <figure class="image-full">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/74-20251001_160400.jpg" alt="Panoramic view of Onsen @ Moncham property" />
-        <figcaption>The stunning Japanese-inspired property nestled in the mountains</figcaption>
+        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/IMG_6194.jpeg" alt="Onsen @ Moncham property view" />
       </figure>
 
       <p>The welcome snacks were traditional Japanese sweets, beautifully packed in a bento-style box wrapped with furoshiki cloth. Small details like these made the stay feel thoughtful and intentional.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/48-spa_food.jpg" alt="Japanese-style welcome snacks at Onsen @ Moncham" />
-        <figcaption>Beautifully presented welcome treats</figcaption>
+        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/IMG_6193.jpeg" alt="Japanese-style welcome detail at Onsen @ Moncham" />
       </figure>
 
       <p>We had also requested a small birthday decoration for our one-year-old, and the team went above and beyond to make it special. Nothing felt rushed or generic.</p>
 
       <figure class="image-full">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/57-onsen_room_arjun_birthday_decoration.jpg" alt="Birthday decoration in the room at Onsen @ Moncham" />
-        <figcaption>The team set up a beautiful birthday surprise in our room</figcaption>
       </figure>
 
       <p>Even the bathroom experience felt luxurious—yes, including the warm toilet seat, which made us joke that we were living our royal Japanese life in the middle of Chiang Mai's mountains.</p>
 
       <h2>Onsen Experience: The Highlight</h2>
       <p>The hotel has separate public onsens for men and women, along with a <strong>private couple onsen</strong>, which we opted for in the evening. It was cold and drizzling that day, and soaking in hot mineral water while mist rose around us felt unreal.</p>
-
-      <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/73-onsen-toddler.jpg" alt="Toddler enjoying mountain views from Onsen @ Moncham" />
-        <figcaption>Our little one taking in the mountain views</figcaption>
-      </figure>
 
       <p>The private onsen experience was calm, intimate, and deeply relaxing. With the dark sky, gentle rain, fog from the hot springs, and absolute silence around us, it felt like time slowed down completely. This was slow travel at its best.</p>
 
@@ -761,8 +710,8 @@ export const posts: BlogPost[] = [
       </ul>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/71-food-onsen(Miso_glazed_egg_plant).jpg" alt="Miso glazed eggplant at Onsen @ Moncham" />
-        <figcaption>Miso glazed eggplant — beautifully executed</figcaption>
+        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/71-food-onsen(Miso_glazed_egg_plant)_rotated.jpg" alt="Miso glazed eggplant at Onsen @ Moncham" />
+        <figcaption>Miso glazed eggplant</figcaption>
       </figure>
 
       <p>Every dish was thoughtfully prepared and tasted excellent. It was one of those meals where you don't rush, don't check your phone, and just enjoy the food and the moment.</p>
@@ -771,7 +720,7 @@ export const posts: BlogPost[] = [
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/2-food_onsen.jpg" alt="Tenzaru soba with tempura at Onsen @ Moncham" />
-        <figcaption>Tenzaru soba with tempura — one of our dinner highlights</figcaption>
+        <figcaption>Tenzaru soba with tempura</figcaption>
       </figure>
 
       <h2>Breakfast & Attention to Detail</h2>
@@ -779,15 +728,18 @@ export const posts: BlogPost[] = [
 
       <p>The congee was surprisingly elegant for such a simple dish—it became my personal favorite. Even the fruit plates were beautifully cut and arranged. The attention to detail here is consistent and intentional, and it shows in every experience.</p>
 
-      <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/8-onsen(1).jpg" alt="Pancakes with berries at Onsen @ Moncham" />
-        <figcaption>Pancakes with fresh berries — even simple dishes felt special here</figcaption>
-      </figure>
-
-      <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/10-onsen(2).jpg" alt="Japanese breakfast set at Onsen @ Moncham" />
-        <figcaption>Grilled mackerel breakfast set — fresh and beautifully arranged</figcaption>
-      </figure>
+      <div class="polaroid-collage">
+        <div class="polaroid-collage-grid polaroid-collage-grid--natural" style="align-items: stretch;">
+          <figure style="margin: 0; text-align: center;">
+            <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/8-onsen(1).jpg" alt="Pancakes with berries at Onsen @ Moncham" style="width: 100%; height: 100%; object-fit: cover;" />
+            <figcaption style="font-family: var(--font-caveat); font-size: 1.1rem; color: var(--warm-brown); margin-top: 0.75rem;">Pancakes with fresh berries</figcaption>
+          </figure>
+          <figure style="margin: 0; text-align: center;">
+            <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/10-onsen(2).jpg" alt="Japanese breakfast set at Onsen @ Moncham" style="width: 100%; height: 100%; object-fit: cover;" />
+            <figcaption style="font-family: var(--font-caveat); font-size: 1.1rem; color: var(--warm-brown); margin-top: 0.75rem;">Grilled mackerel breakfast set</figcaption>
+          </figure>
+        </div>
+      </div>
 
       <h2>Why Onsen @ Moncham Is Worth It</h2>
       <p>This stay wasn't about sightseeing or ticking places off a list. It was about slowing down, resting, and enjoying the space. The property itself felt like a destination.</p>
@@ -795,16 +747,6 @@ export const posts: BlogPost[] = [
       <p>From private onsens and mountain views to thoughtful service and exceptional food, Onsen @ Moncham is ideal for couples, families with young kids, and anyone looking for a luxury escape away from the city.</p>
 
       <p>If you're planning a Chiang Mai trip and want to experience the quieter, more refined side of Northern Thailand, spending a couple of nights in Mae Rim—especially here—is absolutely worth it.</p>
-
-      <figure class="image-full">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/66-sheepfarm.jpg" alt="Mae Khee Sheep Farm near Onsen @ Moncham" />
-        <figcaption>Mae Khee Sheep Farm — a fun stop near Onsen @ Moncham</figcaption>
-      </figure>
-
-      <figure class="image-full">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/69-jinju_orange_form.jpg" alt="Jin Ju Orange Farm cottage surrounded by orange trees" />
-        <figcaption>The charming Jin Ju Orange Farm nearby</figcaption>
-      </figure>
 
       <p><em>Read our full <a href="/thailand/chiang-mai-6-day-itinerary-with-baby">6-day Chiang Mai itinerary</a> to see how we planned the trip.</em></p>
 
@@ -816,82 +758,6 @@ export const posts: BlogPost[] = [
         </div>
       </div>
     `,
-  },
-  {
-    slug: "swiss-alps-adventure",
-    title: "Swiss Alps: A Journey Through Alpine Paradise",
-    excerpt:
-      "Snow-capped peaks touching the heavens, charming villages nestled in valleys, and adventures that take your breath away. The Swiss Alps are nature's masterpiece.",
-    coverImage: "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?w=800&q=80",
-    date: "2024-11-15",
-    readingTime: "7 min read",
-    destination: "Swiss Alps",
-    country: "switzerland",
-    tripTypes: ["Adventure", "Nature"],
-    content: `
-      <p>The train from Zurich wound through valleys so impossibly green they seemed digitally enhanced. But this was Switzerland – a country that looks like someone turned up the saturation on reality itself. As the altitude climbed, green gave way to white, and the famous peaks began to reveal themselves like old friends.</p>
-
-      <h2>Zermatt and the Mighty Matterhorn</h2>
-      <p>There's a reason the Matterhorn is the world's most photographed mountain. Its distinctive pyramid shape dominates the skyline of car-free Zermatt, appearing and disappearing as clouds play hide and seek around its summit. I could have watched it for hours – and I did.</p>
-
-      <p>I took the Gornergrat railway to 3,089 meters, where the viewing platform offers a 360-degree Alpine panorama that defies description. Twenty-nine peaks over 4,000 meters stretched before me, a frozen ocean of rock and ice. The air was thin and cold, but I couldn't stop smiling.</p>
-
-      <h2>Hiking Through Flower-Filled Meadows</h2>
-      <p>Switzerland in summer is wildflower heaven. I hiked from Mürren to Gimmelwald, a trail that locals say is the most beautiful in the Alps. They weren't exaggerating. Alpine roses, gentians, and edelweiss dotted the path, while cowbells provided a constant, cheerful soundtrack.</p>
-
-      <p>The villages themselves felt like stepping into a storybook. Wooden chalets with overflowing flower boxes, cheese shops that had been family-run for generations, and cafes where you could sit for hours watching paragliders drift overhead like colorful butterflies.</p>
-
-      <h2>The Art of Doing Nothing</h2>
-      <p>Perhaps the greatest luxury of Switzerland is the permission it gives you to slow down. I spent entire afternoons just sitting on sunny terraces, a glass of local wine in hand, watching the mountains change color with the light. No pressure to fill every moment with activity.</p>
-
-      <p>The mountains themselves are enough – a reminder of how small we are, how ancient these peaks, and how precious therefore is every moment of peace and beauty we're granted.</p>
-
-      <h2>Practical Magic</h2>
-      <p>Swiss efficiency extends to tourism. Trains run on time (to the minute), hiking trails are immaculately marked, and even the most remote mountain hut serves excellent coffee. It's expensive, yes, but every franc feels worth it when you're standing on a peak watching the sunrise paint the Alps in shades of pink and gold.</p>
-    `,
-    images: [
-      "https://images.unsplash.com/photo-1531973576160-7125cd663d86?w=800&q=80",
-      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=80",
-    ],
-  },
-  {
-    slug: "bali-spiritual-journey",
-    title: "Bali: Temples, Rice Terraces & Island Soul",
-    excerpt:
-      "Where spirituality infuses daily life, emerald rice terraces cascade down hillsides, and ancient temples hold secrets of a thousand years. Bali is Indonesia's beating heart.",
-    coverImage: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=80",
-    date: "2024-10-20",
-    readingTime: "6 min read",
-    destination: "Bali",
-    country: "indonesia",
-    tripTypes: ["Culture", "Nature", "Wellness"],
-    content: `
-      <p>There's something magical about Bali that transcends its Instagram fame. Beyond the beach clubs and tourist hotspots lies an island where spirituality weaves through every aspect of daily life. From dawn offerings to temple ceremonies, the Balinese live their beliefs with a devotion that's both humbling and inspiring.</p>
-
-      <h2>The Journey Begins at Sunrise</h2>
-      <p>My alarm rang at 4:30 AM, but I didn't mind. The promise of watching the sun rise over Ulun Danu Beratan Temple was worth every lost minute of sleep. As I arrived at the lake temple, mist still clung to the water's surface, making the pagodas appear to float between worlds.</p>
-
-      <p>The temple complex, dedicated to Dewi Danu, the goddess of waters, lakes, and rivers, is one of Bali's most iconic landmarks. But in the early morning hours, before the crowds arrive, it feels like a secret shared only between you and the mountain gods.</p>
-
-      <h2>Tegallalang: Stairway to Green</h2>
-      <p>The rice terraces of Tegallalang are a testament to the Balinese subak system – an ancient irrigation method recognized by UNESCO. Walking along the narrow paths between paddies, I watched farmers work with the same techniques their ancestors used a thousand years ago.</p>
-
-      <p>The green here isn't just green – it's a hundred shades of emerald, jade, and lime, shifting with the sunlight. Dragonflies darted between rice stalks, and somewhere below, a gamelan orchestra practiced, their metallic melodies floating up the hillside.</p>
-
-      <h2>Sacred Ceremonies</h2>
-      <p>I was fortunate to witness a temple ceremony during my stay. Villagers in ceremonial dress carried towers of fruit and flowers on their heads, offerings to the gods. The air filled with incense and the hypnotic sounds of traditional music.</p>
-
-      <p>A local guide explained the meaning behind each ritual – the prayers for good harvests, protection from evil spirits, and blessings for the community. In Bali, the sacred isn't separate from daily life; it's woven into everything.</p>
-
-      <h2>Finding Balance in Ubud</h2>
-      <p>Ubud, the cultural heart of Bali, offered a different kind of magic. Morning yoga with views of the jungle, afternoons spent exploring art galleries and craft villages, evenings watching traditional dance performances under the stars.</p>
-
-      <p>At a small warung (local restaurant) near the monkey forest, I shared a table with a Balinese priest. Over plates of nasi campur, he spoke about the Balinese concept of Tri Hita Karana – the three causes of well-being: harmony with God, with other people, and with nature. Simple wisdom, but profound.</p>
-    `,
-    images: [
-      "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=800&q=80",
-      "https://images.unsplash.com/photo-1604999333679-b86d54738315?w=800&q=80",
-    ],
   },
 ];
 

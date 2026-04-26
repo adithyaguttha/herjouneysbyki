@@ -51,11 +51,6 @@ export const tripDoodles: Record<string, { icon: string; color?: string }[]> = {
     { icon: "mdi:fish", color: "var(--terracotta)" },
     { icon: "mdi:weather-sunset", color: "var(--terracotta)" },
   ],
-  switzerland: [
-    { icon: "tabler:mountain", color: "var(--charcoal)" },
-    { icon: "mdi:snowflake", color: "var(--beige)" },
-    { icon: "mdi:home-variant", color: "var(--warm-brown)" },
-  ],
   intro: [
     { icon: "tabler:plane-departure", color: "var(--terracotta)" },
     { icon: "ph:compass-bold", color: "var(--warm-brown)" },

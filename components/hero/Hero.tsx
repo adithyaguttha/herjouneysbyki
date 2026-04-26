@@ -8,37 +8,43 @@ import ImageCarousel from "./ImageCarousel";
 import Navbar from "../Navbar";
 import BottomNav from "../BottomNav";
 
-// Carousel slides data - 5 beautiful travel images
+// Carousel slides data - 6 personal travel images
 const carouselSlides = [
   {
     id: 1,
-    name: "Coonoor",
-    tagline: "Where tea gardens kiss the clouds",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80",
+    name: "Wander",
+    tagline: "Slow travel, warm memories",
+    image: "/images/hero/IMG_2151.jpeg",
   },
   {
     id: 2,
-    name: "Bali",
-    tagline: "Island of the Gods",
-    image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1920&q=80",
+    name: "Coonoor",
+    tagline: "Where tea gardens kiss the clouds",
+    image: "/images/hero/IMG_0314.jpeg",
   },
   {
     id: 3,
-    name: "Maldives",
-    tagline: "Paradise on Earth",
-    image: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1920&q=80",
+    name: "Chiang Mai",
+    tagline: "Culture, markets & mountain calm",
+    image: "/images/hero/IMG_1837.jpeg",
   },
   {
     id: 4,
-    name: "Switzerland",
+    name: "Hallstatt",
     tagline: "Where dreams touch the Alps",
-    image: "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?w=1920&q=80",
+    image: "/images/hero/IMG_2967.jpeg",
   },
   {
     id: 5,
-    name: "Santorini",
-    tagline: "Where the sea meets the sky",
-    image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1920&q=80",
+    name: "Discover",
+    tagline: "Every corner tells a story",
+    image: "/images/hero/IMG_4959.jpeg",
+  },
+  {
+    id: 6,
+    name: "Explore",
+    tagline: "Journeys made for two",
+    image: "/images/hero/IMG_5712.jpeg",
   },
 ];
 
@@ -99,7 +105,7 @@ export default function Hero() {
         <div className="carousel-wrapper absolute inset-0 z-0">
           <ImageCarousel
             slides={carouselSlides}
-            autoPlayInterval={3000}
+            autoPlayInterval={5000}
             isPlaying={introComplete}
           />
         </div>

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Inter, Caveat } from "next/font/google";
 import "./globals.css";
 
@@ -23,6 +23,11 @@ const caveat = Caveat({
 export const metadata: Metadata = {
   title: "Her Journeys by Ki",
   description: "A travel blog by Ki - Stories from around the world",
+};
+
+export const viewport: Viewport = {
+  colorScheme: "light",
+  themeColor: "#FDF8F3",
 };
 
 export default function RootLayout({

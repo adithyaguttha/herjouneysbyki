@@ -237,7 +237,7 @@ export const posts: BlogPost[] = [
 
       <p>The market went far beyond expectations. Rooted in sustainability, it brings together local artisans, organic produce, handmade goods, and thoughtfully created products—without the usual tourist clutter. Everything felt intentional, minimal, and deeply connected to local culture.</p>
 
-      <figure class="polaroid-collage" style="margin: 0;">
+      <figure class="polaroid-collage">
         <div class="polaroid-collage-grid polaroid-collage-grid--natural" style="align-items: stretch;">
           <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/IMG_4617.jpeg" alt="Jing Jai Market stalls in Chiang Mai" style="width: 100%; height: 100%; object-fit: cover;" />
           <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/IMG_4618.jpeg" alt="Handmade goods at Jing Jai Market" style="width: 100%; height: 100%; object-fit: cover;" />

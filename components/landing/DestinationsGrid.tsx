@@ -72,17 +72,11 @@ export default function DestinationsGrid() {
                   {/* Content overlay */}
                   <div className="absolute bottom-0 left-0 right-0 p-4">
                     <h3
-                      className="text-xl md:text-2xl text-white mb-1"
+                      className="text-xl md:text-2xl text-white"
                       style={{ fontFamily: "var(--font-playfair)" }}
                     >
                       {country.name}
                     </h3>
-                    <p
-                      className="text-white/80 text-sm"
-                      style={{ fontFamily: "var(--font-caveat)" }}
-                    >
-                      {country.tagline}
-                    </p>
 
                     {/* Hover arrow */}
                     <div className="flex items-center gap-1 mt-2 text-white/0 group-hover:text-white/90 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">

@@ -287,7 +287,7 @@ export const posts: BlogPost[] = [
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/75-onsen@moncham.jpg" alt="Onsen @ Moncham staff welcoming with baby" />
-        <figcaption>Our mountain retreat at Onsen @ Moncham</figcaption>
+        <figcaption>Mountain retreat at Onsen @ Moncham</figcaption>
       </figure>
 
       <p>The highlight was the private onsen—set against the mountains, with mist rising and rain gently falling. Time seemed to slow down completely here.</p>
@@ -302,6 +302,11 @@ export const posts: BlogPost[] = [
       <p>We explored the surrounding areas of Mae Rim—open spaces, small farms, and stretches of landscape that felt untouched and calm.</p>
 
       <p>One of our stops was Mae Khee Sheep Farm, originally planned for our little one, but it turned out to be enjoyable for all of us.</p>
+
+      <figure class="image-center">
+        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/68-mae_kee_sheep_house.jpg" alt="Mae Khee Sheep Farm in Mae Rim" />
+        <figcaption>Mae Khee Sheep Farm</figcaption>
+      </figure>
 
       <p>From there, we visited Jin Ju Orange Farm. While it looked beautiful in pictures, it felt underwhelming in reality—especially since it was off-season, with no oranges to pick. The costumes available for rent were worn out, and while the drinks were decent, there wasn't much to do. Hiring their in-house photographer requires prior booking, which we couldn't arrange on the spot.</p>
 

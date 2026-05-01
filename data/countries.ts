@@ -4,6 +4,7 @@ export interface Country {
   heroImage: string;
   description: string;
   tagline: string;
+  comingSoon?: boolean;
 }
 
 export const countries: Country[] = [
@@ -20,6 +21,22 @@ export const countries: Country[] = [
     heroImage: "https://images.unsplash.com/photo-1528181304800-259b08848526?w=1920&q=80",
     tagline: "The Land of Smiles",
     description: "Thailand captivates with its perfect blend of ancient traditions and modern charm. Golden temples glitter under tropical skies, night markets buzz with energy, and pristine islands offer paradise escapes. The warmth of Thai hospitality makes every traveler feel welcome in this enchanting kingdom.",
+  },
+  {
+    slug: "chile",
+    name: "Chile",
+    heroImage: "https://images.unsplash.com/photo-1531219572328-a0171b4448a3?w=1920&q=80",
+    tagline: "Patagonia & beyond",
+    description: "From the Atacama Desert to the glaciers of Patagonia, Chile stretches across breathtaking landscapes that are still on our wishlist.",
+    comingSoon: true,
+  },
+  {
+    slug: "peru",
+    name: "Peru",
+    heroImage: "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=1920&q=80",
+    tagline: "Andes & Inca trails",
+    description: "Machu Picchu, Sacred Valley, and the colourful streets of Cusco — Peru is on our travel list and we can't wait to explore it.",
+    comingSoon: true,
   },
 ];
 

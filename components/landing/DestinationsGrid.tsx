@@ -38,47 +38,43 @@ export default function DestinationsGrid() {
         <div className="grid grid-cols-2 gap-4 md:gap-6 max-w-4xl mx-auto">
           {countries.map((country, index) => {
             const storyCount = getPostsByCountry(country.slug).length;
+            const isComingSoon = country.comingSoon;
 
-            return (
-              <Link
-                key={country.slug}
-                href={`/${country.slug}`}
-                className="destination-card group relative overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300"
-                style={{
-                  transform: `rotate(${index % 2 === 0 ? "-1" : "1"}deg)`,
-                }}
-              >
-                {/* Image */}
-                <div className="relative aspect-[4/3]">
-                  <Image
-                    src={country.heroImage}
-                    alt={country.name}
-                    fill
-                    className="object-cover transition-transform duration-500 group-hover:scale-110"
-                    sizes="(max-width: 768px) 50vw, 400px"
-                  />
+            const cardInner = (
+              <div className="relative aspect-[4/3]">
+                <Image
+                  src={country.heroImage}
+                  alt={country.name}
+                  fill
+                  className={`object-cover transition-transform duration-500 ${
+                    isComingSoon ? "" : "group-hover:scale-110"
+                  }`}
+                  sizes="(max-width: 768px) 50vw, 400px"
+                />
 
-                  {/* Overlay gradient */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
+                {/* Overlay gradient */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
 
-                  {/* Story count badge */}
-                  <span
-                    className="absolute top-3 right-3 px-2 py-1 bg-white/90 backdrop-blur-sm text-[var(--charcoal)] text-xs rounded-full"
-                    style={{ fontFamily: "var(--font-inter)" }}
+                {/* Story count or Coming soon badge */}
+                <span
+                  className="absolute top-3 right-3 px-2 py-1 bg-white/90 backdrop-blur-sm text-[var(--charcoal)] text-xs rounded-full"
+                  style={{ fontFamily: "var(--font-inter)" }}
+                >
+                  {isComingSoon
+                    ? "Coming soon"
+                    : `${storyCount} ${storyCount === 1 ? "story" : "stories"}`}
+                </span>
+
+                {/* Content overlay */}
+                <div className="absolute bottom-0 left-0 right-0 p-4">
+                  <h3
+                    className="text-xl md:text-2xl text-white"
+                    style={{ fontFamily: "var(--font-playfair)" }}
                   >
-                    {storyCount} {storyCount === 1 ? "story" : "stories"}
-                  </span>
+                    {country.name}
+                  </h3>
 
-                  {/* Content overlay */}
-                  <div className="absolute bottom-0 left-0 right-0 p-4">
-                    <h3
-                      className="text-xl md:text-2xl text-white"
-                      style={{ fontFamily: "var(--font-playfair)" }}
-                    >
-                      {country.name}
-                    </h3>
-
-                    {/* Hover arrow */}
+                  {!isComingSoon && (
                     <div className="flex items-center gap-1 mt-2 text-white/0 group-hover:text-white/90 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
                       <span
                         className="text-sm"
@@ -88,8 +84,34 @@ export default function DestinationsGrid() {
                       </span>
                       <Icon icon="mdi:arrow-right" className="w-4 h-4" />
                     </div>
-                  </div>
+                  )}
                 </div>
+              </div>
+            );
+
+            const cardClass = `destination-card group relative overflow-hidden rounded-lg shadow-md transition-all duration-300 ${
+              isComingSoon ? "cursor-default" : "hover:shadow-xl"
+            }`;
+            const cardStyle = {
+              transform: `rotate(${index % 2 === 0 ? "-1" : "1"}deg)`,
+            };
+
+            if (isComingSoon) {
+              return (
+                <div key={country.slug} className={cardClass} style={cardStyle}>
+                  {cardInner}
+                </div>
+              );
+            }
+
+            return (
+              <Link
+                key={country.slug}
+                href={`/${country.slug}`}
+                className={cardClass}
+                style={cardStyle}
+              >
+                {cardInner}
               </Link>
             );
           })}

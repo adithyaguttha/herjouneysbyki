@@ -24,7 +24,7 @@ export default function AboutTraveler() {
 
               {/* Polaroid frame */}
               <div
-                className="bg-white p-3 md:p-4 shadow-lg w-80 md:w-96"
+                className="bg-white p-3 md:p-4 shadow-lg w-56 md:w-64"
                 style={{ transform: "rotate(-2deg)" }}
               >
                 <div className="relative aspect-[4/5] overflow-hidden">
@@ -33,7 +33,7 @@ export default function AboutTraveler() {
                     alt="Kavya Immaneni - Travel Blogger"
                     fill
                     className="object-cover"
-                    sizes="(max-width: 768px) 320px, 384px"
+                    sizes="(max-width: 768px) 224px, 256px"
                   />
                 </div>
               </div>

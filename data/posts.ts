@@ -379,7 +379,7 @@ export const posts: BlogPost[] = [
 
       <p><a href="https://share.google/IUUe7DclVbJK3vnna" target="_blank" rel="noopener noreferrer"><span class="cafe-lead">Early Owls Café</span></a> is a lovely spot for a family picnic. They provide a nice seating setup where you can choose a spot on the lawn and create your own picnic-style arrangement. We visited in the evening just for coffee and to relax, while our child enjoyed the large green space to walk and crawl around.</p>
 
-      <p><span class="cafe-lead">Rimping Supermarket</span> is where you can find a wide variety of Thailand snacks and fresh groceries—even the cut fruit here looks too cute to eat. The ground floor of Maya Lifestyle Shopping Center is a food destination by itself—it truly feels like you can taste all of Thailand in one place. The Saint Etoile Bakery inside is a must-visit, especially for their sweet potato bread.</p>
+      <p><a href="https://share.google/GfI9eRJ2bGbsQNUVM" target="_blank" rel="noopener noreferrer"><span class="cafe-lead">Rimping Supermarket</span></a> is where you can find a wide variety of Thailand snacks and fresh groceries—even the cut fruit here looks too cute to eat. The ground floor of Maya Lifestyle Shopping Center is a food destination by itself—it truly feels like you can taste all of Thailand in one place. The Saint Etoile Bakery inside is a must-visit, especially for their sweet potato bread.</p>
 
       <div class="polaroid-collage">
         <div class="polaroid-collage-grid polaroid-collage-grid--natural" style="align-items: stretch;">

@@ -25,7 +25,7 @@ export const countries: Country[] = [
   {
     slug: "chile",
     name: "Chile",
-    heroImage: "https://images.unsplash.com/photo-1531219572328-a0171b4448a3?w=1920&q=80",
+    heroImage: "/images/countries/chile.jpeg",
     tagline: "Patagonia & beyond",
     description: "From the Atacama Desert to the glaciers of Patagonia, Chile stretches across breathtaking landscapes that are still on our wishlist.",
     comingSoon: true,

@@ -1,14 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { Icon } from "@iconify/react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
-
-  const socialLinks = [
-    { name: "Instagram", icon: "mdi:instagram", href: "https://www.instagram.com/herjourneysbyki/" },
-  ];
 
   const navLinks = [
     { name: "Home", href: "/" },
@@ -42,22 +37,6 @@ export default function Footer() {
               </Link>
             ))}
           </nav>
-
-          {/* Social Links */}
-          <div className="flex gap-4 mb-8">
-            {socialLinks.map((social) => (
-              <a
-                key={social.name}
-                href={social.href}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-[var(--cream)]/10 flex items-center justify-center text-[var(--cream)]/80 hover:bg-[var(--terracotta)] hover:text-white transition-all duration-300"
-                aria-label={social.name}
-              >
-                <Icon icon={social.icon} className="w-5 h-5" />
-              </a>
-            ))}
-          </div>
 
           {/* Divider */}
           <div className="w-24 h-px bg-[var(--cream)]/20 mb-8" />

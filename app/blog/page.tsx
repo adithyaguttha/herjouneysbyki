@@ -1,7 +1,6 @@
 "use client";
 
 import { Suspense, useState, useMemo } from "react";
-import { Icon } from "@iconify/react";
 import { posts, filterPosts, sortPosts } from "@/data/posts";
 import Navbar from "@/components/Navbar";
 import BlogHeader from "@/components/blog/BlogHeader";
@@ -92,39 +91,6 @@ function BlogContent() {
           />
         )}
 
-        {/* Instagram CTA */}
-        <section className="mt-16 py-12 bg-[var(--cream-dark)] -mx-4 px-4 rounded-2xl">
-          <div className="text-center">
-            <p
-              className="text-lg text-[var(--terracotta)] mb-2"
-              style={{ fontFamily: "var(--font-caveat)" }}
-            >
-              Follow along on
-            </p>
-            <h3
-              className="text-2xl md:text-3xl text-[var(--charcoal)] mb-4"
-              style={{ fontFamily: "var(--font-playfair)" }}
-            >
-              Instagram
-            </h3>
-            <p
-              className="text-[var(--warm-brown)] mb-6 max-w-md mx-auto"
-              style={{ fontFamily: "var(--font-inter)" }}
-            >
-              For more travel moments, behind-the-scenes, and daily wanderlust
-            </p>
-            <a
-              href="https://www.instagram.com/herjourneysbyki/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-[var(--terracotta)] text-white rounded-full hover:bg-[var(--terracotta-dark)] transition-colors"
-              style={{ fontFamily: "var(--font-inter)" }}
-            >
-              <Icon icon="mdi:instagram" className="w-5 h-5" />
-              @herjourneysbyki
-            </a>
-          </div>
-        </section>
       </div>
     </>
   );

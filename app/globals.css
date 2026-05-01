@@ -811,59 +811,6 @@ html {
   transform: rotate(1deg);
 }
 
-/* ===== Blog Instagram CTA ===== */
-.blog-instagram-cta {
-  display: none;
-  background: var(--cream-dark);
-  border-radius: 16px;
-  padding: 2rem;
-  margin: 2.5rem 0;
-  text-align: center;
-}
-
-.blog-instagram-cta p {
-  margin-bottom: 0.5rem !important;
-}
-
-.blog-instagram-cta .cta-tagline {
-  font-family: var(--font-caveat);
-  font-size: 1.25rem;
-  color: var(--terracotta);
-}
-
-.blog-instagram-cta .cta-title {
-  font-family: var(--font-playfair);
-  font-size: 1.5rem;
-  color: var(--charcoal);
-  margin-bottom: 0.75rem !important;
-}
-
-.blog-instagram-cta .cta-description {
-  font-family: var(--font-inter);
-  font-size: 0.95rem;
-  color: var(--warm-brown);
-  margin-bottom: 1.25rem !important;
-}
-
-.blog-instagram-cta a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1.5rem;
-  background: var(--terracotta);
-  color: white !important;
-  border-radius: 9999px;
-  text-decoration: none !important;
-  font-family: var(--font-inter);
-  font-size: 0.95rem;
-  transition: background 0.2s ease;
-}
-
-.blog-instagram-cta a:hover {
-  background: var(--terracotta-dark);
-  color: white !important;
-}
-
 /* ===== Polaroid Collage Frame ===== */
 .polaroid-collage {
   background: white;

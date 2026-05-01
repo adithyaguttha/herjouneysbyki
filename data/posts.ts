@@ -38,16 +38,6 @@ export const posts: BlogPost[] = [
     content: `
       <p>Some trips are about ticking places off a list, and some are about slowing down and truly being present. Our 4-day Coonoor trip with our <span class="pencil-circle-dark">toddler</span> was exactly that—a calm, cozy escape into the Nilgiris, filled with misty mornings, soulful food, charming cafes, and unhurried family moments. Here's our relaxed Coonoor itinerary, perfect for families traveling with young kids.</p>
 
-      <div class="blog-instagram-cta">
-        <p class="cta-tagline">Follow along on</p>
-        <p class="cta-title">Instagram</p>
-        <p class="cta-description">For more travel moments, behind-the-scenes, and daily wanderlust</p>
-        <a href="https://www.instagram.com/herjourneysbyki/" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          @herjourneysbyki
-        </a>
-      </div>
-
       <figure class="image-full">
         <img src="/images/coonoor/IMG_6187.jpeg" alt="Misty Nilgiri mountains at dawn" />
         <figcaption>The Nilgiris, veiled in mist</figcaption>
@@ -191,16 +181,6 @@ export const posts: BlogPost[] = [
       <p>This was our very first international trip with our little one, and we consciously kept it short and slow. <span class="pencil-circle-dark">Chiang Mai</span> felt like the right choice—quiet, cultural, scenic, and far less chaotic than Thailand's southern tourist hubs.</p>
 
       <p>Since there are no direct flights from Bangalore to Chiang Mai, we flew via Bangkok on a midnight flight. The journey felt surprisingly easy, largely because our little one slept through most of it. By the time we landed in Chiang Mai, it still felt unreal how smooth everything had been.</p>
-
-      <div class="blog-instagram-cta">
-        <p class="cta-tagline">Follow along on</p>
-        <p class="cta-title">Instagram</p>
-        <p class="cta-description">For more travel moments, behind-the-scenes, and daily wanderlust</p>
-        <a href="https://www.instagram.com/herjourneysbyki/" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          @herjourneysbyki
-        </a>
-      </div>
 
       <h2>Day 1: First Day in Chiang Mai — Nimman Vibes, Food Finds & Slow Travel Begins</h2>
       <p>We reached our hotel in Nimman by late morning. The neighborhood immediately stood out—lively yet relaxed, with everything within walking distance.</p>
@@ -376,16 +356,6 @@ export const posts: BlogPost[] = [
 
       <p>This blog shares the cafés, bakeries, food markets, and restaurants we personally tried during our stay, including baby-friendly and casual dining options.</p>
 
-      <div class="blog-instagram-cta">
-        <p class="cta-tagline">Follow along on</p>
-        <p class="cta-title">Instagram</p>
-        <p class="cta-description">For more travel moments, behind-the-scenes, and daily wanderlust</p>
-        <a href="https://www.instagram.com/herjourneysbyki/" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          @herjourneysbyki
-        </a>
-      </div>
-
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/53-sun_rays_cafe.jpg" alt="Sun Rays Café outdoor seating with baby in stroller" />
         <figcaption>Sun Rays Café — a charming breakfast spot in Chiang Mai</figcaption>
@@ -488,16 +458,6 @@ export const posts: BlogPost[] = [
       <p>From smooth pavements in Nimman to spacious malls and baby-friendly cafés, getting around with a toddler felt surprisingly easy.</p>
 
       <p>This post shares practical tips, travel essentials, and real experiences that helped us manage flights, food, and daily outings with our one-year-old.</p>
-
-      <div class="blog-instagram-cta">
-        <p class="cta-tagline">Follow along on</p>
-        <p class="cta-title">Instagram</p>
-        <p class="cta-description">For more travel moments, behind-the-scenes, and daily wanderlust</p>
-        <a href="https://www.instagram.com/herjourneysbyki/" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          @herjourneysbyki
-        </a>
-      </div>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/73-onsen-toddler_cropped.jpg" alt="Toddler looking out at mountain views from Onsen @ Moncham" />
@@ -649,16 +609,6 @@ export const posts: BlogPost[] = [
       <p>After spending the first half of our Chiang Mai trip in the city, we decided to slow things down and head into the mountains. For two nights, we stayed at <strong>Onsen @ Moncham</strong>, a Japanese-inspired luxury hotel located in Mae Raem, Mae Rim District, about an hour from Chiang Mai city.</p>
 
       <p>This stay was not budget-friendly by any means, but it turned out to be the highlight of our entire trip. From service to food to thoughtful details, it stood out as one of the best luxury stays we've experienced—not just in Thailand, but overall.</p>
-
-      <div class="blog-instagram-cta">
-        <p class="cta-tagline">Follow along on</p>
-        <p class="cta-title">Instagram</p>
-        <p class="cta-description">For more travel moments, behind-the-scenes, and daily wanderlust</p>
-        <a href="https://www.instagram.com/herjourneysbyki/" target="_blank" rel="noopener noreferrer">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          @herjourneysbyki
-        </a>
-      </div>
 
       <figure class="image-full">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/75-onsen@moncham.jpg" alt="Onsen @ Moncham staff welcoming with baby" />

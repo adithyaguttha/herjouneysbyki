@@ -286,7 +286,7 @@ export const posts: BlogPost[] = [
       <p>Our stay at Onsen@Moncham, a Japanese-inspired resort, felt like stepping into a different world. By the time we arrived, a light drizzle had settled over the property, making everything feel softer and more atmospheric.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/9-onsen.jpg" alt="Onsen @ Moncham at night" />
+        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/75-onsen@moncham.jpg" alt="Onsen @ Moncham staff welcoming with baby" />
         <figcaption>Our mountain retreat at Onsen @ Moncham</figcaption>
       </figure>
 

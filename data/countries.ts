@@ -18,7 +18,7 @@ export const countries: Country[] = [
   {
     slug: "thailand",
     name: "Thailand",
-    heroImage: "https://images.unsplash.com/photo-1528181304800-259b08848526?w=1920&q=80",
+    heroImage: "/images/countries/thailand.jpg",
     tagline: "The Land of Smiles",
     description: "Thailand captivates with its perfect blend of ancient traditions and modern charm. Golden temples glitter under tropical skies, night markets buzz with energy, and pristine islands offer paradise escapes. The warmth of Thai hospitality makes every traveler feel welcome in this enchanting kingdom.",
   },

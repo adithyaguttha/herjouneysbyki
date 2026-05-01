@@ -28,10 +28,11 @@ const Navbar = forwardRef<HTMLElement, NavbarProps>(({ className = "", animated 
               <Image
                 src="/images/logo.png"
                 alt=""
-                width={56}
-                height={56}
+                width={160}
+                height={160}
                 priority
-                className="w-10 h-10 md:w-12 md:h-12 rounded-full object-cover transition-transform group-hover:scale-105"
+                quality={95}
+                className="w-9 h-9 md:w-10 md:h-10 object-contain transition-transform group-hover:scale-105"
               />
               <span
                 className="text-xl md:text-2xl text-[var(--terracotta)] group-hover:text-[var(--terracotta-dark)] whitespace-nowrap"

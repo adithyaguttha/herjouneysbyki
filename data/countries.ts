@@ -33,7 +33,7 @@ export const countries: Country[] = [
   {
     slug: "peru",
     name: "Peru",
-    heroImage: "https://images.unsplash.com/photo-1526392060635-9d6019884377?w=1920&q=80",
+    heroImage: "/images/countries/peru.jpeg",
     tagline: "Andes & Inca trails",
     description: "Machu Picchu, Sacred Valley, and the colourful streets of Cusco — Peru is on our travel list and we can't wait to explore it.",
     comingSoon: true,

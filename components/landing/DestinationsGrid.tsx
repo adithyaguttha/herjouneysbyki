@@ -73,22 +73,6 @@ export default function DestinationsGrid() {
                   >
                     {country.name}
                   </h3>
-
-                  <div
-                    className={`flex items-center gap-1 mt-2 transition-all duration-300 transform translate-y-2 ${
-                      isComingSoon
-                        ? "invisible"
-                        : "text-white/0 group-hover:text-white/90 group-hover:translate-y-0"
-                    }`}
-                  >
-                    <span
-                      className="text-sm"
-                      style={{ fontFamily: "var(--font-inter)" }}
-                    >
-                      Explore
-                    </span>
-                    <Icon icon="mdi:arrow-right" className="w-4 h-4" />
-                  </div>
                 </div>
               </div>
             );

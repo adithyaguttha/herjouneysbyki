@@ -256,7 +256,7 @@ export const posts: BlogPost[] = [
 
       <p>After the tour, we had lunch at the Chai Lai café, which was decent. While my husband went for an ATV ride, our little one and I rested in the shade and played with friendly dogs on the property.</p>
 
-      <p>By evening, we returned to the city and went to Khao Soi Nimman for dinner. While it's Michelin-recognized, I personally preferred the Khao Soi I had earlier at the airport food court. We walked back to the hotel, enjoying the pleasant Nimman neighborhood.</p>
+      <p>By evening, we returned to the city and went to Kao Soy Nimman for dinner. While it's Michelin-recognized, I personally preferred the Khao Soi I had earlier at the airport food court. We walked back to the hotel, enjoying the pleasant Nimman neighborhood.</p>
 
       <h2>Day 4: Into the Mountains — Luxury Onsen Stay in Mae Rim</h2>
       <p>This day marked a shift—from the city into the mountains.</p>
@@ -401,7 +401,7 @@ export const posts: BlogPost[] = [
         <figcaption>At Jing Jai Market</figcaption>
       </figure>
 
-      <p><a href="https://share.google/muc5hrz3kRnJzuD91" target="_blank" rel="noopener noreferrer"><span class="cafe-lead">Khao Soi Nimman</span></a> is a popular stop for Northern Thai specialties, especially khao soi (curry noodle soup). Honestly, I found the khao soi I had at the airport more enjoyable—but that's just my personal opinion, as many people recommend this place for its popularity and Michelin recognition.</p>
+      <p><a href="https://share.google/muc5hrz3kRnJzuD91" target="_blank" rel="noopener noreferrer"><span class="cafe-lead">Kao Soy Nimman</span></a> is a popular stop for Northern Thai specialties, especially khao soi (curry noodle soup). Honestly, I found the khao soi I had at the airport more enjoyable—but that's just my personal opinion, as many people recommend this place for its popularity and Michelin recognition.</p>
 
       <p>The food courts at One Nimman and Maya Lifestyle Shopping Center are great for families, with plenty of dessert and kid-friendly options like crepes, dim sum, local desserts, continental food, and fresh fruit.</p>
 

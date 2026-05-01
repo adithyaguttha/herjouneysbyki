@@ -11,7 +11,7 @@ export const countries: Country[] = [
   {
     slug: "india",
     name: "India",
-    heroImage: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1920&q=80",
+    heroImage: "/images/countries/india.jpeg",
     tagline: "Land of Endless Wonders",
     description: "From the misty peaks of the Himalayas to the sun-kissed beaches of Goa, India is a land of extraordinary contrasts. Ancient temples stand alongside bustling modern cities, while the aroma of spices fills vibrant markets. Every corner tells a story spanning thousands of years of history, spirituality, and culture.",
   },

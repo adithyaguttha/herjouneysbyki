@@ -368,16 +368,16 @@ export const posts: BlogPost[] = [
         <figcaption>French toast</figcaption>
       </figure>
 
-      <p><span class="cafe-lead">Ginger Farm Kitchen</span> at One Nimman is Michelin-listed and focuses on Northern Thai food made without MSG or artificial ingredients. The ingredients are farm-fresh and carefully selected.</p>
+      <p><a href="https://share.google/BhDo9LRiDgWXDviD2" target="_blank" rel="noopener noreferrer"><span class="cafe-lead">Ginger Farm Kitchen</span></a> at One Nimman is Michelin-listed and focuses on Northern Thai food made without MSG or artificial ingredients. The ingredients are farm-fresh and carefully selected.</p>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/5-ginger_farm_kitchen_landscape.jpg" alt="Pad Thai at Ginger Farm Kitchen" />
         <figcaption>Pad Thai</figcaption>
       </figure>
 
-      <p><span class="cafe-lead">Chom Café</span> is one of the most Instagrammable cafés in Chiang Mai, and the food here is decent as well. The place feels like something out of a mystery land, with mist all around—giving you a main-character moment while clicking pictures.</p>
+      <p><a href="https://share.google/ibBImI7TTngQ8MHLW" target="_blank" rel="noopener noreferrer"><span class="cafe-lead">Chom Café</span></a> is one of the most Instagrammable cafés in Chiang Mai, and the food here is decent as well. The place feels like something out of a mystery land, with mist all around—giving you a main-character moment while clicking pictures.</p>
 
-      <p><span class="cafe-lead">Early Owls Café</span> is a lovely spot for a family picnic. They provide a nice seating setup where you can choose a spot on the lawn and create your own picnic-style arrangement. We visited in the evening just for coffee and to relax, while our child enjoyed the large green space to walk and crawl around.</p>
+      <p><a href="https://share.google/IUUe7DclVbJK3vnna" target="_blank" rel="noopener noreferrer"><span class="cafe-lead">Early Owls Café</span></a> is a lovely spot for a family picnic. They provide a nice seating setup where you can choose a spot on the lawn and create your own picnic-style arrangement. We visited in the evening just for coffee and to relax, while our child enjoyed the large green space to walk and crawl around.</p>
 
       <p><span class="cafe-lead">Rimping Supermarket</span> is where you can find a wide variety of Thailand snacks and fresh groceries—even the cut fruit here looks too cute to eat. The ground floor of Maya Lifestyle Shopping Center is a food destination by itself—it truly feels like you can taste all of Thailand in one place. The Saint Etoile Bakery inside is a must-visit, especially for their sweet potato bread.</p>
 
@@ -394,14 +394,14 @@ export const posts: BlogPost[] = [
         </div>
       </div>
 
-      <p><span class="cafe-lead">Jing Jai Market</span> is excellent for local food, especially phat kaphrao at Tops Green. On special request, the chef prepared a vegan version with tofu for us, and it was delicious.</p>
+      <p><a href="https://share.google/Oei9gJ0MOUzIJoQ7Q" target="_blank" rel="noopener noreferrer"><span class="cafe-lead">Jing Jai Market</span></a> is excellent for local food, especially phat kaphrao at Tops Green. On special request, the chef prepared a vegan version with tofu for us, and it was delicious.</p>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/27-jing_jai_market.jpg" alt="Coconut dessert at a Jing Jai Market food stall" />
         <figcaption>At Jing Jai Market</figcaption>
       </figure>
 
-      <p><span class="cafe-lead">Khao Soi Nimman</span> is a popular stop for Northern Thai specialties, especially khao soi (curry noodle soup). Honestly, I found the khao soi I had at the airport more enjoyable—but that's just my personal opinion, as many people recommend this place for its popularity and Michelin recognition.</p>
+      <p><a href="https://share.google/muc5hrz3kRnJzuD91" target="_blank" rel="noopener noreferrer"><span class="cafe-lead">Khao Soi Nimman</span></a> is a popular stop for Northern Thai specialties, especially khao soi (curry noodle soup). Honestly, I found the khao soi I had at the airport more enjoyable—but that's just my personal opinion, as many people recommend this place for its popularity and Michelin recognition.</p>
 
       <p>The food courts at One Nimman and Maya Lifestyle Shopping Center are great for families, with plenty of dessert and kid-friendly options like crepes, dim sum, local desserts, continental food, and fresh fruit.</p>
 

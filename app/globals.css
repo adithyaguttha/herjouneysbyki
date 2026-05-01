@@ -741,6 +741,13 @@ html {
   line-height: 1.6;
 }
 
+.blog-content p .cafe-lead {
+  font-size: 1.2rem;
+  color: var(--warm-brown);
+  font-weight: 600;
+  line-height: inherit;
+}
+
 /* ===== Pencil Circle Effect ===== */
 /* Light version for dark backgrounds (hero) */
 .pencil-circle {

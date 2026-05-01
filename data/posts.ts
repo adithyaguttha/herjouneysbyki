@@ -50,7 +50,7 @@ export const posts: BlogPost[] = [
 
       <figure class="image-full">
         <img src="/images/coonoor/IMG_6187.jpeg" alt="Misty Nilgiri mountains at dawn" />
-        <figcaption>Mornings of the Nilgiris</figcaption>
+        <figcaption>The Nilgiris, veiled in mist</figcaption>
       </figure>
 
       <h2>Day 1 – The Drive, Ooty Lunch & Settling into Chloe Cottage</h2>
@@ -237,19 +237,17 @@ export const posts: BlogPost[] = [
 
       <p>The market went far beyond expectations. Rooted in sustainability, it brings together local artisans, organic produce, handmade goods, and thoughtfully created products—without the usual tourist clutter. Everything felt intentional, minimal, and deeply connected to local culture.</p>
 
-      <figure class="image-full">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/26-jianjai.jpg" alt="Jing Jai Market entrance in Chiang Mai" />
-        <figcaption>Jing Jai Market — sustainable shopping at its best</figcaption>
+      <figure class="polaroid-collage" style="margin: 0;">
+        <div class="polaroid-collage-grid polaroid-collage-grid--natural" style="align-items: stretch;">
+          <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/IMG_4617.jpeg" alt="Jing Jai Market stalls in Chiang Mai" style="width: 100%; height: 100%; object-fit: cover;" />
+          <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/IMG_4618.jpeg" alt="Handmade goods at Jing Jai Market" style="width: 100%; height: 100%; object-fit: cover;" />
+        </div>
+        <figcaption style="font-family: var(--font-caveat); font-size: 1.1rem; color: var(--warm-brown); margin-top: 0.75rem; text-align: center;">Jing Jai Market — sustainable shopping at its best</figcaption>
       </figure>
 
       <p>We spent hours simply walking through it, taking in the textures, colors, and craftsmanship. It didn't feel like a market to rush through, but one to experience slowly.</p>
 
       <p>By evening, we made our way up to Wat Phra That Doi Suthep. Set high above the city, the temple overlooks Chiang Mai in a way that instantly shifts the pace. The climb, the breeze, and the golden structures catching the last light of the day all felt calm and grounding.</p>
-
-      <figure class="image-full">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/47-Wat Phra That Doi Suthep.jpg" alt="Wat Phra That Doi Suthep golden temple at night" />
-        <figcaption>The golden Wat Phra That Doi Suthep at sunset</figcaption>
-      </figure>
 
       <p>As the sun set, the city below slowly transitioned into evening, while the temple remained quiet and still.</p>
 
@@ -305,12 +303,12 @@ export const posts: BlogPost[] = [
 
       <p>One of our stops was Mae Khee Sheep Farm, originally planned for our little one, but it turned out to be enjoyable for all of us.</p>
 
-      <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/68-mae_kee_sheep_house.jpg" alt="Mae Khee Sheep Farm in Mae Rim" />
-        <figcaption>Exploring the farms around Mae Rim</figcaption>
-      </figure>
-
       <p>From there, we visited Jin Ju Orange Farm. While it looked beautiful in pictures, it felt underwhelming in reality—especially since it was off-season, with no oranges to pick. The costumes available for rent were worn out, and while the drinks were decent, there wasn't much to do. Hiring their in-house photographer requires prior booking, which we couldn't arrange on the spot.</p>
+
+      <figure class="image-full">
+        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/IMG_6194-cropped.jpeg" alt="Slow mountain day in Mae Rim" />
+        <figcaption>Slow days in the hills of Mae Rim</figcaption>
+      </figure>
 
       <p>Along the way, we also stopped at nearby flower gardens, including the Yin Yang Flower Garden. These added bursts of color against the greens, making the entire region feel scenic and layered.</p>
 
@@ -388,47 +386,47 @@ export const posts: BlogPost[] = [
         <figcaption>Sun Rays Café — a charming breakfast spot in Chiang Mai</figcaption>
       </figure>
 
-      <p>Sun Rays Café was our breakfast stop—a small, charming café with beautiful food presentation. While the French toast looked great, it felt slightly dry. However, the overall vibe made it worth visiting.</p>
+      <p><span class="cafe-lead">Sun Rays Café</span> was our breakfast stop—a small, charming café with beautiful food presentation. While the French toast looked great, it felt slightly dry. However, the overall vibe made it worth visiting.</p>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/3-food_sun_rays(French Toast).jpg" alt="French Toast with tropical fruits at Sun Rays Café" />
         <figcaption>French toast</figcaption>
       </figure>
 
-      <p>Ginger Farm Kitchen at One Nimman is Michelin-listed and focuses on Northern Thai food made without MSG or artificial ingredients. The ingredients are farm-fresh and carefully selected.</p>
+      <p><span class="cafe-lead">Ginger Farm Kitchen</span> at One Nimman is Michelin-listed and focuses on Northern Thai food made without MSG or artificial ingredients. The ingredients are farm-fresh and carefully selected.</p>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/5-ginger_farm_kitchen_landscape.jpg" alt="Pad Thai at Ginger Farm Kitchen" />
         <figcaption>Pad Thai</figcaption>
       </figure>
 
-      <p>Chom Café is one of the most Instagrammable cafés in Chiang Mai, and the food here is decent as well. The place feels like something out of a mystery land, with mist all around—giving you a main-character moment while clicking pictures.</p>
+      <p><span class="cafe-lead">Chom Café</span> is one of the most Instagrammable cafés in Chiang Mai, and the food here is decent as well. The place feels like something out of a mystery land, with mist all around—giving you a main-character moment while clicking pictures.</p>
 
-      <p>Early Owls Café is a lovely spot for a family picnic. They provide a nice seating setup where you can choose a spot on the lawn and create your own picnic-style arrangement. We visited in the evening just for coffee and to relax, while our child enjoyed the large green space to walk and crawl around.</p>
+      <p><span class="cafe-lead">Early Owls Café</span> is a lovely spot for a family picnic. They provide a nice seating setup where you can choose a spot on the lawn and create your own picnic-style arrangement. We visited in the evening just for coffee and to relax, while our child enjoyed the large green space to walk and crawl around.</p>
 
-      <p>Rimping Supermarket is where you can find a wide variety of Thailand snacks and fresh groceries—even the cut fruit here looks too cute to eat. The ground floor of Maya Lifestyle Shopping Center is a food destination by itself—it truly feels like you can taste all of Thailand in one place. The Saint Etoile Bakery inside is a must-visit, especially for their sweet potato bread.</p>
+      <p><span class="cafe-lead">Rimping Supermarket</span> is where you can find a wide variety of Thailand snacks and fresh groceries—even the cut fruit here looks too cute to eat. The ground floor of Maya Lifestyle Shopping Center is a food destination by itself—it truly feels like you can taste all of Thailand in one place. The Saint Etoile Bakery inside is a must-visit, especially for their sweet potato bread.</p>
 
       <div class="polaroid-collage">
         <div class="polaroid-collage-grid polaroid-collage-grid--natural" style="align-items: stretch;">
           <figure style="margin: 0; text-align: center;">
             <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/30-food(Sweet_potato_bread).jpg" alt="Sweet potato bread at Saint Etoile bakery" style="width: 100%; height: 100%; object-fit: cover;" />
-            <figcaption style="font-family: var(--font-caveat); font-size: 1.1rem; color: var(--warm-brown); margin-top: 0.75rem;">Yummy Sweet potato</figcaption>
+            <figcaption style="font-family: var(--font-caveat); font-size: 1.1rem; color: var(--warm-brown); margin-top: 0.75rem;">Sweet potato bread</figcaption>
           </figure>
           <figure style="margin: 0; text-align: center;">
             <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/IMG_4602.jpeg" alt="Beautifully cut fruit platter at Rimping Supermarket" style="width: 100%; height: 100%; object-fit: cover;" />
-            <figcaption style="font-family: var(--font-caveat); font-size: 1.1rem; color: var(--warm-brown); margin-top: 0.75rem;">Cut fruit too cute to eat</figcaption>
+            <figcaption style="font-family: var(--font-caveat); font-size: 1.1rem; color: var(--warm-brown); margin-top: 0.75rem;">Cut fruit @ Rimping Supermarket</figcaption>
           </figure>
         </div>
       </div>
 
-      <p>Jing Jai Market is excellent for local food, especially phat kaphrao at Tops Green. On special request, the chef prepared a vegan version with tofu for us, and it was delicious.</p>
+      <p><span class="cafe-lead">Jing Jai Market</span> is excellent for local food, especially phat kaphrao at Tops Green. On special request, the chef prepared a vegan version with tofu for us, and it was delicious.</p>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/27-jing_jai_market.jpg" alt="Coconut dessert at a Jing Jai Market food stall" />
         <figcaption>At Jing Jai Market</figcaption>
       </figure>
 
-      <p>Khao Soi Nimman is a popular stop for Northern Thai specialties, especially khao soi (curry noodle soup). Honestly, I found the khao soi I had at the airport more enjoyable—but that's just my personal opinion, as many people recommend this place for its popularity and Michelin recognition.</p>
+      <p><span class="cafe-lead">Khao Soi Nimman</span> is a popular stop for Northern Thai specialties, especially khao soi (curry noodle soup). Honestly, I found the khao soi I had at the airport more enjoyable—but that's just my personal opinion, as many people recommend this place for its popularity and Michelin recognition.</p>
 
       <p>The food courts at One Nimman and Maya Lifestyle Shopping Center are great for families, with plenty of dessert and kid-friendly options like crepes, dim sum, local desserts, continental food, and fresh fruit.</p>
 
@@ -445,7 +443,7 @@ export const posts: BlogPost[] = [
         <li><a href="/thailand/chiang-mai-6-day-itinerary-with-baby">Our complete 6-day Chiang Mai itinerary</a></li>
       </ul>
 
-      <h2>FAQs – Cafes & Food in Chiang Mai</h2>
+      <h2>FAQs – Cafés & Food in Chiang Mai</h2>
       <div class="faq-section">
         <div class="faq-item">
           <h3 class="faq-question">Is Chiang Mai known for cafes?</h3>
@@ -676,7 +674,7 @@ export const posts: BlogPost[] = [
       <p>We stayed in the <strong>Grand Terrace Suite with Outdoor Onsen</strong>, which was the best decision we made on this trip. The room was spacious, extremely comfortable, and very kid-friendly. The private terrace opened to uninterrupted mountain views, and the outdoor onsen overlooked the hills—perfect for slow mornings and quiet evenings.</p>
 
       <figure class="image-full">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/IMG_6194.jpeg" alt="Onsen @ Moncham property view" />
+        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/IMG_6194-cropped.jpeg" alt="Onsen @ Moncham property view" />
       </figure>
 
       <p>The welcome snacks were traditional Japanese sweets, beautifully packed in a bento-style box wrapped with furoshiki cloth. Small details like these made the stay feel thoughtful and intentional.</p>

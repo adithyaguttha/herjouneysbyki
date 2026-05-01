@@ -59,18 +59,28 @@ export default function AboutTraveler() {
               style={{ fontFamily: "var(--font-inter)" }}
             >
               <p>
-                I believe that travel isn't just about ticking destinations off a list –
-                it's about the moments that take your breath away, the people who become
-                unexpected friends, and the stories that stay with you forever.
+                I'm a traveler who believes in experiencing a place deeply—through its culture,
+                its food, and its everyday rhythm. I'm not drawn to rushed itineraries or
+                "cover it all in 14 days" trips. Instead, I prefer to slow down and explore
+                each destination thoughtfully.
               </p>
               <p>
-                Through this journal, I share not just where I've been, but how each
-                place has changed me. From the misty tea gardens of Coonoor to the
-                underwater wonders of the Maldives, every journey has taught me something new.
+                I like discovering places on my own—often stepping away from the usual tourist
+                trail to find something more authentic, more personal. At the same time, I value
+                comfort and a touch of luxury, especially when it comes to where I stay. I choose
+                my stays carefully, looking for spaces that enhance the overall experience of a
+                destination.
               </p>
               <p>
-                When I'm not exploring, you'll find me planning my next adventure,
-                editing photos, or dreaming about where the road will take me next.
+                Through this blog, I hope to share that balance—the sweet spot between exploration
+                and ease. My goal is to help you travel in a way that feels intentional, without
+                the regret of missed opportunities or time wasted on things that don't truly add
+                value.
+              </p>
+              <p>
+                Everything I share here comes from my honest experiences, so you can see each
+                place through my lens—and plan your journeys with clarity, confidence, and a
+                sense of joy that stays long after the trip ends.
               </p>
             </div>
 

@@ -12,15 +12,15 @@ import BottomNav from "../BottomNav";
 const carouselSlides = [
   {
     id: 1,
-    name: "Wander",
-    tagline: "Slow travel, warm memories",
-    image: "/images/hero/IMG_2151.jpeg",
-  },
-  {
-    id: 2,
     name: "Coonoor",
     tagline: "Where tea gardens kiss the clouds",
     image: "/images/hero/IMG_0314.jpeg",
+  },
+  {
+    id: 2,
+    name: "Wander",
+    tagline: "Slow travel, warm memories",
+    image: "/images/hero/IMG_2151.jpeg",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const carouselSlides = [
     id: 5,
     name: "Discover",
     tagline: "Every corner tells a story",
-    image: "/images/hero/IMG_4959.jpeg",
+    image: "/images/hero/IMG_4959-cropped.jpeg",
   },
   {
     id: 6,

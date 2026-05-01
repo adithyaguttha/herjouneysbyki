@@ -306,7 +306,7 @@ export const posts: BlogPost[] = [
       <p>From there, we visited Jin Ju Orange Farm. While it looked beautiful in pictures, it felt underwhelming in reality—especially since it was off-season, with no oranges to pick. The costumes available for rent were worn out, and while the drinks were decent, there wasn't much to do. Hiring their in-house photographer requires prior booking, which we couldn't arrange on the spot.</p>
 
       <figure class="image-full">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/IMG_6194-cropped.jpeg" alt="Slow mountain day in Mae Rim" />
+        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/IMG_6140.jpeg" alt="Slow mountain day at Jin Ju Orange Farm in Mae Rim" />
         <figcaption>Slow days in the hills of Mae Rim</figcaption>
       </figure>
 

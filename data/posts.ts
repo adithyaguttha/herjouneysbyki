@@ -361,7 +361,7 @@ export const posts: BlogPost[] = [
         <figcaption>Sun Rays Café — a charming breakfast spot in Chiang Mai</figcaption>
       </figure>
 
-      <p><span class="cafe-lead">Sun Rays Café</span> was our breakfast stop—a small, charming café with beautiful food presentation. While the French toast looked great, it felt slightly dry. However, the overall vibe made it worth visiting.</p>
+      <p><a href="https://share.google/ap8y2AyNTjMo704D3" target="_blank" rel="noopener noreferrer"><span class="cafe-lead">Sun Rays Café</span></a> was our breakfast stop—a small, charming café with beautiful food presentation. While the French toast looked great, it felt slightly dry. However, the overall vibe made it worth visiting.</p>
 
       <figure class="image-center">
         <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/3-food_sun_rays(French Toast).jpg" alt="French Toast with tropical fruits at Sun Rays Café" />

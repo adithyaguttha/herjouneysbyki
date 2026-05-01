@@ -229,8 +229,8 @@ export const posts: BlogPost[] = [
       <p>The day started with breakfast at Sun Rays Café, a quaint and charming spot with beautiful table settings.</p>
 
       <figure class="image-center">
-        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/3-food_sun_rays(French Toast).jpg" alt="French Toast with tropical fruits at Sun Rays Café" />
-        <figcaption>French toast at Sun Rays Café</figcaption>
+        <img src="/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/day2-sunrays-cafe.jpeg" alt="Sunrays Café cozy interior with coffee bar and pastries in Chiang Mai" />
+        <figcaption>Sunrays Café</figcaption>
       </figure>
 
       <p>We eased into the morning before heading to Jing Jai Weekend Market. Like the White Market, this too is held only on weekends, and planning around it turned out to be one of the best decisions of the trip.</p>

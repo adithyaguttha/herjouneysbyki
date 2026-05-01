@@ -639,7 +639,7 @@ export const posts: BlogPost[] = [
     title: "Luxury Stays in Chiang Mai: A Slow Mountain Retreat at Onsen @ Moncham",
     excerpt:
       "Looking for a luxury stay in Chiang Mai? Our experience at Onsen @ Moncham in Mae Rim offers a Japanese-inspired mountain retreat with private onsens, thoughtful service, and true slow-travel comfort.",
-    coverImage: "/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/57-onsen_room_arjun_birthday_decoration.jpg",
+    coverImage: "/images/chiangmai/lightroom-download-2026-02-19T05_27_55Z/IMG_6194-cropped.jpeg",
     date: "2026-01-09",
     readingTime: "10 min read",
     destination: "Chiang Mai",

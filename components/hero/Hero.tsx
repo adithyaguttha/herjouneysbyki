@@ -99,7 +99,7 @@ export default function Hero() {
 
       <section
         ref={containerRef}
-        className="hero-section relative h-[70vh] lg:h-screen overflow-hidden"
+        className="hero-section relative h-[70svh] lg:h-svh overflow-hidden"
       >
         {/* Carousel as Background */}
         <div className="carousel-wrapper absolute inset-0 z-0">

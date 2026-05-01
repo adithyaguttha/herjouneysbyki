@@ -23,6 +23,11 @@
 }
 
 /* ===== Base Styles ===== */
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 body {
   background: var(--cream);
   color: var(--charcoal);
@@ -624,6 +629,7 @@ html {
 /* Hero image - full width edge-to-edge */
 .blog-content .blog-hero-image {
   width: 100vw;
+  max-width: 100%;
   position: relative;
   left: 50%;
   right: 50%;

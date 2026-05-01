@@ -43,7 +43,7 @@ export default function PostHero({
   return (
     <header className="relative">
       {/* Full-screen Hero Image */}
-      <section className="relative h-screen w-full overflow-hidden">
+      <section className="relative h-svh w-full overflow-hidden">
         {/* Background Image */}
         <Image
           src={image}

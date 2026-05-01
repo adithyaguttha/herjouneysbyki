@@ -9,7 +9,7 @@ interface CountryHeroProps {
 
 export default function CountryHero({ country }: CountryHeroProps) {
   return (
-    <section className="relative h-[75vh] min-h-[500px] max-h-[800px] w-full overflow-hidden">
+    <section className="relative h-[75svh] min-h-[500px] max-h-[800px] w-full overflow-hidden">
       {/* Background Image */}
       <Image
         src={country.heroImage}

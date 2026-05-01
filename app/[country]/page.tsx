@@ -24,7 +24,7 @@ export default function CountryPage() {
 
   if (!country) {
     return (
-      <main className="min-h-screen bg-[var(--cream)] flex items-center justify-center">
+      <main className="min-h-svh bg-[var(--cream)] flex items-center justify-center">
         <div className="text-center px-4">
           <h1
             className="text-3xl text-[var(--charcoal)] mb-4"
@@ -52,7 +52,7 @@ export default function CountryPage() {
   }
 
   return (
-    <main className="min-h-screen bg-[var(--cream)]">
+    <main className="min-h-svh bg-[var(--cream)]">
       <Navbar />
 
       {/* Hero Section */}

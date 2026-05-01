@@ -115,7 +115,7 @@ function BlogLoading() {
 
 export default function BlogPage() {
   return (
-    <main className="min-h-screen bg-[var(--cream)]">
+    <main className="min-h-svh bg-[var(--cream)]">
       <Navbar />
 
       <Suspense fallback={<BlogLoading />}>

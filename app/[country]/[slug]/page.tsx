@@ -31,7 +31,7 @@ export default function CountryBlogPostPage() {
   // Validate post belongs to this country
   if (!post || post.country !== countrySlug) {
     return (
-      <main className="min-h-screen bg-[var(--cream)] flex items-center justify-center">
+      <main className="min-h-svh bg-[var(--cream)] flex items-center justify-center">
         <div className="text-center px-4">
           <h1
             className="text-3xl text-[var(--charcoal)] mb-4"
@@ -65,7 +65,7 @@ export default function CountryBlogPostPage() {
   const recommendedPosts = [...sameCountryPosts, ...otherPosts].slice(0, 3);
 
   return (
-    <main className="min-h-screen bg-[var(--cream)]">
+    <main className="min-h-svh bg-[var(--cream)]">
       <Navbar />
 
       {/* Reading Progress Bar */}

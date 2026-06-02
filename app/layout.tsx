@@ -21,8 +21,10 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.herjourneysbyki.com"),
   title: "Her Journeys by Ki",
   description: "A travel blog by Ki - Stories from around the world",
+  alternates: { canonical: "/" },
 };
 
 export const viewport: Viewport = {

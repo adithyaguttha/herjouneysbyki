@@ -13,6 +13,7 @@ import PostDoodles from "@/components/blog/PostDoodles";
 import TableOfContents from "@/components/blog/TableOfContents";
 import AuthorCard from "@/components/blog/AuthorCard";
 import RelatedPosts from "@/components/blog/RelatedPosts";
+import { CommentsSection } from "@/components/blog/comments";
 
 export default function CountryBlogPostPage() {
   const params = useParams();
@@ -131,6 +132,11 @@ export default function CountryBlogPostPage() {
           )}
         </div>
       </article>
+
+      {/* Comments */}
+      <section className="container mx-auto px-4 py-12">
+        <CommentsSection postSlug={post.slug} />
+      </section>
 
       {/* Footer Section */}
       <footer className="bg-[var(--cream-dark)] py-12">
